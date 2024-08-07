@@ -20,7 +20,19 @@ public class GameInitialiser : MonoBehaviour
     public LoginButton _loginButton;
 
     public Dispatcher Dispatcher;
-    
+
+    /// <summary>
+    /// Initializes the game environment by setting up HTTP requests, the play field, and various services.
+    /// </summary>
+    /// <remarks>
+    /// This method is responsible for the initial setup of the game. It creates HTTP GET and POST requests using the
+    /// <see cref="HttpRequestFactory"/>. It then initializes the play field and its view model, linking them to the
+    /// corresponding view. The method populates the play field with tiles based on its dimensions, instantiating
+    /// tile views for each tile placed. Additionally, it sets up gravity strategies and registers various services
+    /// such as gravity, tile spawner, and event queue with the service locator. Finally, it links the login button
+    /// to the event queue and adds the game runner, gravity service, and play field view model to the dispatcher
+    /// for updates. After completing these tasks, it destroys the current game object to clean up resources.
+    /// </remarks>
     void Start()
     {
         var httpRequestFactory = new HttpRequestFactory();
