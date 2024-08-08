@@ -26,6 +26,11 @@ public class ScoreSubmit : MonoBehaviour
         
     }
 
+    void Start2()
+    {
+        
+    }
+
     /// <summary>
     /// Updates the state of the object.
     /// </summary>
