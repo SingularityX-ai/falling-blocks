@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classnetwork_1_1user_1_1UserService" xml:lang="en-US">
+<title>network.user.UserService Class Reference</title>
+<indexterm><primary>network.user.UserService</primary></indexterm>
+Collaboration diagram for network.user.UserService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1user_1_1UserService__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_classnetwork_1_1user_1_1UserService_1ac4ef94bbb341b2f32a63ca022042f29d">GetUserName</link> ()</para>
+
+<para>Retrieves the username from a remote API endpoint. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classnetwork_1_1user_1_1UserService_1ac4ef94bbb341b2f32a63ca022042f29d"/><section>
+    <title>GetUserName()</title>
+<indexterm><primary>GetUserName</primary><secondary>network.user.UserService</secondary></indexterm>
+<indexterm><primary>network.user.UserService</primary><secondary>GetUserName</secondary></indexterm>
+<para><computeroutput>string network.user.UserService.GetUserName ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Retrieves the username from a remote API endpoint. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A string representing the username retrieved from the API.</para>
+</formalpara>
+</para>
+
+<para>This method creates an HTTP GET request to the specified API endpoint to fetch the username associated with a user ID. It uses an instance of <link linkend="_classnetwork_1_1HttpRequestFactory">HttpRequestFactory</link> to create the request and executes it asynchronously. The method waits for the response to complete before logging the result and returning the username as a string. Note that this method blocks the calling thread until the asynchronous operation is complete, which may lead to performance issues in a UI context. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1user_1_1UserService_ac4ef94bbb341b2f32a63ca022042f29d_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/user/<link linkend="_UserService_8cs">UserService.cs</link></section>
+</section>

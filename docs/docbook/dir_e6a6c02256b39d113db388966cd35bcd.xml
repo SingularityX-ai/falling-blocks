@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e6a6c02256b39d113db388966cd35bcd" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation Directory Reference</primary></indexterm>
+Directory dependency graph for documentation-evaluation:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_e6a6c02256b39d113db388966cd35bcd_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_33aa5c8e18a2b42f874cf6b4d1460a91">obj</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_e80ebb941cc3fb2c032a4e86b86f48ca">Person</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_cbde0c281d699fafdd2fe653f3ce8231">Properties</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Program_8cs">Program.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

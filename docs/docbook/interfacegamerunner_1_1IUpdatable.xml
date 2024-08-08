@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacegamerunner_1_1IUpdatable" xml:lang="en-US">
+<title>gamerunner.IUpdatable Interface Reference</title>
+<indexterm><primary>gamerunner.IUpdatable</primary></indexterm>
+Inheritance diagram for gamerunner.IUpdatable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegamerunner_1_1IUpdatable__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gamerunner.IUpdatable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegamerunner_1_1IUpdatable__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">Update</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>gamerunner.IUpdatable</secondary></indexterm>
+<indexterm><primary>gamerunner.IUpdatable</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void gamerunner.IUpdatable.Update ( )</computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066">game.logic.GravityService</link>, <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1aeb148ae69534e28bf105e9394fba3b93">game.logic.playfield.PlayFieldViewModel</link>, <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871">game.logic.TimeBasedGravityStrategy</link>, and <link linkend="_classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960">GameRunner</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/<link linkend="_IUpdatable_8cs">IUpdatable.cs</link></section>
+</section>

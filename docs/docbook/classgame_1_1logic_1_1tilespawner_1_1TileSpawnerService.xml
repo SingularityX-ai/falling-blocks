@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" xml:lang="en-US">
+<title>game.logic.tilespawner.TileSpawnerService Class Reference</title>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary></indexterm>
+Inheritance diagram for game.logic.tilespawner.TileSpawnerService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tilespawner.TileSpawnerService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>delegate <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4">CreateTileShapeDelegate</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1aad0b3b7b64ebe2bfcc09fe7b2a37f238">TileSpawnerService</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4">CreateTileShapeDelegate</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5">Spawn</link> ()</para>
+
+<para>Spawns a new tile shape by shuffling the available pieces and returning the first piece. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2">Shuffle</link> ()</para>
+
+<para>Shuffles the elements of the collection randomly. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea">SpawnIPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> class. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061">SpawnJPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link> object. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7">SpawnLPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> class. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901">SpawnOPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link> class. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357">SpawnSPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> class. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b">SpawnTPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> class. </para>
+</listitem>
+            <listitem><para>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6">SpawnZPiece</link> ()</para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link>. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4">CreateTileShapeDelegate</link> &gt; <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3">_pieces</link></para>
+</listitem>
+            <listitem><para><link linkend="_TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b">Random</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ab0ceb759a361d5b457a2ac54719e8b2f">rng</link> = new <link linkend="_TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b">Random</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1aad0b3b7b64ebe2bfcc09fe7b2a37f238"/><section>
+    <title>TileSpawnerService()</title>
+<indexterm><primary>TileSpawnerService</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>TileSpawnerService</secondary></indexterm>
+<para><computeroutput>game.logic.tilespawner.TileSpawnerService.TileSpawnerService ( )<computeroutput>[inline]</computeroutput></computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_aad0b3b7b64ebe2bfcc09fe7b2a37f238_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4"/><section>
+    <title>CreateTileShapeDelegate()</title>
+<indexterm><primary>CreateTileShapeDelegate</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>CreateTileShapeDelegate</secondary></indexterm>
+<para><computeroutput>delegate <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.CreateTileShapeDelegate ( )</computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2"/><section>
+    <title>Shuffle()</title>
+<indexterm><primary>Shuffle</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>Shuffle</secondary></indexterm>
+<para><computeroutput>void game.logic.tilespawner.TileSpawnerService.Shuffle ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Shuffles the elements of the collection randomly. </para>
+</para>
+
+<para>This method implements the Fisher-Yates shuffle algorithm to randomly reorder the elements in the private collection of pieces. It iterates through the collection, selecting a random index for each element and swapping it with the current element. This ensures that each possible permutation of the collection is equally likely, resulting in a fair shuffle. The method modifies the original collection in place, meaning that the order of elements in _pieces will be changed after this method is called. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_ac73dbfd9e3daec4259be8d0c3c99dce2_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5"/><section>
+    <title>Spawn()</title>
+<indexterm><primary>Spawn</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>Spawn</secondary></indexterm>
+<para><computeroutput><link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4">CreateTileShapeDelegate</link> game.logic.tilespawner.TileSpawnerService.Spawn ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Spawns a new tile shape by shuffling the available pieces and returning the first piece. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A delegate representing the first tile shape after shuffling the pieces.</para>
+</formalpara>
+</para>
+
+<para>This method first invokes the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2">Shuffle</link> method to randomize the order of the available tile shapes. After shuffling, it retrieves and returns the first tile shape from the collection of pieces. This is useful in scenarios where a random selection of tile shapes is required, such as in game mechanics or puzzle generation. The returned delegate can then be used to create or manipulate the spawned tile shape. </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_a3a4da02acca59c7b4b180dd40867fca5_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_a3a4da02acca59c7b4b180dd40867fca5_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea"/><section>
+    <title>SpawnIPiece()</title>
+<indexterm><primary>SpawnIPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnIPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnIPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> class. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link>.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating an object of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> type. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> class represents a specific type of spawnable object in the application. By calling this method, users can obtain a fresh instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> which can then be used in the game or application logic. This method does not take any parameters and is designed to be a simple factory method for creating <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link> objects. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061"/><section>
+    <title>SpawnJPiece()</title>
+<indexterm><primary>SpawnJPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnJPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnJPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link> object. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link>, which is a specific type of object that can be spawned in the game or application. The returned object can be used to represent a J-shaped piece in a game like Tetris or similar. This method does not take any parameters and provides a straightforward way to obtain a new <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link> instance whenever needed. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7"/><section>
+    <title>SpawnLPiece()</title>
+<indexterm><primary>SpawnLPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnLPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnLPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> class. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>An instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating a new <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> object, which is typically used in games or applications that require the representation of a specific game piece or object. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> class is expected to implement the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface, ensuring that it adheres to the required contract for spawnable objects. This method does not take any parameters and directly returns the newly created <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link> instance. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901"/><section>
+    <title>SpawnOPiece()</title>
+<indexterm><primary>SpawnOPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnOPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnOPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link> class. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating an object of type <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link>, which is expected to implement the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link> class represents a specific type of spawnable object within the application, and this method encapsulates the creation logic. By using this method, you ensure that you are always working with a fresh instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link>, which can be useful for managing state and behavior in your application. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357"/><section>
+    <title>SpawnSPiece()</title>
+<indexterm><primary>SpawnSPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnSPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnSPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> class. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> object, which is expected to implement the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> class may contain specific properties and methods that define its behavior in the context of the application. This factory method simplifies the creation of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link> instances, ensuring that the caller receives a properly initialized object. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b"/><section>
+    <title>SpawnTPiece()</title>
+<indexterm><primary>SpawnTPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnTPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnTPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> class. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating a <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> object, which is typically used in games or applications that require a specific type of spawnable entity. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> class is expected to implement the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface, ensuring that it adheres to the necessary contract for spawnable objects. This method does not take any parameters and provides a straightforward way to obtain a new <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link> instance. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6"/><section>
+    <title>SpawnZPiece()</title>
+<indexterm><primary>SpawnZPiece</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>SpawnZPiece</secondary></indexterm>
+<para><computeroutput>static <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> game.logic.tilespawner.TileSpawnerService.SpawnZPiece ( )<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Creates and returns a new instance of the <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link>. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A new instance of <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link> that implements the <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link> interface.</para>
+</formalpara>
+</para>
+
+<para>This method is responsible for instantiating a <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link> object, which is a specific type of spawnable entity in the application. The <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link> is typically used in contexts where a specific shape or functionality is required, such as in games or simulations. By encapsulating the creation logic in this method, it allows for easier modifications in the future, such as changing the way <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link> instances are created or initialized. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3"/><section>
+    <title>_pieces</title>
+<indexterm><primary>_pieces</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>_pieces</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4">CreateTileShapeDelegate</link>&gt; game.logic.tilespawner.TileSpawnerService._pieces<computeroutput>[private]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;<emphasis role="keyword">new</emphasis>&#32;List&lt;CreateTileShapeDelegate&gt;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea">SpawnIPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061">SpawnJPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7">SpawnLPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901">SpawnOPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357">SpawnSPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b">SpawnTPiece</link>,&#32;<link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6">SpawnZPiece</link>
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ab0ceb759a361d5b457a2ac54719e8b2f"/><section>
+    <title>rng</title>
+<indexterm><primary>rng</primary><secondary>game.logic.tilespawner.TileSpawnerService</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.TileSpawnerService</primary><secondary>rng</secondary></indexterm>
+<para><computeroutput><link linkend="_TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b">Random</link> game.logic.tilespawner.TileSpawnerService.rng = new <link linkend="_TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b">Random</link>()<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/<link linkend="_TileSpawnerService_8cs">TileSpawnerService.cs</link></section>
+</section>

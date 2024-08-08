@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="TileViewModel_8cs" kind="file" language="C#">
+    <compoundname>TileViewModel.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1tile_1_1TileViewModel" prot="public">game::logic::tile::TileViewModel</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1tile">game::logic::tile</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1playfield" kindref="compound">game.logic.playfield</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tile" kindref="compound">game.logic.tile</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="classgame_1_1logic_1_1tile_1_1TileViewModel" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a942cd4412757fed87d7b86f193c93d00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a942cd4412757fed87d7b86f193c93d00" kindref="member">_playFieldVM</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1aef029c8408e9b935db0b285edc021df4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1aef029c8408e9b935db0b285edc021df4" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a2e8b1a87845fd6edd5fbb0267b1782d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a2e8b1a87845fd6edd5fbb0267b1782d5" kindref="member">X</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1aef029c8408e9b935db0b285edc021df4" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a8da1b8f04ebecdc4056daa9690dd3564" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a8da1b8f04ebecdc4056daa9690dd3564" kindref="member">Y</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1ad79c24a526de9ab7dad8a4cd04beb47c" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1ad79c24a526de9ab7dad8a4cd04beb47c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1ad79c24a526de9ab7dad8a4cd04beb47c" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a367d32bcd326c14f20931a3de74f7f90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a367d32bcd326c14f20931a3de74f7f90" kindref="member">TileViewModel</ref>(<ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a942cd4412757fed87d7b86f193c93d00" kindref="member">_playFieldVM</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this._playFieldVM<sp/>=<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a942cd4412757fed87d7b86f193c93d00" kindref="member">_playFieldVM</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this._x<sp/>=<sp/>x;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this._y<sp/>=<sp/>y;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a3007c17fcc70b562d82714a0d2ac8025" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a3007c17fcc70b562d82714a0d2ac8025" kindref="member">Color</ref><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a3007c17fcc70b562d82714a0d2ac8025" kindref="member">Color</ref><sp/>=&gt;<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a942cd4412757fed87d7b86f193c93d00" kindref="member">_playFieldVM</ref>.<ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1ac1c7a5c6b8858791a1bb5187198eca86" kindref="member">GetTile</ref>(<ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1aef029c8408e9b935db0b285edc021df4" kindref="member">_x</ref>,<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1ad79c24a526de9ab7dad8a4cd04beb47c" kindref="member">_y</ref>).Color;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileViewModel.cs"/>
+  </compounddef>
+</doxygen>

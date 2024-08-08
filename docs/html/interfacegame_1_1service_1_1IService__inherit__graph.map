@@ -1,0 +1,7 @@
+<map id="game.service.IService" name="game.service.IService">
+<area shape="rect" id="node1" title=" " alt="" coords="265,5,431,83"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1EventQueue_1_1EventQueue.html" title=" " alt="" coords="5,189,224,325"/>
+<area shape="rect" id="node3" href="$interfacegame_1_1logic_1_1IGravityService.html" title=" " alt="" coords="249,219,447,296"/>
+<area shape="rect" id="node5" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html" title=" " alt="" coords="472,131,685,384"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1GravityService.html" title=" " alt="" coords="251,432,445,539"/>
+</map>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3bae640fe08e07f822f4abbf4e309b2d" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile Directory Reference</primary></indexterm>
+Directory dependency graph for tile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_3bae640fe08e07f822f4abbf4e309b2d_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_ITileable_8cs">ITileable.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Tile_8cs">Tile.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TileView_8cs">TileView.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TileViewModel_8cs">TileViewModel.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

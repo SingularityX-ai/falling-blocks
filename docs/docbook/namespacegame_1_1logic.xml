@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegame_1_1logic" xml:lang="en-US">
+<title>game.logic Namespace Reference</title>
+<indexterm><primary>game.logic</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacegame_1_1logic_1_1EventQueue">EventQueue</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacegame_1_1logic_1_1playfield">playfield</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacegame_1_1logic_1_1tile">tile</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacegame_1_1logic_1_1tilespawner">tilespawner</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1GravityService">GravityService</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacegame_1_1logic_1_1IGravityService">IGravityService</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy">IGravityStrategy</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy">LevelBasedGravityStrategy</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy">TimeBasedGravityStrategy</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

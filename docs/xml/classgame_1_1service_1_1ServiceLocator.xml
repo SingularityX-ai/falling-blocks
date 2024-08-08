@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1service_1_1ServiceLocator" kind="class" language="C#" prot="public">
+    <compoundname>game::service::ServiceLocator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; object, <ref refid="interfacegame_1_1service_1_1IService" kindref="compound">IService</ref> &gt;</type>
+        <definition>IDictionary&lt;object, IService&gt; game.service.ServiceLocator.services</definition>
+        <argsstring></argsstring>
+        <name>services</name>
+        <qualifiedname>game.service.ServiceLocator.services</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" line="8" column="29" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classgame_1_1service_1_1ServiceLocator_1ac8a69a906768092113681ed1e1d5dd6a" compoundref="ServiceLocator_8cs" startline="27" endline="37">game.service.ServiceLocator.GetService&lt; T &gt;</referencedby>
+        <referencedby refid="classgame_1_1service_1_1ServiceLocator_1a112fe2a38768eabfc637ec9c00a446ca" compoundref="ServiceLocator_8cs" startline="51" endline="54">game.service.ServiceLocator.RegisterService&lt; T &gt;</referencedby>
+        <referencedby refid="classgame_1_1service_1_1ServiceLocator_1a137e09e6ec41ac84d164fd6462b6f7b2" compoundref="ServiceLocator_8cs" startline="10" endline="13">game.service.ServiceLocator.ServiceLocator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1service_1_1ServiceLocator_1a137e09e6ec41ac84d164fd6462b6f7b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.service.ServiceLocator.ServiceLocator</definition>
+        <argsstring>()</argsstring>
+        <name>ServiceLocator</name>
+        <qualifiedname>game.service.ServiceLocator.ServiceLocator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" line="10" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" bodystart="10" bodyend="13"/>
+        <references refid="classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7" compoundref="ServiceLocator_8cs" startline="8">game.service.ServiceLocator.services</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1service_1_1ServiceLocator_1ac8a69a906768092113681ed1e1d5dd6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T game.service.ServiceLocator.GetService&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetService&lt; T &gt;</name>
+        <qualifiedname>game.service.ServiceLocator.GetService&lt; T &gt;</qualifiedname>
+        <briefdescription>
+<para>Retrieves a service of the specified type from the service collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the service to be retrieved.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instance of the requested service of type <emphasis>T</emphasis> .</para>
+</simplesect>
+</para>
+<para>This method attempts to retrieve a service from a collection of registered services using its type as the key. If the service is found, it is cast to the specified type and returned. If the service is not registered, a KeyNotFoundException is caught, and an ApplicationException is thrown with a message indicating that the requested service is not registered. This method is useful in dependency injection scenarios where services are registered and resolved at runtime. </para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ApplicationException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when the requested service is not registered in the service collection.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" line="27" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" bodystart="27" bodyend="37"/>
+        <references refid="classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7" compoundref="ServiceLocator_8cs" startline="8">game.service.ServiceLocator.services</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1service_1_1ServiceLocator_1a112fe2a38768eabfc637ec9c00a446ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.service.ServiceLocator.RegisterService&lt; T &gt;</definition>
+        <argsstring>(T service)</argsstring>
+        <name>RegisterService&lt; T &gt;</name>
+        <qualifiedname>game.service.ServiceLocator.RegisterService&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Registers a service of type <emphasis>T</emphasis>  in the service collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the service to be registered, which must implement <ref refid="interfacegame_1_1service_1_1IService" kindref="compound">IService</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The instance of the service to be registered.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method allows for the registration of a service within a dependency injection container. The service is stored in a dictionary using its type as the key, enabling later retrieval of the service instance when needed. The generic type parameter <emphasis>T</emphasis>  enforces that only types implementing the <ref refid="interfacegame_1_1service_1_1IService" kindref="compound">IService</ref> interface can be registered, ensuring type safety and consistency in the service collection. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" line="51" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" bodystart="51" bodyend="54"/>
+        <references refid="classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7" compoundref="ServiceLocator_8cs" startline="8">game.service.ServiceLocator.services</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>IDictionary&lt; object, game.service.IService &gt;</label>
+      </node>
+      <node id="1">
+        <label>game.service.ServiceLocator</label>
+        <link refid="classgame_1_1service_1_1ServiceLocator"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-services</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" line="6" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/ServiceLocator.cs" bodystart="7" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgame_1_1service_1_1ServiceLocator_1ac8a69a906768092113681ed1e1d5dd6a" prot="public" virt="non-virtual"><scope>game::service::ServiceLocator</scope><name>GetService&lt; T &gt;</name></member>
+      <member refid="classgame_1_1service_1_1ServiceLocator_1a112fe2a38768eabfc637ec9c00a446ca" prot="public" virt="non-virtual"><scope>game::service::ServiceLocator</scope><name>RegisterService&lt; T &gt;</name></member>
+      <member refid="classgame_1_1service_1_1ServiceLocator_1a137e09e6ec41ac84d164fd6462b6f7b2" prot="public" virt="non-virtual"><scope>game::service::ServiceLocator</scope><name>ServiceLocator</name></member>
+      <member refid="classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7" prot="private" virt="non-virtual"><scope>game::service::ServiceLocator</scope><name>services</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

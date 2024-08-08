@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_fbb7d9cfd9822824f6c1c3b088890308" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic Directory Reference</primary></indexterm>
+Directory dependency graph for logic:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_fbb7d9cfd9822824f6c1c3b088890308_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_14c15a176da523ab9156642fa335aac3">EventQueue</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_40e79d3bfe8ec0a32243c6cac7b06aa7">playfield</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_3bae640fe08e07f822f4abbf4e309b2d">tile</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_721b043b1284adeff4fd34e5e088f9d6">tilespawner</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Gravity_8cs">Gravity.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_IDroppable_8cs">IDroppable.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_IGravityService_8cs">IGravityService.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_IGravityStrategy_8cs">IGravityStrategy.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LevelBasedGravityStrategy_8cs">LevelBasedGravityStrategy.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TimeBasedGravityStrategy_8cs">TimeBasedGravityStrategy.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

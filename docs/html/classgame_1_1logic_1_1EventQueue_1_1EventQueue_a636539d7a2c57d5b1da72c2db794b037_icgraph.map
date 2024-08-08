@@ -1,0 +1,4 @@
+<map id="game.logic.EventQueue.EventQueue.EventQueue" name="game.logic.EventQueue.EventQueue.EventQueue">
+<area shape="rect" id="node1" title=" " alt="" coords="240,5,459,47"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel.html#aeb148ae69534e28bf105e9394fba3b93" title="Updates the game state by processing events from the event queue." alt="" coords="5,5,192,47"/>
+</map>

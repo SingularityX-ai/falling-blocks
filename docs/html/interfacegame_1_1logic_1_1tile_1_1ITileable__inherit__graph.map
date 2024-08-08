@@ -1,0 +1,4 @@
+<map id="game.logic.tile.ITileable" name="game.logic.tile.ITileable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,184,83"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1tile_1_1Tile.html" title=" " alt="" coords="21,131,168,208"/>
+</map>

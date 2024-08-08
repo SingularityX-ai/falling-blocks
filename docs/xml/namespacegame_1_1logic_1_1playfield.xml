@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="namespacegame_1_1logic_1_1playfield" kind="namespace" language="C#">
+    <compoundname>game::logic::playfield</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1playfield_1_1PlayField" prot="public">game::logic::playfield::PlayField</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView" prot="public">game::logic::playfield::PlayFieldView</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" prot="public">game::logic::playfield::PlayFieldViewModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

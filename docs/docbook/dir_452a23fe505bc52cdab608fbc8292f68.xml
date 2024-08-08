@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_452a23fe505bc52cdab608fbc8292f68" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner Directory Reference</primary></indexterm>
+Directory dependency graph for gamerunner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_452a23fe505bc52cdab608fbc8292f68_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Dispatcher_8cs">Dispatcher.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_GameRunner_8cs">GameRunner.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_IUpdatable_8cs">IUpdatable.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

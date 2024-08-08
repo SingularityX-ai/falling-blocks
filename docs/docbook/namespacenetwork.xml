@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacenetwork" xml:lang="en-US">
+<title>network Namespace Reference</title>
+<indexterm><primary>network</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacenetwork_1_1score">score</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacenetwork_1_1user">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classnetwork_1_1HttpGetRequest">HttpGetRequest</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classnetwork_1_1HttpPostRequest">HttpPostRequest</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classnetwork_1_1HttpRequestFactory">HttpRequestFactory</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacenetwork_1_1IHttpRequest">IHttpRequest</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

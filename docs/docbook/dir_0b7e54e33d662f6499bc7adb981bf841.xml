@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_0b7e54e33d662f6499bc7adb981bf841" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/obj/Debug Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/obj/Debug Directory Reference</primary></indexterm>
+Directory dependency graph for Debug:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_0b7e54e33d662f6499bc7adb981bf841_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__8NETFramework_00Version_0av4_87_8AssemblyAttributes_8cs">.NETFramework,Version=v4.7.AssemblyAttributes.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

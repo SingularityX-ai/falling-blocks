@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView" xml:lang="en-US">
+<title>documentation_evaluation.person.PersonView Class Reference</title>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary></indexterm>
+Collaboration diagram for documentation_evaluation.person.PersonView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdocumentation__evaluation_1_1person_1_1PersonView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdocumentation__evaluation_1_1person_1_1PersonView_1ad1a27cd6bac46bc751d519de8dfa5bbb">PersonView</link> (<link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel">PersonViewModel</link> viewModel)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonView_1a97df5690154ae85c6069220f2e70abb4">Display</link> ()</para>
+
+<para>Displays the name and age of the view model. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonView_1a3a80a8b222ab9f7cb8b7835c8a1e6eb1">UpdateName</link> ()</para>
+
+<para>Updates the name property of the view model based on user input. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonView_1aa0251605f48d1b12b22fdbf86301baae">UpdateAge</link> ()</para>
+
+<para>Updates the age of the view model based on user input. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel">PersonViewModel</link> <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonView_1a2f8c2ab8b7d79eeaec100a782ed3c7ec">_viewModel</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView_1ad1a27cd6bac46bc751d519de8dfa5bbb"/><section>
+    <title>PersonView()</title>
+<indexterm><primary>PersonView</primary><secondary>documentation_evaluation.person.PersonView</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary><secondary>PersonView</secondary></indexterm>
+<para><computeroutput>documentation_evaluation.person.PersonView.PersonView (<link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel">PersonViewModel</link> viewModel)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView_1a97df5690154ae85c6069220f2e70abb4"/><section>
+    <title>Display()</title>
+<indexterm><primary>Display</primary><secondary>documentation_evaluation.person.PersonView</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary><secondary>Display</secondary></indexterm>
+<para><computeroutput>void documentation_evaluation.person.PersonView.Display ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Displays the name and age of the view model. </para>
+</para>
+
+<para>This method retrieves the name and age properties from the associated view model and prints them to the console. It formats the output as &quot;Name: {Name}, Age: {Age}&quot;, providing a simple way to visualize the current state of the view model&apos;s data. This method does not return any value and is primarily used for debugging or informational purposes. </para>
+</section>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView_1aa0251605f48d1b12b22fdbf86301baae"/><section>
+    <title>UpdateAge()</title>
+<indexterm><primary>UpdateAge</primary><secondary>documentation_evaluation.person.PersonView</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary><secondary>UpdateAge</secondary></indexterm>
+<para><computeroutput>void documentation_evaluation.person.PersonView.UpdateAge ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Updates the age of the view model based on user input. </para>
+</para>
+
+<para>This method prompts the user to enter a new age and updates the _viewModel.Age property with the provided value. It reads the input from the console, parses it as an integer, and assigns it to the Age property of the view model. It is important to ensure that the input is a valid integer, as invalid input will result in a runtime exception. </para>
+</section>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView_1a3a80a8b222ab9f7cb8b7835c8a1e6eb1"/><section>
+    <title>UpdateName()</title>
+<indexterm><primary>UpdateName</primary><secondary>documentation_evaluation.person.PersonView</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary><secondary>UpdateName</secondary></indexterm>
+<para><computeroutput>void documentation_evaluation.person.PersonView.UpdateName ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Updates the name property of the view model based on user input. </para>
+</para>
+
+<para>This method prompts the user to enter a new name via the console. It reads the input from the console and assigns it to the Name property of the associated view model. This allows for dynamic updates to the name, reflecting any changes made by the user during runtime. The method does not return any value and directly modifies the state of the view model. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonView_1a2f8c2ab8b7d79eeaec100a782ed3c7ec"/><section>
+    <title>_viewModel</title>
+<indexterm><primary>_viewModel</primary><secondary>documentation_evaluation.person.PersonView</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonView</primary><secondary>_viewModel</secondary></indexterm>
+<para><computeroutput><link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel">PersonViewModel</link> documentation_evaluation.person.PersonView._viewModel<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/<link linkend="_PersonView_8cs">PersonView.cs</link></section>
+</section>

@@ -1,0 +1,4 @@
+<map id="game.logic.tilespawner.JPiece" name="game.logic.tilespawner.JPiece">
+<area shape="rect" id="node1" title=" " alt="" coords="5,131,221,208"/>
+<area shape="rect" id="node2" href="$interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable.html" title=" " alt="" coords="65,5,162,83"/>
+</map>

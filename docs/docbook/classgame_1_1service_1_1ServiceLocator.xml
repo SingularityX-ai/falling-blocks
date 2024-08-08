@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1service_1_1ServiceLocator" xml:lang="en-US">
+<title>game.service.ServiceLocator Class Reference</title>
+<indexterm><primary>game.service.ServiceLocator</primary></indexterm>
+Collaboration diagram for game.service.ServiceLocator:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1service_1_1ServiceLocator__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1service_1_1ServiceLocator_1a137e09e6ec41ac84d164fd6462b6f7b2">ServiceLocator</link> ()</para>
+</listitem>
+            <listitem><para>T <link linkend="_classgame_1_1service_1_1ServiceLocator_1ac8a69a906768092113681ed1e1d5dd6a">GetService&lt; T &gt;</link> ()</para>
+
+<para>Retrieves a service of the specified type from the service collection. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1service_1_1ServiceLocator_1a112fe2a38768eabfc637ec9c00a446ca">RegisterService&lt; T &gt;</link> (T service)</para>
+
+<para>Registers a service of type <emphasis>T</emphasis>  in the service collection. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>IDictionary&lt; object, <link linkend="_interfacegame_1_1service_1_1IService">IService</link> &gt; <link linkend="_classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7">services</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1service_1_1ServiceLocator_1a137e09e6ec41ac84d164fd6462b6f7b2"/><section>
+    <title>ServiceLocator()</title>
+<indexterm><primary>ServiceLocator</primary><secondary>game.service.ServiceLocator</secondary></indexterm>
+<indexterm><primary>game.service.ServiceLocator</primary><secondary>ServiceLocator</secondary></indexterm>
+<para><computeroutput>game.service.ServiceLocator.ServiceLocator ( )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1service_1_1ServiceLocator_1ac8a69a906768092113681ed1e1d5dd6a"/><section>
+    <title>GetService&lt; T &gt;()</title>
+<indexterm><primary>GetService&lt; T &gt;</primary><secondary>game.service.ServiceLocator</secondary></indexterm>
+<indexterm><primary>game.service.ServiceLocator</primary><secondary>GetService&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>T game.service.ServiceLocator.GetService&lt; T &gt; ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Retrieves a service of the specified type from the service collection. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>T</entry><entry>
+<para>The type of the service to be retrieved.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>An instance of the requested service of type <emphasis>T</emphasis> .</para>
+</formalpara>
+</para>
+
+<para>This method attempts to retrieve a service from a collection of registered services using its type as the key. If the service is found, it is cast to the specified type and returned. If the service is not registered, a KeyNotFoundException is caught, and an ApplicationException is thrown with a message indicating that the requested service is not registered. This method is useful in dependency injection scenarios where services are registered and resolved at runtime. </para>
+
+<para>
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>ApplicationException</entry><entry>
+<para>Thrown when the requested service is not registered in the service collection.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_classgame_1_1service_1_1ServiceLocator_1a112fe2a38768eabfc637ec9c00a446ca"/><section>
+    <title>RegisterService&lt; T &gt;()</title>
+<indexterm><primary>RegisterService&lt; T &gt;</primary><secondary>game.service.ServiceLocator</secondary></indexterm>
+<indexterm><primary>game.service.ServiceLocator</primary><secondary>RegisterService&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>void game.service.ServiceLocator.RegisterService&lt; T &gt; (T service)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Registers a service of type <emphasis>T</emphasis>  in the service collection. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>T</entry><entry>
+<para>The type of the service to be registered, which must implement <link linkend="_interfacegame_1_1service_1_1IService">IService</link>.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>service</entry><entry>
+<para>The instance of the service to be registered.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method allows for the registration of a service within a dependency injection container. The service is stored in a dictionary using its type as the key, enabling later retrieval of the service instance when needed. The generic type parameter <emphasis>T</emphasis>  enforces that only types implementing the <link linkend="_interfacegame_1_1service_1_1IService">IService</link> interface can be registered, ensuring type safety and consistency in the service collection. </para>
+<simplesect><title>Type Constraints</title>
+<para><emphasis role="strong">T:IService</emphasis></para>
+</simplesect>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1service_1_1ServiceLocator_1a31d564e2f6f4608b0308a1b733028da7"/><section>
+    <title>services</title>
+<indexterm><primary>services</primary><secondary>game.service.ServiceLocator</secondary></indexterm>
+<indexterm><primary>game.service.ServiceLocator</primary><secondary>services</secondary></indexterm>
+<para><computeroutput>IDictionary&lt;object, <link linkend="_interfacegame_1_1service_1_1IService">IService</link>&gt; game.service.ServiceLocator.services<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/<link linkend="_ServiceLocator_8cs">ServiceLocator.cs</link></section>
+</section>

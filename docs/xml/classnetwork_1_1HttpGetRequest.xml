@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classnetwork_1_1HttpGetRequest" kind="class" language="C#" prot="public">
+    <compoundname>network::HttpGetRequest</compoundname>
+    <basecompoundref refid="interfacenetwork_1_1IHttpRequest" prot="public" virt="non-virtual">network.IHttpRequest</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classnetwork_1_1HttpGetRequest_1a81c0cede2b0b8e3271b2b3646293d24b" prot="private" static="yes" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient network.HttpGetRequest.Client</definition>
+        <argsstring></argsstring>
+        <name>Client</name>
+        <qualifiedname>network.HttpGetRequest.Client</qualifiedname>
+        <initializer>= new HttpClient()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="9" column="44" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61" compoundref="HttpRequest_8cs" startline="23" endline="29">network.HttpGetRequest.ExecuteAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt; string &gt; network.HttpGetRequest.ExecuteAsync</definition>
+        <argsstring>(string url)</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>network.HttpGetRequest.ExecuteAsync</qualifiedname>
+        <reimplements refid="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c">ExecuteAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Asynchronously sends a POST request to the specified URL with JSON content and returns the response body as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The URL to which the POST request is sent.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A task that represents the asynchronous operation, containing the response body as a string.</para>
+</simplesect>
+</para>
+<para>This method creates a new instance of StringContent with the provided data encoded in UTF-8 and sets the media type to &quot;application/json&quot;. It then sends an asynchronous POST request using the _client instance. If the response indicates a failure (i.e., a non-success status code), an exception is thrown by calling EnsureSuccessStatusCode. Upon successful completion, the method reads the response content as a string and returns it. This allows for easy handling of HTTP responses in applications that require interaction with web services. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="23" column="27" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="23" bodyend="29"/>
+        <references refid="classnetwork_1_1HttpGetRequest_1a81c0cede2b0b8e3271b2b3646293d24b" compoundref="HttpRequest_8cs" startline="9">network.HttpGetRequest.Client</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+      <node id="1">
+        <label>network.HttpGetRequest</label>
+        <link refid="classnetwork_1_1HttpGetRequest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+      <node id="1">
+        <label>network.HttpGetRequest</label>
+        <link refid="classnetwork_1_1HttpGetRequest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-Client</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>static readonly HttpClient</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="7" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1HttpGetRequest_1a81c0cede2b0b8e3271b2b3646293d24b" prot="private" virt="non-virtual"><scope>network::HttpGetRequest</scope><name>Client</name></member>
+      <member refid="classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61" prot="public" virt="non-virtual"><scope>network::HttpGetRequest</scope><name>ExecuteAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

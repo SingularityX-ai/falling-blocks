@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_14c15a176da523ab9156642fa335aac3" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue</compoundname>
+    <innerfile refid="EventId_8cs">EventId.cs</innerfile>
+    <innerfile refid="EventQueue_8cs">EventQueue.cs</innerfile>
+    <innerfile refid="IEvent_8cs">IEvent.cs</innerfile>
+    <innerfile refid="SpawnTileEvent_8cs">SpawnTileEvent.cs</innerfile>
+    <innerfile refid="UserLoginEvent_8cs">UserLoginEvent.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/"/>
+  </compounddef>
+</doxygen>

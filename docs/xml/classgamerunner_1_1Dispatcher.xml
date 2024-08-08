@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgamerunner_1_1Dispatcher" kind="class" language="C#" prot="public">
+    <compoundname>gamerunner::Dispatcher</compoundname>
+    <basecompoundref refid="classMonoBehaviour" prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interfacegamerunner_1_1IUpdatable" kindref="compound">IUpdatable</ref> &gt;</type>
+        <definition>List&lt;IUpdatable&gt; gamerunner.Dispatcher._updatables</definition>
+        <argsstring></argsstring>
+        <name>_updatables</name>
+        <qualifiedname>gamerunner.Dispatcher._updatables</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" line="9" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgamerunner_1_1Dispatcher_1a9d1e1cfe69e5576b60156957e38c9177" compoundref="Dispatcher_8cs" startline="52" endline="55">gamerunner.Dispatcher.addUpdatable</referencedby>
+        <referencedby refid="classgamerunner_1_1Dispatcher_1aa86c7cbf28ac92b9f83ad47e2517ab6d" compoundref="Dispatcher_8cs" startline="20" endline="23">gamerunner.Dispatcher.Awake</referencedby>
+        <referencedby refid="classgamerunner_1_1Dispatcher_1a91638eb85fe0844b65e651b6d1fa504a" compoundref="Dispatcher_8cs" startline="34" endline="40">gamerunner.Dispatcher.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgamerunner_1_1Dispatcher_1aa86c7cbf28ac92b9f83ad47e2517ab6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gamerunner.Dispatcher.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>gamerunner.Dispatcher.Awake</qualifiedname>
+        <briefdescription>
+<para>Initializes the component when it is first loaded. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is called when the script instance is being loaded. It initializes the private field <computeroutput>_updatables</computeroutput> to a new instance of a list that implements the <computeroutput><ref refid="interfacegamerunner_1_1IUpdatable" kindref="compound">IUpdatable</ref></computeroutput> interface. This setup is crucial for managing objects that require periodic updates during the game loop. The <computeroutput>Awake</computeroutput> method is typically used for initialization tasks that need to be completed before any other methods are called. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" line="20" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" bodystart="20" bodyend="23"/>
+        <references refid="classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9" compoundref="Dispatcher_8cs" startline="9">gamerunner.Dispatcher._updatables</references>
+      </memberdef>
+      <memberdef kind="function" id="classgamerunner_1_1Dispatcher_1a91638eb85fe0844b65e651b6d1fa504a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gamerunner.Dispatcher.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>gamerunner.Dispatcher.Update</qualifiedname>
+        <briefdescription>
+<para>Updates all updatable entities in the collection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method iterates through a collection of updatable entities stored in the private field <emphasis>_updatables</emphasis> . For each entity, it calls the <computeroutput>Update</computeroutput> method, allowing each entity to perform its own update logic. This is typically used in game loops or similar scenarios where multiple entities need to be updated on each frame or tick. The method does not return any value and does not throw exceptions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" line="34" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" bodystart="34" bodyend="40"/>
+        <references refid="classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9" compoundref="Dispatcher_8cs" startline="9">gamerunner.Dispatcher._updatables</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgamerunner_1_1Dispatcher_1a9d1e1cfe69e5576b60156957e38c9177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gamerunner.Dispatcher.addUpdatable</definition>
+        <argsstring>(IUpdatable updatable)</argsstring>
+        <name>addUpdatable</name>
+        <qualifiedname>gamerunner.Dispatcher.addUpdatable</qualifiedname>
+        <param>
+          <type><ref refid="interfacegamerunner_1_1IUpdatable" kindref="compound">IUpdatable</ref></type>
+          <declname>updatable</declname>
+        </param>
+        <briefdescription>
+<para>Adds an updatable object to the collection of updatables. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>updatable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The updatable object to be added.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method allows for the registration of objects that implement the <ref refid="interfacegamerunner_1_1IUpdatable" kindref="compound">IUpdatable</ref> interface. The added updatable can then be updated in a batch process, typically during a game loop or a similar update cycle. This is useful for managing multiple objects that require periodic updates, such as animations, game entities, or other dynamic components. The method modifies the internal collection of updatables by adding the provided object to it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" line="52" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" bodystart="52" bodyend="55"/>
+        <references refid="classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9" compoundref="Dispatcher_8cs" startline="9">gamerunner.Dispatcher._updatables</references>
+        <referencedby refid="classGameInitialiser_1a3c17de8ad71d3bf686d47a856767f7cd" compoundref="GameInitialiser_8cs" startline="36" endline="85">GameInitialiser.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>gamerunner.Dispatcher</label>
+        <link refid="classgamerunner_1_1Dispatcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>List&lt; gamerunner.IUpdatable &gt;</label>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>gamerunner.Dispatcher</label>
+        <link refid="classgamerunner_1_1Dispatcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_updatables</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" line="7" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/Dispatcher.cs" bodystart="8" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9" prot="private" virt="non-virtual"><scope>gamerunner::Dispatcher</scope><name>_updatables</name></member>
+      <member refid="classgamerunner_1_1Dispatcher_1a9d1e1cfe69e5576b60156957e38c9177" prot="public" virt="non-virtual"><scope>gamerunner::Dispatcher</scope><name>addUpdatable</name></member>
+      <member refid="classgamerunner_1_1Dispatcher_1aa86c7cbf28ac92b9f83ad47e2517ab6d" prot="private" virt="non-virtual"><scope>gamerunner::Dispatcher</scope><name>Awake</name></member>
+      <member refid="classgamerunner_1_1Dispatcher_1a91638eb85fe0844b65e651b6d1fa504a" prot="private" virt="non-virtual"><scope>gamerunner::Dispatcher</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

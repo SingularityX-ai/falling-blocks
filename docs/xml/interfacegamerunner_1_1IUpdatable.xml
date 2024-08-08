@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegamerunner_1_1IUpdatable" kind="interface" language="C#" prot="public">
+    <compoundname>gamerunner::IUpdatable</compoundname>
+    <derivedcompoundref refid="classGameRunner" prot="public" virt="non-virtual">GameRunner</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1GravityService" prot="public" virt="non-virtual">game.logic.GravityService</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1TimeBasedGravityStrategy" prot="public" virt="non-virtual">game.logic.TimeBasedGravityStrategy</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" prot="public" virt="non-virtual">game.logic.playfield.PlayFieldViewModel</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gamerunner.IUpdatable.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>gamerunner.IUpdatable.Update</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066">Update</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1aeb148ae69534e28bf105e9394fba3b93">Update</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871">Update</reimplementedby>
+        <reimplementedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/IUpdatable.cs" line="5" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GameRunner</label>
+        <link refid="classGameRunner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.GravityService</label>
+        <link refid="classgame_1_1logic_1_1GravityService"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>game.logic.TimeBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1TimeBasedGravityStrategy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.playfield.PlayFieldViewModel</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gamerunner.IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gamerunner.IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/IUpdatable.cs" line="3" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/IUpdatable.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505" prot="public" virt="non-virtual"><scope>gamerunner::IUpdatable</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

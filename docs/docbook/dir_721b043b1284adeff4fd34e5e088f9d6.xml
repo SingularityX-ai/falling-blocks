@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_721b043b1284adeff4fd34e5e088f9d6" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner Directory Reference</primary></indexterm>
+Directory dependency graph for tilespawner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_721b043b1284adeff4fd34e5e088f9d6_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_IPiece_8cs">IPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ISpawnable_8cs">ISpawnable.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_JPiece_8cs">JPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LPiece_8cs">LPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_OPiece_8cs">OPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SPiece_8cs">SPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TileSpawnerService_8cs">TileSpawnerService.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TPiece_8cs">TPiece.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ZPiece_8cs">ZPiece.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,5 @@
+<map id="game.logic.playfield.PlayField" name="game.logic.playfield.PlayField">
+<area shape="rect" id="node1" title=" " alt="" coords="5,160,192,267"/>
+<area shape="rect" id="node2" title=" " alt="" coords="13,5,51,83"/>
+<area shape="rect" id="node3" href="$interfacegame_1_1logic_1_1tile_1_1ITileable.html" title=" " alt="" coords="76,5,255,83"/>
+</map>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgamerunner_1_1Dispatcher" xml:lang="en-US">
+<title>gamerunner.Dispatcher Class Reference</title>
+<indexterm><primary>gamerunner.Dispatcher</primary></indexterm>
+Inheritance diagram for gamerunner.Dispatcher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgamerunner_1_1Dispatcher__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gamerunner.Dispatcher:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgamerunner_1_1Dispatcher__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgamerunner_1_1Dispatcher_1a9d1e1cfe69e5576b60156957e38c9177">addUpdatable</link> (<link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link> updatable)</para>
+
+<para>Adds an updatable object to the collection of updatables. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgamerunner_1_1Dispatcher_1aa86c7cbf28ac92b9f83ad47e2517ab6d">Awake</link> ()</para>
+
+<para>Initializes the component when it is first loaded. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgamerunner_1_1Dispatcher_1a91638eb85fe0844b65e651b6d1fa504a">Update</link> ()</para>
+
+<para>Updates all updatable entities in the collection. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>List&lt; <link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link> &gt; <link linkend="_classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9">_updatables</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgamerunner_1_1Dispatcher_1a9d1e1cfe69e5576b60156957e38c9177"/><section>
+    <title>addUpdatable()</title>
+<indexterm><primary>addUpdatable</primary><secondary>gamerunner.Dispatcher</secondary></indexterm>
+<indexterm><primary>gamerunner.Dispatcher</primary><secondary>addUpdatable</secondary></indexterm>
+<para><computeroutput>void gamerunner.Dispatcher.addUpdatable (<link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link> updatable)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Adds an updatable object to the collection of updatables. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>updatable</entry><entry>
+<para>The updatable object to be added.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method allows for the registration of objects that implement the <link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link> interface. The added updatable can then be updated in a batch process, typically during a game loop or a similar update cycle. This is useful for managing multiple objects that require periodic updates, such as animations, game entities, or other dynamic components. The method modifies the internal collection of updatables by adding the provided object to it. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgamerunner_1_1Dispatcher_a9d1e1cfe69e5576b60156957e38c9177_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgamerunner_1_1Dispatcher_1aa86c7cbf28ac92b9f83ad47e2517ab6d"/><section>
+    <title>Awake()</title>
+<indexterm><primary>Awake</primary><secondary>gamerunner.Dispatcher</secondary></indexterm>
+<indexterm><primary>gamerunner.Dispatcher</primary><secondary>Awake</secondary></indexterm>
+<para><computeroutput>void gamerunner.Dispatcher.Awake ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Initializes the component when it is first loaded. </para>
+</para>
+
+<para>This method is called when the script instance is being loaded. It initializes the private field <computeroutput>_updatables</computeroutput> to a new instance of a list that implements the <computeroutput><link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link></computeroutput> interface. This setup is crucial for managing objects that require periodic updates during the game loop. The <computeroutput>Awake</computeroutput> method is typically used for initialization tasks that need to be completed before any other methods are called. </para>
+</section>
+<anchor xml:id="_classgamerunner_1_1Dispatcher_1a91638eb85fe0844b65e651b6d1fa504a"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>gamerunner.Dispatcher</secondary></indexterm>
+<indexterm><primary>gamerunner.Dispatcher</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void gamerunner.Dispatcher.Update ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Updates all updatable entities in the collection. </para>
+</para>
+
+<para>This method iterates through a collection of updatable entities stored in the private field <emphasis>_updatables</emphasis> . For each entity, it calls the <computeroutput>Update</computeroutput> method, allowing each entity to perform its own update logic. This is typically used in game loops or similar scenarios where multiple entities need to be updated on each frame or tick. The method does not return any value and does not throw exceptions. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgamerunner_1_1Dispatcher_1af0384e25a7bdb5fdc4b1f1759f966df9"/><section>
+    <title>_updatables</title>
+<indexterm><primary>_updatables</primary><secondary>gamerunner.Dispatcher</secondary></indexterm>
+<indexterm><primary>gamerunner.Dispatcher</primary><secondary>_updatables</secondary></indexterm>
+<para><computeroutput>List&lt;<link linkend="_interfacegamerunner_1_1IUpdatable">IUpdatable</link>&gt; gamerunner.Dispatcher._updatables<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/<link linkend="_Dispatcher_8cs">Dispatcher.cs</link></section>
+</section>

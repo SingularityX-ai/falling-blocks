@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="UserLoginEvent_8cs" kind="file" language="C#">
+    <compoundname>UserLoginEvent.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent" prot="public">game::logic::EventQueue::UserLoginEvent</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1EventQueue">game::logic::EventQueue</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tilespawner" kindref="compound">game.logic.tilespawner</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1EventQueue" kindref="compound">game.logic.EventQueue</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent" kindref="compound">UserLoginEvent</ref><sp/>:<sp/><ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a6ed08775aafe7990ff4e483c0545795b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a6ed08775aafe7990ff4e483c0545795b" kindref="member">Username</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a56622d425edbd43d2043a203d953f212" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a56622d425edbd43d2043a203d953f212" kindref="member">UserLoginEvent</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>source,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>username)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a5026e6c15a63262b7b0ea9288755bd8b" kindref="member">Source</ref><sp/>=<sp/>source;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Username<sp/>=<sp/>username;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a94678786e1867516ee73660f297cdbe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a94678786e1867516ee73660f297cdbe5" kindref="member">Id</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref>.UserLogin;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19" refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a5026e6c15a63262b7b0ea9288755bd8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent_1a5026e6c15a63262b7b0ea9288755bd8b" kindref="member">Source</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/UserLoginEvent.cs"/>
+  </compounddef>
+</doxygen>
