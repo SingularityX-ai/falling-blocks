@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="SpawnTileEvent_8cs" kind="file" language="C#">
+    <compoundname>SpawnTileEvent.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" prot="public">game::logic::EventQueue::SpawnTileEvent</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1EventQueue">game::logic::EventQueue</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tilespawner" kindref="compound">game.logic.tilespawner</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1EventQueue" kindref="compound">game.logic.EventQueue</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" kindref="compound">SpawnTileEvent</ref><sp/>:<sp/><ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TileSpawnerService.CreateTileShapeDelegate<sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f" kindref="member">CreateTileShapeDelegate</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122" kindref="member">SpawnTileEvent</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>source,<sp/><ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" kindref="compound">TileSpawnerService</ref>.<ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" kindref="member">CreateTileShapeDelegate</ref><sp/>_createTileShapeDelegate)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" kindref="member">Source</ref><sp/>=<sp/>source;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.CreateTileShapeDelegate<sp/>=<sp/>_createTileShapeDelegate;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4" kindref="member">Id</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref>.SpawnTile;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19" refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" kindref="member">Source</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs"/>
+  </compounddef>
+</doxygen>

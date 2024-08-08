@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="ZPiece_8cs" kind="file" language="C#">
+    <compoundname>ZPiece.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" prot="public">game::logic::tilespawner::ZPiece</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1tilespawner">game::logic::tilespawner</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tile" kindref="compound">game.logic.tile</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tilespawner" kindref="compound">game.logic.tilespawner</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref>:<sp/><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece_1a015b1c18ad8e76de6173d40869ce086f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref><sp/><ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece_1a015b1c18ad8e76de6173d40869ce086f" kindref="member">Spawn</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Z&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1Tile" kindref="compound">Tile</ref>(Color.red);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/ZPiece.cs"/>
+  </compounddef>
+</doxygen>

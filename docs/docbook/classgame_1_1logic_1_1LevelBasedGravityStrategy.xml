@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy" xml:lang="en-US">
+<title>game.logic.LevelBasedGravityStrategy Class Reference</title>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary></indexterm>
+Inheritance diagram for game.logic.LevelBasedGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1LevelBasedGravityStrategy__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.LevelBasedGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1LevelBasedGravityStrategy__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b">SetLevel</link> (int level)</para>
+
+<para>Sets the level to the specified value. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342">LevelUp</link> ()</para>
+
+<para>Increases the level of the character or entity by one. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7">ResetLevel</link> ()</para>
+
+<para>Resets the game level to the initial state. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95">CurrentGravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0">Gravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>readonly float <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05">_gravityBase</link> = 9.8f</para>
+</listitem>
+            <listitem><para>int <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70">_level</link> = 1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>const float <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667">GravityIncreasePerLevel</link> = 0.75f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342"/><section>
+    <title>LevelUp()</title>
+<indexterm><primary>LevelUp</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>LevelUp</secondary></indexterm>
+<para><computeroutput>void game.logic.LevelBasedGravityStrategy.LevelUp ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Increases the level of the character or entity by one. </para>
+</para>
+
+<para>This method is responsible for leveling up the character or entity within the game or application. When called, it increments the internal level counter (_level) by one, allowing the character or entity to progress to the next level. This is typically used in role-playing games (RPGs) or similar applications where characters gain experience and level up over time. Note that this method does not perform any checks on the maximum level or any other conditions that might be required for leveling up. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7"/><section>
+    <title>ResetLevel()</title>
+<indexterm><primary>ResetLevel</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>ResetLevel</secondary></indexterm>
+<para><computeroutput>void game.logic.LevelBasedGravityStrategy.ResetLevel ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Resets the game level to the initial state. </para>
+</para>
+
+<para>This method sets the private field <computeroutput>_level</computeroutput> to 1, effectively restarting the game level. It is typically called when a player chooses to restart the game or after completing a level. This operation does not return any value and modifies the internal state of the game. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b"/><section>
+    <title>SetLevel()</title>
+<indexterm><primary>SetLevel</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>SetLevel</secondary></indexterm>
+<para><computeroutput>void game.logic.LevelBasedGravityStrategy.SetLevel (int level)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Sets the level to the specified value. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>level</entry><entry>
+<para>The level to be set.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method updates the private field <computeroutput>_level</computeroutput> with the value provided as the parameter <emphasis>level</emphasis> . It allows for changing the state of the object by modifying its level attribute. This method does not perform any validation on the input value, so it is assumed that the caller will provide a valid level. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05"/><section>
+    <title>_gravityBase</title>
+<indexterm><primary>_gravityBase</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>_gravityBase</secondary></indexterm>
+<para><computeroutput>readonly float game.logic.LevelBasedGravityStrategy._gravityBase = 9.8f<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70"/><section>
+    <title>_level</title>
+<indexterm><primary>_level</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>_level</secondary></indexterm>
+<para><computeroutput>int game.logic.LevelBasedGravityStrategy._level = 1<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667"/><section>
+    <title>GravityIncreasePerLevel</title>
+<indexterm><primary>GravityIncreasePerLevel</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>GravityIncreasePerLevel</secondary></indexterm>
+<para><computeroutput>const float game.logic.LevelBasedGravityStrategy.GravityIncreasePerLevel = 0.75f<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95"/><section>
+    <title>CurrentGravity</title>
+<indexterm><primary>CurrentGravity</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>CurrentGravity</secondary></indexterm>
+<para><computeroutput>float game.logic.LevelBasedGravityStrategy.CurrentGravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c">game.logic.IGravityStrategy</link>.</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0"/><section>
+    <title>Gravity</title>
+<indexterm><primary>Gravity</primary><secondary>game.logic.LevelBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.LevelBasedGravityStrategy</primary><secondary>Gravity</secondary></indexterm>
+<para><computeroutput>float game.logic.LevelBasedGravityStrategy.Gravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b">game.logic.IGravityStrategy</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/<link linkend="_LevelBasedGravityStrategy_8cs">LevelBasedGravityStrategy.cs</link></section>
+</section>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_DebugInvoker_8cs" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classdebugtools_1_1DebugInvoker">debugtools.DebugInvoker</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacedebugtools">debugtools</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

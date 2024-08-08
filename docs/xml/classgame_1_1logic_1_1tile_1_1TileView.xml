@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1tile_1_1TileView" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::tile::TileView</compoundname>
+    <basecompoundref refid="classMonoBehaviour" prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f" prot="public" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer game.logic.tile.TileView.TileSprite</definition>
+        <argsstring></argsstring>
+        <name>TileSprite</name>
+        <qualifiedname>game.logic.tile.TileView.TileSprite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="7" column="31" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref></type>
+        <definition>TileViewModel game.logic.tile.TileView._tileVM</definition>
+        <argsstring></argsstring>
+        <name>_tileVM</name>
+        <qualifiedname>game.logic.tile.TileView._tileVM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="9" column="31" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1" compoundref="TileView_8cs" startline="33" endline="37">game.logic.tile.TileView.Link</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.tile.TileView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>game.logic.tile.TileView.Start</qualifiedname>
+        <briefdescription>
+<para>Initializes the component or system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is typically called when the component is started or activated. It may contain logic to set up necessary resources, initialize variables, or perform any required setup actions before the component begins its main operations. This method does not return any value and does not take any parameters. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="20" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.tile.TileView.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>game.logic.tile.TileView.Update</qualifiedname>
+        <briefdescription>
+<para>Updates the view based on the current state of the tile view model. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is responsible for refreshing or updating the user interface to reflect any changes made to the underlying tile view model (_tileVM). It is typically called whenever there is a need to synchronize the view with the model, ensuring that the displayed information is accurate and up-to-date. The implementation details of how the view is updated will depend on the specific requirements of the application and the structure of the view model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="49" column="14" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.tile.TileView.Link</definition>
+        <argsstring>(TileViewModel tileVM)</argsstring>
+        <name>Link</name>
+        <qualifiedname>game.logic.tile.TileView.Link</qualifiedname>
+        <param>
+          <type><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref></type>
+          <declname>tileVM</declname>
+        </param>
+        <briefdescription>
+<para>Links the specified <ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref> to the current object and updates its position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tileVM</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref> instance containing the position data.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method assigns the provided <emphasis>tileVM</emphasis>  to a private field and updates the position of the current object based on the X and Y coordinates from the <emphasis>tileVM</emphasis> . The Z coordinate is set to 0. This is typically used in a graphical context where the position of a tile needs to be updated in a 2D space. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="33" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="33" bodyend="37"/>
+        <references refid="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" compoundref="TileView_8cs" startline="9">game.logic.tile.TileView._tileVM</references>
+        <references refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a2e8b1a87845fd6edd5fbb0267b1782d5" compoundref="TileViewModel_8cs" startline="12" endline="14">game.logic.tile.TileViewModel.X</references>
+        <references refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a8da1b8f04ebecdc4056daa9690dd3564" compoundref="TileViewModel_8cs" startline="17" endline="19">game.logic.tile.TileViewModel.Y</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>game.logic.tile.TileView</label>
+        <link refid="classgame_1_1logic_1_1tile_1_1TileView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>IDictionary&lt; object, game.service.IService &gt;</label>
+      </node>
+      <node id="6">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="3">
+        <label>SpriteRenderer</label>
+      </node>
+      <node id="1">
+        <label>game.logic.tile.TileView</label>
+        <link refid="classgame_1_1logic_1_1tile_1_1TileView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+TileSprite</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-_tileVM</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>game.logic.playfield.PlayField</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayField"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-FieldHeight</edgelabel>
+          <edgelabel>-FieldWidth</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+Field</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.playfield.PlayFieldViewModel</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-_playField</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-_serviceLocator</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>game.logic.tile.ITileable</label>
+        <link refid="interfacegame_1_1logic_1_1tile_1_1ITileable"/>
+      </node>
+      <node id="4">
+        <label>game.logic.tile.TileViewModel</label>
+        <link refid="classgame_1_1logic_1_1tile_1_1TileViewModel"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_playFieldVM</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-_x</edgelabel>
+          <edgelabel>-_y</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>game.service.ServiceLocator</label>
+        <link refid="classgame_1_1service_1_1ServiceLocator"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-services</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>int</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" line="5" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" prot="private" virt="non-virtual"><scope>game::logic::tile::TileView</scope><name>_tileVM</name></member>
+      <member refid="classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1" prot="public" virt="non-virtual"><scope>game::logic::tile::TileView</scope><name>Link</name></member>
+      <member refid="classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929" prot="private" virt="non-virtual"><scope>game::logic::tile::TileView</scope><name>Start</name></member>
+      <member refid="classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f" prot="public" virt="non-virtual"><scope>game::logic::tile::TileView</scope><name>TileSprite</name></member>
+      <member refid="classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88" prot="private" virt="non-virtual"><scope>game::logic::tile::TileView</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

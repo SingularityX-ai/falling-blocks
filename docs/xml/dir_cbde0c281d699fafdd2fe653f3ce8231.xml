@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_cbde0c281d699fafdd2fe653f3ce8231" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Properties</compoundname>
+    <innerfile refid="AssemblyInfo_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Properties/"/>
+  </compounddef>
+</doxygen>

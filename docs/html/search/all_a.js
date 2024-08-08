@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['icommand_0',['ICommand',['../interfacedebugtools_1_1ICommand.html',1,'debugtools']]],
+  ['icommand_2ecs_1',['ICommand.cs',['../ICommand_8cs.html',1,'']]],
+  ['id_2',['Id',['../classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent.html#a94678786e1867516ee73660f297cdbe5',1,'game.logic.EventQueue.UserLoginEvent.Id()'],['../classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent.html#aac9c4d2d5ce47ad89a969230ffd4f2c4',1,'game.logic.EventQueue.SpawnTileEvent.Id()'],['../interfacegame_1_1logic_1_1EventQueue_1_1IEvent.html#a307c56730363fc273d2069f83257c5ae',1,'game.logic.EventQueue.IEvent.Id()']]],
+  ['idroppable_3',['IDroppable',['../classIDroppable.html',1,'']]],
+  ['idroppable_2ecs_4',['IDroppable.cs',['../IDroppable_8cs.html',1,'']]],
+  ['ievent_5',['IEvent',['../interfacegame_1_1logic_1_1EventQueue_1_1IEvent.html',1,'game::logic::EventQueue']]],
+  ['ievent_2ecs_6',['IEvent.cs',['../IEvent_8cs.html',1,'']]],
+  ['igravityservice_7',['IGravityService',['../interfacegame_1_1logic_1_1IGravityService.html',1,'game::logic']]],
+  ['igravityservice_2ecs_8',['IGravityService.cs',['../IGravityService_8cs.html',1,'']]],
+  ['igravitystrategy_9',['IGravityStrategy',['../interfacegame_1_1logic_1_1IGravityStrategy.html',1,'game::logic']]],
+  ['igravitystrategy_2ecs_10',['IGravityStrategy.cs',['../IGravityStrategy_8cs.html',1,'']]],
+  ['ihttprequest_11',['IHttpRequest',['../interfacenetwork_1_1IHttpRequest.html',1,'network']]],
+  ['ihttprequest_2ecs_12',['IHttpRequest.cs',['../IHttpRequest_8cs.html',1,'']]],
+  ['ipiece_13',['IPiece',['../classgame_1_1logic_1_1tilespawner_1_1IPiece.html',1,'game::logic::tilespawner']]],
+  ['ipiece_2ecs_14',['IPiece.cs',['../IPiece_8cs.html',1,'']]],
+  ['iservice_15',['IService',['../interfacegame_1_1service_1_1IService.html',1,'game::service']]],
+  ['iservice_2ecs_16',['IService.cs',['../IService_8cs.html',1,'']]],
+  ['ispawnable_17',['ISpawnable',['../interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable.html',1,'game::logic::tilespawner']]],
+  ['ispawnable_2ecs_18',['ISpawnable.cs',['../ISpawnable_8cs.html',1,'']]],
+  ['itileable_19',['ITileable',['../interfacegame_1_1logic_1_1tile_1_1ITileable.html',1,'game::logic::tile']]],
+  ['itileable_2ecs_20',['ITileable.cs',['../ITileable_8cs.html',1,'']]],
+  ['iupdatable_21',['IUpdatable',['../interfacegamerunner_1_1IUpdatable.html',1,'gamerunner']]],
+  ['iupdatable_2ecs_22',['IUpdatable.cs',['../IUpdatable_8cs.html',1,'']]]
+];

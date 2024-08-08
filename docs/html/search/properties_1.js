@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['color_0',['Color',['../interfacegame_1_1logic_1_1tile_1_1ITileable.html#abfbd729b3508cdcc531aafdb112ce118',1,'game.logic.tile.ITileable.Color()'],['../classgame_1_1logic_1_1tile_1_1Tile.html#a0b6ce969c5946c104ff628e82bf878a2',1,'game.logic.tile.Tile.Color()'],['../classgame_1_1logic_1_1tile_1_1TileViewModel.html#a3007c17fcc70b562d82714a0d2ac8025',1,'game.logic.tile.TileViewModel.Color()']]],
+  ['createtileshapedelegate_1',['CreateTileShapeDelegate',['../classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent.html#a67d5120b120af800abfe385d1777796f',1,'game::logic::EventQueue::SpawnTileEvent']]],
+  ['currentgravity_2',['CurrentGravity',['../classgame_1_1logic_1_1GravityService.html#a01f32eb5cd2deb6bad5e85e53f568d47',1,'game.logic.GravityService.CurrentGravity()'],['../interfacegame_1_1logic_1_1IGravityService.html#ab84f19cc336ce42a46030108d6995cba',1,'game.logic.IGravityService.CurrentGravity()'],['../interfacegame_1_1logic_1_1IGravityStrategy.html#a8a240732864021c62036968b17b9a90c',1,'game.logic.IGravityStrategy.CurrentGravity()'],['../classgame_1_1logic_1_1LevelBasedGravityStrategy.html#a733a154d965eb12e99c141b53138ed95',1,'game.logic.LevelBasedGravityStrategy.CurrentGravity()'],['../classgame_1_1logic_1_1TimeBasedGravityStrategy.html#a9e1a10321d1c1596c50b19400fc2fe66',1,'game.logic.TimeBasedGravityStrategy.CurrentGravity()']]]
+];

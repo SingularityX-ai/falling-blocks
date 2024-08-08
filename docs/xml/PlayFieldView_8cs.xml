@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="PlayFieldView_8cs" kind="file" language="C#">
+    <compoundname>PlayFieldView.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView" prot="public">game::logic::playfield::PlayFieldView</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1playfield">game::logic::playfield</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1playfield" kindref="compound">game.logic.playfield</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView" kindref="compound">PlayFieldView</ref><sp/>:<sp/><ref refid="classMonoBehaviour" kindref="compound">MonoBehaviour</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a1ce81415d94de093aa26832d1fc69404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a1ce81415d94de093aa26832d1fc69404" kindref="member">TileAnchor</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" kindref="member">_playFieldVM</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a795823d329cdf0b54c0057a47e9c6fbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a795823d329cdf0b54c0057a47e9c6fbc" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a266356e5b438b2cbcfde95413e6b336e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a266356e5b438b2cbcfde95413e6b336e" kindref="member">Link</ref>(<ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref><sp/>playFieldVM)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" kindref="member">_playFieldVM</ref><sp/>=<sp/>playFieldVM;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1abb8a3812366df1d64363f7f869736b68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1abb8a3812366df1d64363f7f869736b68" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs"/>
+  </compounddef>
+</doxygen>

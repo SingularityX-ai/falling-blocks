@@ -1,0 +1,4 @@
+<map id="ScoreSubmit.Win" name="ScoreSubmit.Win">
+<area shape="rect" id="node1" title="Submits the player&#39;s score to the score service." alt="" coords="5,13,139,39"/>
+<area shape="rect" id="node2" href="$classnetwork_1_1score_1_1ScoreService.html#a16e810a69e88ed2a6a64344fba676c07" title="Submits a user&#39;s score to a remote server." alt="" coords="187,5,393,47"/>
+</map>

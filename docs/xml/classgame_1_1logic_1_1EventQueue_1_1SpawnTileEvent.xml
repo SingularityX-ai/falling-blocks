@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::EventQueue::SpawnTileEvent</compoundname>
+    <basecompoundref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" prot="public" virt="non-virtual">game.logic.EventQueue.IEvent</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TileSpawnerService.CreateTileShapeDelegate</type>
+        <definition>TileSpawnerService.CreateTileShapeDelegate game.logic.EventQueue.SpawnTileEvent.CreateTileShapeDelegate</definition>
+        <argsstring></argsstring>
+        <name>CreateTileShapeDelegate</name>
+        <qualifiedname>game.logic.EventQueue.SpawnTileEvent.CreateTileShapeDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" line="7" column="58" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref></type>
+        <definition>EventId game.logic.EventQueue.SpawnTileEvent.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>game.logic.EventQueue.SpawnTileEvent.Id</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent_1a307c56730363fc273d2069f83257c5ae">Id</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" line="15" column="24" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object game.logic.EventQueue.SpawnTileEvent.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <qualifiedname>game.logic.EventQueue.SpawnTileEvent.Source</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent_1a49f2a7e9ecddd0d532af39973adac177">Source</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" line="19" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" bodystart="19" bodyend="19"/>
+        <referencedby refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122" compoundref="SpawnTileEvent_8cs" startline="9" endline="13">game.logic.EventQueue.SpawnTileEvent.SpawnTileEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.logic.EventQueue.SpawnTileEvent.SpawnTileEvent</definition>
+        <argsstring>(object source, TileSpawnerService.CreateTileShapeDelegate _createTileShapeDelegate)</argsstring>
+        <name>SpawnTileEvent</name>
+        <qualifiedname>game.logic.EventQueue.SpawnTileEvent.SpawnTileEvent</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>TileSpawnerService.CreateTileShapeDelegate</type>
+          <declname>_createTileShapeDelegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" line="9" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" bodystart="9" bodyend="13"/>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" compoundref="SpawnTileEvent_8cs" startline="19" endline="19">game.logic.EventQueue.SpawnTileEvent.Source</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEvent</label>
+        <link refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent"/>
+      </node>
+      <node id="1">
+        <label>game.logic.EventQueue.SpawnTileEvent</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEvent</label>
+        <link refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent"/>
+      </node>
+      <node id="1">
+        <label>game.logic.EventQueue.SpawnTileEvent</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" line="5" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/SpawnTileEvent.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::SpawnTileEvent</scope><name>CreateTileShapeDelegate</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::SpawnTileEvent</scope><name>Id</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::SpawnTileEvent</scope><name>Source</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::SpawnTileEvent</scope><name>SpawnTileEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

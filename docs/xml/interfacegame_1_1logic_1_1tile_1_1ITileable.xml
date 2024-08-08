@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegame_1_1logic_1_1tile_1_1ITileable" kind="interface" language="C#" prot="public">
+    <compoundname>game::logic::tile::ITileable</compoundname>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tile_1_1Tile" prot="public" virt="non-virtual">game.logic.tile.Tile</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfacegame_1_1logic_1_1tile_1_1ITileable_1abfbd729b3508cdcc531aafdb112ce118" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color game.logic.tile.ITileable.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>game.logic.tile.ITileable.Color</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2">Color</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/ITileable.cs" line="7" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/ITileable.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>game.logic.tile.ITileable</label>
+        <link refid="interfacegame_1_1logic_1_1tile_1_1ITileable"/>
+      </node>
+      <node id="2">
+        <label>game.logic.tile.Tile</label>
+        <link refid="classgame_1_1logic_1_1tile_1_1Tile"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>game.logic.tile.ITileable</label>
+        <link refid="interfacegame_1_1logic_1_1tile_1_1ITileable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/ITileable.cs" line="5" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/ITileable.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1logic_1_1tile_1_1ITileable_1abfbd729b3508cdcc531aafdb112ce118" prot="public" virt="non-virtual"><scope>game::logic::tile::ITileable</scope><name>Color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

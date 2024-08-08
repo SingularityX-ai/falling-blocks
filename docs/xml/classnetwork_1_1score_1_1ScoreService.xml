@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classnetwork_1_1score_1_1ScoreService" kind="class" language="C#" prot="public">
+    <compoundname>network::score::ScoreService</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1score_1_1ScoreService_1a16e810a69e88ed2a6a64344fba676c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void network.score.ScoreService.SubmitScore</definition>
+        <argsstring>(int score)</argsstring>
+        <name>SubmitScore</name>
+        <qualifiedname>network.score.ScoreService.SubmitScore</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+<para>Submits a user&apos;s score to a remote server. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>score</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The score to be submitted.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method creates an HTTP POST request to submit the provided score to a specified API endpoint. It utilizes an instance of <ref refid="classnetwork_1_1HttpRequestFactory" kindref="compound">HttpRequestFactory</ref> to create the request and sets the score data in JSON format. The request is executed asynchronously, and upon completion, the result is logged using Debug.Log. This method does not return any value and operates asynchronously, meaning that the calling thread will not be blocked while waiting for the response. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score/ScoreService.cs" line="19" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score/ScoreService.cs" bodystart="19" bodyend="32"/>
+        <referencedby refid="classScoreSubmit_1ae8cd5fdf8c774668bd4d4cf0a005e2fc" compoundref="ScoreSubmit_8cs" startline="52" endline="57">ScoreSubmit.Win</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>network.score.ScoreService</label>
+        <link refid="classnetwork_1_1score_1_1ScoreService"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score/ScoreService.cs" line="6" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score/ScoreService.cs" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1score_1_1ScoreService_1a16e810a69e88ed2a6a64344fba676c07" prot="public" virt="non-virtual"><scope>network::score::ScoreService</scope><name>SubmitScore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

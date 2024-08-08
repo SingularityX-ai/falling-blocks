@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_8d21d60caa54cdc1f72015abc870d02b" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets Directory Reference</primary></indexterm>
+Directory dependency graph for Assets:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_8d21d60caa54cdc1f72015abc870d02b_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_11de87c5330ae6b4beacb844ce1da0db">debugtools</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_6c6b96dd88403d3a294dd8a6526cb508">game</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_452a23fe505bc52cdab608fbc8292f68">gamerunner</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_889c24022d065fc95b965bae93a79a40">Initialisation</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_036f5d14d0f46a94486245521f99bdea">network</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_LoginButton_8cs">LoginButton.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ScoreSubmit_8cs">ScoreSubmit.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

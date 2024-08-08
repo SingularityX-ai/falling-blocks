@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1tilespawner_1_1OPiece" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::tilespawner::OPiece</compoundname>
+    <basecompoundref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" prot="public" virt="non-virtual">game.logic.tilespawner.ISpawnable</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1OPiece_1a64614a37ee7e6988d44a45e48e9a3a91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref></type>
+        <definition>ITileable game.logic.tilespawner.OPiece.Spawn</definition>
+        <argsstring>()</argsstring>
+        <name>Spawn</name>
+        <qualifiedname>game.logic.tilespawner.OPiece.Spawn</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474">Spawn</reimplements>
+        <briefdescription>
+<para>Spawns a new tile and returns it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of ITileable representing a yellow tile.</para>
+</simplesect>
+</para>
+<para>This method creates a new tile object with a yellow color and returns it. It also logs a message to the debug console indicating that the spawn process has started. The returned tile implements the ITileable interface, allowing it to be used in various tile-related operations. This method does not take any parameters and is designed to be called when a new tile needs to be created in the game environment. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/OPiece.cs" line="20" column="26" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/OPiece.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ISpawnable</label>
+        <link refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable"/>
+      </node>
+      <node id="1">
+        <label>game.logic.tilespawner.OPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1OPiece"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ISpawnable</label>
+        <link refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable"/>
+      </node>
+      <node id="1">
+        <label>game.logic.tilespawner.OPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1OPiece"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/OPiece.cs" line="7" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/OPiece.cs" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1OPiece_1a64614a37ee7e6988d44a45e48e9a3a91" prot="public" virt="non-virtual"><scope>game::logic::tilespawner::OPiece</scope><name>Spawn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

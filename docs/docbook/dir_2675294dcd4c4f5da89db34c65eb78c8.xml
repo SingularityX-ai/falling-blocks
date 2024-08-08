@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_2675294dcd4c4f5da89db34c65eb78c8" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block Directory Reference</primary></indexterm>
+Directory dependency graph for four-block:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_2675294dcd4c4f5da89db34c65eb78c8_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_8d21d60caa54cdc1f72015abc870d02b">Assets</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

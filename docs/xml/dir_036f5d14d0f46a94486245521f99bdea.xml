@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_036f5d14d0f46a94486245521f99bdea" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network</compoundname>
+    <innerdir refid="dir_6276bedd4b417fb9f320f9e90279f791">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score</innerdir>
+    <innerdir refid="dir_4d70f3a87c5cd5e79705377451ad52dc">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/user</innerdir>
+    <innerfile refid="HttpRequest_8cs">HttpRequest.cs</innerfile>
+    <innerfile refid="HttpRequestFactory_8cs">HttpRequestFactory.cs</innerfile>
+    <innerfile refid="IHttpRequest_8cs">IHttpRequest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_40e79d3bfe8ec0a32243c6cac7b06aa7" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield Directory Reference</primary></indexterm>
+Directory dependency graph for playfield:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_40e79d3bfe8ec0a32243c6cac7b06aa7_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_PlayField_8cs">PlayField.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_PlayFieldView_8cs">PlayFieldView.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_PlayFieldViewModel_8cs">PlayFieldViewModel.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

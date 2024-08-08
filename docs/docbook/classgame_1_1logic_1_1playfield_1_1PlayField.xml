@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField" xml:lang="en-US">
+<title>game.logic.playfield.PlayField Class Reference</title>
+<indexterm><primary>game.logic.playfield.PlayField</primary></indexterm>
+Collaboration diagram for game.logic.playfield.PlayField:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1playfield_1_1PlayField__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link>[,] <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1a45057abb14bb3c96a2d9192c3f5da4cd">Field</link> = new <link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link>[<link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d">FieldWidth</link>, <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6">FieldHeight</link>]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ae806af36b3f93de347b54033fcf0a6b8">Width</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1a76cfea383e81025ef34206737f769cd7">Height</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>const int <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d">FieldWidth</link> = 10</para>
+</listitem>
+            <listitem><para>const int <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6">FieldHeight</link> = 22</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField_1a45057abb14bb3c96a2d9192c3f5da4cd"/><section>
+    <title>Field</title>
+<indexterm><primary>Field</primary><secondary>game.logic.playfield.PlayField</secondary></indexterm>
+<indexterm><primary>game.logic.playfield.PlayField</primary><secondary>Field</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link> [,] game.logic.playfield.PlayField.Field = new <link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link>[<link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d">FieldWidth</link>, <link linkend="_classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6">FieldHeight</link>]</computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6"/><section>
+    <title>FieldHeight</title>
+<indexterm><primary>FieldHeight</primary><secondary>game.logic.playfield.PlayField</secondary></indexterm>
+<indexterm><primary>game.logic.playfield.PlayField</primary><secondary>FieldHeight</secondary></indexterm>
+<para><computeroutput>const int game.logic.playfield.PlayField.FieldHeight = 22<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d"/><section>
+    <title>FieldWidth</title>
+<indexterm><primary>FieldWidth</primary><secondary>game.logic.playfield.PlayField</secondary></indexterm>
+<indexterm><primary>game.logic.playfield.PlayField</primary><secondary>FieldWidth</secondary></indexterm>
+<para><computeroutput>const int game.logic.playfield.PlayField.FieldWidth = 10<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField_1a76cfea383e81025ef34206737f769cd7"/><section>
+    <title>Height</title>
+<indexterm><primary>Height</primary><secondary>game.logic.playfield.PlayField</secondary></indexterm>
+<indexterm><primary>game.logic.playfield.PlayField</primary><secondary>Height</secondary></indexterm>
+<para><computeroutput>int game.logic.playfield.PlayField.Height<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1playfield_1_1PlayField_1ae806af36b3f93de347b54033fcf0a6b8"/><section>
+    <title>Width</title>
+<indexterm><primary>Width</primary><secondary>game.logic.playfield.PlayField</secondary></indexterm>
+<indexterm><primary>game.logic.playfield.PlayField</primary><secondary>Width</secondary></indexterm>
+<para><computeroutput>int game.logic.playfield.PlayField.Width<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/<link linkend="_PlayField_8cs">PlayField.cs</link></section>
+</section>

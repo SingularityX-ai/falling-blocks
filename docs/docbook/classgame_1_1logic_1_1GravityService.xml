@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1GravityService" xml:lang="en-US">
+<title>game.logic.GravityService Class Reference</title>
+<indexterm><primary>game.logic.GravityService</primary></indexterm>
+Inheritance diagram for game.logic.GravityService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1GravityService__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.GravityService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1GravityService__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1GravityService_1aaaf0bd46468281bd895f3b679a1550c3">GravityService</link> (<link linkend="_interfacegame_1_1logic_1_1IGravityStrategy">IGravityStrategy</link> gravityStrategy)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066">Update</link> ()</para>
+
+<para>Updates the current gravity strategy if it implements the IUpdatable interface. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47">CurrentGravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacegame_1_1logic_1_1IGravityStrategy">IGravityStrategy</link> <link linkend="_classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35">_gravityStrategy</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1GravityService_1aaaf0bd46468281bd895f3b679a1550c3"/><section>
+    <title>GravityService()</title>
+<indexterm><primary>GravityService</primary><secondary>game.logic.GravityService</secondary></indexterm>
+<indexterm><primary>game.logic.GravityService</primary><secondary>GravityService</secondary></indexterm>
+<para><computeroutput>game.logic.GravityService.GravityService (<link linkend="_interfacegame_1_1logic_1_1IGravityStrategy">IGravityStrategy</link> gravityStrategy)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>game.logic.GravityService</secondary></indexterm>
+<indexterm><primary>game.logic.GravityService</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void game.logic.GravityService.Update ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Updates the current gravity strategy if it implements the IUpdatable interface. </para>
+</para>
+
+<para>This method checks if the current gravity strategy (_gravityStrategy) can be cast to the IUpdatable interface. If it can, the Update method of the updatable strategy is called. This allows for dynamic updates to the gravity strategy&apos;s state or behavior. This is particularly useful in scenarios where the gravity strategy may change over time and needs to be updated accordingly. </para>
+<para>
+Implements <link linkend="_interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">gamerunner.IUpdatable</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35"/><section>
+    <title>_gravityStrategy</title>
+<indexterm><primary>_gravityStrategy</primary><secondary>game.logic.GravityService</secondary></indexterm>
+<indexterm><primary>game.logic.GravityService</primary><secondary>_gravityStrategy</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacegame_1_1logic_1_1IGravityStrategy">IGravityStrategy</link> game.logic.GravityService._gravityStrategy<computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47"/><section>
+    <title>CurrentGravity</title>
+<indexterm><primary>CurrentGravity</primary><secondary>game.logic.GravityService</secondary></indexterm>
+<indexterm><primary>game.logic.GravityService</primary><secondary>CurrentGravity</secondary></indexterm>
+<para><computeroutput>float game.logic.GravityService.CurrentGravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba">game.logic.IGravityService</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/<link linkend="_Gravity_8cs">Gravity.cs</link></section>
+</section>

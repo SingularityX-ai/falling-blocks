@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy" xml:lang="en-US">
+<title>game.logic.TimeBasedGravityStrategy Class Reference</title>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary></indexterm>
+Inheritance diagram for game.logic.TimeBasedGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1TimeBasedGravityStrategy__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.TimeBasedGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1TimeBasedGravityStrategy__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871">Update</link> ()</para>
+
+<para>Updates the gravity scale based on the elapsed time since the last frame. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02">setGravityScale</link> (float gravityScale)</para>
+
+<para>Sets the gravity scale to the specified value. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66">CurrentGravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5">Gravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1ae360e482b8ab0707766d47a1e4b6a3e0">_gravityBase</link> = 9.8f</para>
+</listitem>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae">_gravityScale</link> = 1.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1ab4ee328ac716c8983102d530d71e1fb6">_gravityIncreasePerSecond</link> = 0.1f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02"/><section>
+    <title>setGravityScale()</title>
+<indexterm><primary>setGravityScale</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>setGravityScale</secondary></indexterm>
+<para><computeroutput>void game.logic.TimeBasedGravityStrategy.setGravityScale (float gravityScale)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Sets the gravity scale to the specified value. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>gravityScale</entry><entry>
+<para>The new gravity scale value to be set.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method updates the private field <computeroutput>_gravityScale</computeroutput> with the provided value. The gravity scale is typically used in physics simulations to adjust the strength of gravity affecting objects within the simulation. By modifying this value, you can simulate different gravitational environments, such as increasing or decreasing the weight of objects. This method does not return a value and directly modifies the internal state of the object. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1TimeBasedGravityStrategy_a968ce1f20e6ce66cdd596a666f399c02_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void game.logic.TimeBasedGravityStrategy.Update ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Updates the gravity scale based on the elapsed time since the last frame. </para>
+</para>
+
+<para>This method adjusts the gravity scale by incrementing it with a value that is calculated from the predefined gravity increase per second multiplied by the time elapsed since the last frame (Time.deltaTime). This allows for a smooth and gradual change in gravity over time, making it suitable for dynamic environments where gravity needs to be adjusted continuously. The method calls the <computeroutput>setGravityScale</computeroutput> function to apply the new gravity scale. </para>
+<para>
+Implements <link linkend="_interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">gamerunner.IUpdatable</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1TimeBasedGravityStrategy_a61bb9aa54922ac17c233f0fa26196871_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1ae360e482b8ab0707766d47a1e4b6a3e0"/><section>
+    <title>_gravityBase</title>
+<indexterm><primary>_gravityBase</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>_gravityBase</secondary></indexterm>
+<para><computeroutput>float game.logic.TimeBasedGravityStrategy._gravityBase = 9.8f<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1ab4ee328ac716c8983102d530d71e1fb6"/><section>
+    <title>_gravityIncreasePerSecond</title>
+<indexterm><primary>_gravityIncreasePerSecond</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>_gravityIncreasePerSecond</secondary></indexterm>
+<para><computeroutput>float game.logic.TimeBasedGravityStrategy._gravityIncreasePerSecond = 0.1f<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae"/><section>
+    <title>_gravityScale</title>
+<indexterm><primary>_gravityScale</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>_gravityScale</secondary></indexterm>
+<para><computeroutput>float game.logic.TimeBasedGravityStrategy._gravityScale = 1.0f<computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66"/><section>
+    <title>CurrentGravity</title>
+<indexterm><primary>CurrentGravity</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>CurrentGravity</secondary></indexterm>
+<para><computeroutput>float game.logic.TimeBasedGravityStrategy.CurrentGravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c">game.logic.IGravityStrategy</link>.</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5"/><section>
+    <title>Gravity</title>
+<indexterm><primary>Gravity</primary><secondary>game.logic.TimeBasedGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.TimeBasedGravityStrategy</primary><secondary>Gravity</secondary></indexterm>
+<para><computeroutput>float game.logic.TimeBasedGravityStrategy.Gravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b">game.logic.IGravityStrategy</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/<link linkend="_TimeBasedGravityStrategy_8cs">TimeBasedGravityStrategy.cs</link></section>
+</section>

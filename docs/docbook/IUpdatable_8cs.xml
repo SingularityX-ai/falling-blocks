@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_IUpdatable_8cs" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/IUpdatable.cs File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/IUpdatable.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interfacegamerunner_1_1IUpdatable">gamerunner.IUpdatable</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacegamerunner">gamerunner</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

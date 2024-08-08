@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="LevelBasedGravityStrategy_8cs" kind="file" language="C#">
+    <compoundname>LevelBasedGravityStrategy.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1LevelBasedGravityStrategy" prot="public">game::logic::LevelBasedGravityStrategy</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegamerunner" kindref="compound">gamerunner</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic" kindref="compound">game.logic</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[Serializable]</highlight></codeline>
+<codeline lineno="8" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy" kindref="compound">LevelBasedGravityStrategy</ref><sp/>:<sp/><ref refid="interfacegame_1_1logic_1_1IGravityStrategy" kindref="compound">IGravityStrategy</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" kindref="member">_gravityBase</ref><sp/>=<sp/>9.8f;</highlight></codeline>
+<codeline lineno="11" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="12" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667" kindref="member">GravityIncreasePerLevel</ref><sp/>=<sp/>0.75f;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="14" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95" kindref="member">CurrentGravity</ref><sp/>=&gt;<sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" kindref="member">_gravityBase</ref><sp/>*<sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0" kindref="member">Gravity</ref><sp/>=&gt;<sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" kindref="member">_gravityBase</ref><sp/>*<sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b" kindref="member">SetLevel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref><sp/>=<sp/>level;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342" kindref="member">LevelUp</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref>++;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7" kindref="member">ResetLevel</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" kindref="member">_level</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs"/>
+  </compounddef>
+</doxygen>

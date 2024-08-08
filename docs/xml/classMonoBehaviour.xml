@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classMonoBehaviour" kind="class" language="C#" prot="public">
+    <compoundname>MonoBehaviour</compoundname>
+    <derivedcompoundref refid="classGameInitialiser" prot="public" virt="non-virtual">GameInitialiser</derivedcompoundref>
+    <derivedcompoundref refid="classLoginButton" prot="public" virt="non-virtual">LoginButton</derivedcompoundref>
+    <derivedcompoundref refid="classScoreSubmit" prot="public" virt="non-virtual">ScoreSubmit</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView" prot="public" virt="non-virtual">game.logic.playfield.PlayFieldView</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tile_1_1TileView" prot="public" virt="non-virtual">game.logic.tile.TileView</derivedcompoundref>
+    <derivedcompoundref refid="classgamerunner_1_1Dispatcher" prot="public" virt="non-virtual">gamerunner.Dispatcher</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GameInitialiser</label>
+        <link refid="classGameInitialiser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>LoginButton</label>
+        <link refid="classLoginButton"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="4">
+        <label>ScoreSubmit</label>
+        <link refid="classScoreSubmit"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.playfield.PlayFieldView</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>game.logic.tile.TileView</label>
+        <link refid="classgame_1_1logic_1_1tile_1_1TileView"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gamerunner.Dispatcher</label>
+        <link refid="classgamerunner_1_1Dispatcher"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/Initialisation/GameInitialiser.cs" line="14" column="7"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

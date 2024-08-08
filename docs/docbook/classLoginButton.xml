@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classLoginButton" xml:lang="en-US">
+<title>LoginButton Class Reference</title>
+<indexterm><primary>LoginButton</primary></indexterm>
+Inheritance diagram for LoginButton:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classLoginButton__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for LoginButton:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classLoginButton__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classLoginButton_1a1c96929dc9468a79eed79e00017b22e8">Link</link> (<link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue">EventQueue</link> eventQueue)</para>
+
+<para>Links the specified event queue to the current instance. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classLoginButton_1a4ee90c2092d433580a6adaa869b4a710">OnClick</link> ()</para>
+
+<para>Handles the click event by retrieving the user&apos;s name and enqueuing a user login event. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classLoginButton_1adafe530db12f9279b0d8a62bf2a96094">Start</link> ()</para>
+
+<para>Initializes the application or component. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classLoginButton_1a9a73fd8bd5020357d0da9470fe49427e">Update</link> ()</para>
+
+<para>Updates the state of the object. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue">EventQueue</link> <link linkend="_classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91">_eventQueue</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classLoginButton_1a1c96929dc9468a79eed79e00017b22e8"/><section>
+    <title>Link()</title>
+<indexterm><primary>Link</primary><secondary>LoginButton</secondary></indexterm>
+<indexterm><primary>LoginButton</primary><secondary>Link</secondary></indexterm>
+<para><computeroutput>void LoginButton.Link (<link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue">EventQueue</link> eventQueue)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Links the specified event queue to the current instance. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>eventQueue</entry><entry>
+<para>The event queue to be linked.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method assigns the provided <emphasis>eventQueue</emphasis>  to the private field <computeroutput>_eventQueue</computeroutput> of the current instance. It allows the current object to interact with the specified event queue, enabling event handling and processing. This method does not return any value and is primarily used for establishing a connection between the current instance and the event queue. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classLoginButton_a1c96929dc9468a79eed79e00017b22e8_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classLoginButton_1a4ee90c2092d433580a6adaa869b4a710"/><section>
+    <title>OnClick()</title>
+<indexterm><primary>OnClick</primary><secondary>LoginButton</secondary></indexterm>
+<indexterm><primary>LoginButton</primary><secondary>OnClick</secondary></indexterm>
+<para><computeroutput>void LoginButton.OnClick ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Handles the click event by retrieving the user&apos;s name and enqueuing a user login event. </para>
+</para>
+
+<para>This method is triggered when a click event occurs. It creates an instance of the UserService class to access user-related functionalities. The method retrieves the current user&apos;s name using the GetUserName method from the UserService instance. After obtaining the user&apos;s name, it enqueues a new UserLoginEvent into the event queue, which can be processed later. This allows for asynchronous handling of user login actions, ensuring that the application remains responsive. </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classLoginButton_a4ee90c2092d433580a6adaa869b4a710_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classLoginButton_1adafe530db12f9279b0d8a62bf2a96094"/><section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>LoginButton</secondary></indexterm>
+<indexterm><primary>LoginButton</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void LoginButton.Start ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Initializes the application or component. </para>
+</para>
+
+<para>This method is typically called at the beginning of the application lifecycle. It is used to set up any necessary resources, configurations, or initial states required for the application to function correctly. This method may include tasks such as loading settings, initializing variables, or starting services. It is important to ensure that all required components are properly initialized before proceeding with the application&apos;s main logic. </para>
+</section>
+<anchor xml:id="_classLoginButton_1a9a73fd8bd5020357d0da9470fe49427e"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>LoginButton</secondary></indexterm>
+<indexterm><primary>LoginButton</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void LoginButton.Update ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Updates the state of the object. </para>
+</para>
+
+<para>This method is intended to be called regularly to refresh or update the internal state of the object. It may include operations such as processing input, updating properties, or performing calculations. The specific implementation details are dependent on the context in which this method is used. As it currently stands, this method does not perform any operations, but it can be extended to include the necessary logic. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91"/><section>
+    <title>_eventQueue</title>
+<indexterm><primary>_eventQueue</primary><secondary>LoginButton</secondary></indexterm>
+<indexterm><primary>LoginButton</primary><secondary>_eventQueue</secondary></indexterm>
+<para><computeroutput><link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue">EventQueue</link> LoginButton._eventQueue<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/<link linkend="_LoginButton_8cs">LoginButton.cs</link></section>
+</section>

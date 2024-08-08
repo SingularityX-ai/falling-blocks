@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classnetwork_1_1score_1_1ScoreService" xml:lang="en-US">
+<title>network.score.ScoreService Class Reference</title>
+<indexterm><primary>network.score.ScoreService</primary></indexterm>
+Collaboration diagram for network.score.ScoreService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1score_1_1ScoreService__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classnetwork_1_1score_1_1ScoreService_1a16e810a69e88ed2a6a64344fba676c07">SubmitScore</link> (int score)</para>
+
+<para>Submits a user&apos;s score to a remote server. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classnetwork_1_1score_1_1ScoreService_1a16e810a69e88ed2a6a64344fba676c07"/><section>
+    <title>SubmitScore()</title>
+<indexterm><primary>SubmitScore</primary><secondary>network.score.ScoreService</secondary></indexterm>
+<indexterm><primary>network.score.ScoreService</primary><secondary>SubmitScore</secondary></indexterm>
+<para><computeroutput>void network.score.ScoreService.SubmitScore (int score)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Submits a user&apos;s score to a remote server. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>score</entry><entry>
+<para>The score to be submitted.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method creates an HTTP POST request to submit the provided score to a specified API endpoint. It utilizes an instance of <link linkend="_classnetwork_1_1HttpRequestFactory">HttpRequestFactory</link> to create the request and sets the score data in JSON format. The request is executed asynchronously, and upon completion, the result is logged using Debug.Log. This method does not return any value and operates asynchronously, meaning that the calling thread will not be blocked while waiting for the response. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1score_1_1ScoreService_a16e810a69e88ed2a6a64344fba676c07_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/score/<link linkend="_ScoreService_8cs">ScoreService.cs</link></section>
+</section>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="md__tmp_github_repos_arch_doc_gen_SingularityX_ai_falling_blocks_README" kind="page">
+    <compoundname>md__tmp_github_repos_arch_doc_gen_SingularityX_ai_falling_blocks_README</compoundname>
+    <title>bounce-and-drop</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A repository containing a game which involves dropping sets of four blocks and building </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/README.md"/>
+  </compounddef>
+</doxygen>

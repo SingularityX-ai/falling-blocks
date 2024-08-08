@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable.html" title=" " alt="" coords="5,157,257,184"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1tilespawner_1_1IPiece.html" title=" " alt="" coords="309,5,525,32"/>
+<area shape="rect" id="node3" href="$classgame_1_1logic_1_1tilespawner_1_1JPiece.html" title=" " alt="" coords="309,56,525,83"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1tilespawner_1_1LPiece.html" title=" " alt="" coords="307,107,526,133"/>
+<area shape="rect" id="node5" href="$classgame_1_1logic_1_1tilespawner_1_1OPiece.html" title=" " alt="" coords="305,157,528,184"/>
+<area shape="rect" id="node6" href="$classgame_1_1logic_1_1tilespawner_1_1SPiece.html" title=" " alt="" coords="307,208,527,235"/>
+<area shape="rect" id="node7" href="$classgame_1_1logic_1_1tilespawner_1_1TPiece.html" title=" " alt="" coords="307,259,527,285"/>
+<area shape="rect" id="node8" href="$classgame_1_1logic_1_1tilespawner_1_1ZPiece.html" title=" " alt="" coords="306,309,527,336"/>
+</map>

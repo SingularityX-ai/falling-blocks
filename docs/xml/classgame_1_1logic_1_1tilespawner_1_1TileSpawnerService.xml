@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::tilespawner::TileSpawnerService</compoundname>
+    <basecompoundref refid="interfacegame_1_1service_1_1IService" prot="public" virt="non-virtual">game.service.IService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" kindref="member">CreateTileShapeDelegate</ref> &gt;</type>
+        <definition>List&lt;CreateTileShapeDelegate&gt; game.logic.tilespawner.TileSpawnerService._pieces</definition>
+        <argsstring></argsstring>
+        <name>_pieces</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService._pieces</qualifiedname>
+        <initializer>= new List&lt;<ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" kindref="member">CreateTileShapeDelegate</ref>&gt;{
+            <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea" kindref="member">SpawnIPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061" kindref="member">SpawnJPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7" kindref="member">SpawnLPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901" kindref="member">SpawnOPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357" kindref="member">SpawnSPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b" kindref="member">SpawnTPiece</ref>, <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6" kindref="member">SpawnZPiece</ref>
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="14" column="14" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" compoundref="TileSpawnerService_8cs" startline="131" endline="139">game.logic.tilespawner.TileSpawnerService.Shuffle</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" compoundref="TileSpawnerService_8cs" startline="113" endline="117">game.logic.tilespawner.TileSpawnerService.Spawn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ab0ceb759a361d5b457a2ac54719e8b2f" prot="private" static="no" mutable="no">
+        <type><ref refid="TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref></type>
+        <definition>Random game.logic.tilespawner.TileSpawnerService.rng</definition>
+        <argsstring></argsstring>
+        <name>rng</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.rng</qualifiedname>
+        <initializer>= new <ref refid="TileSpawnerService_8cs_1a24953b19d956caa76c403684c71b4e5b" kindref="member">Random</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="119" column="24" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="119" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" compoundref="TileSpawnerService_8cs" startline="131" endline="139">game.logic.tilespawner.TileSpawnerService.Shuffle</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>delegate ISpawnable game.logic.tilespawner.TileSpawnerService.CreateTileShapeDelegate</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTileShapeDelegate</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.CreateTileShapeDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="12" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1aad0b3b7b64ebe2bfcc09fe7b2a37f238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.logic.tilespawner.TileSpawnerService.TileSpawnerService</definition>
+        <argsstring>()</argsstring>
+        <name>TileSpawnerService</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.TileSpawnerService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="18" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="18" bodyend="21"/>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" compoundref="TileSpawnerService_8cs" startline="131" endline="139">game.logic.tilespawner.TileSpawnerService.Shuffle</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" kindref="member">CreateTileShapeDelegate</ref></type>
+        <definition>CreateTileShapeDelegate game.logic.tilespawner.TileSpawnerService.Spawn</definition>
+        <argsstring>()</argsstring>
+        <name>Spawn</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.Spawn</qualifiedname>
+        <briefdescription>
+<para>Spawns a new tile shape by shuffling the available pieces and returning the first piece. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A delegate representing the first tile shape after shuffling the pieces.</para>
+</simplesect>
+</para>
+<para>This method first invokes the <ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" kindref="member">Shuffle</ref> method to randomize the order of the available tile shapes. After shuffling, it retrieves and returns the first tile shape from the collection of pieces. This is useful in scenarios where a random selection of tile shapes is required, such as in game mechanics or puzzle generation. The returned delegate can then be used to create or manipulate the spawned tile shape. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="113" column="40" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="113" bodyend="117"/>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3" compoundref="TileSpawnerService_8cs" startline="14">game.logic.tilespawner.TileSpawnerService._pieces</references>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" compoundref="TileSpawnerService_8cs" startline="131" endline="139">game.logic.tilespawner.TileSpawnerService.Shuffle</references>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">GameRunner.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnIPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnIPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnIPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref>.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating an object of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref> type. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref> class represents a specific type of spawnable object in the application. By calling this method, users can obtain a fresh instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref> which can then be used in the game or application logic. This method does not take any parameters and is designed to be a simple factory method for creating <ref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" kindref="compound">IPiece</ref> objects. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="33" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnJPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnJPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnJPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" kindref="compound">JPiece</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" kindref="compound">JPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating the <ref refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" kindref="compound">JPiece</ref>, which is a specific type of object that can be spawned in the game or application. The returned object can be used to represent a J-shaped piece in a game like Tetris or similar. This method does not take any parameters and provides a straightforward way to obtain a new <ref refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" kindref="compound">JPiece</ref> instance whenever needed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="44" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnLPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnLPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnLPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" kindref="compound">LPiece</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" kindref="compound">LPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating a new <ref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" kindref="compound">LPiece</ref> object, which is typically used in games or applications that require the representation of a specific game piece or object. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" kindref="compound">LPiece</ref> class is expected to implement the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface, ensuring that it adheres to the required contract for spawnable objects. This method does not take any parameters and directly returns the newly created <ref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" kindref="compound">LPiece</ref> instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="56" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnOPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnOPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnOPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" kindref="compound">OPiece</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" kindref="compound">OPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating an object of type <ref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" kindref="compound">OPiece</ref>, which is expected to implement the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" kindref="compound">OPiece</ref> class represents a specific type of spawnable object within the application, and this method encapsulates the creation logic. By using this method, you ensure that you are always working with a fresh instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" kindref="compound">OPiece</ref>, which can be useful for managing state and behavior in your application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="67" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnSPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnSPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnSPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" kindref="compound">SPiece</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" kindref="compound">SPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating the <ref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" kindref="compound">SPiece</ref> object, which is expected to implement the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" kindref="compound">SPiece</ref> class may contain specific properties and methods that define its behavior in the context of the application. This factory method simplifies the creation of <ref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" kindref="compound">SPiece</ref> instances, ensuring that the caller receives a properly initialized object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="78" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnTPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnTPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnTPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" kindref="compound">TPiece</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" kindref="compound">TPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating a <ref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" kindref="compound">TPiece</ref> object, which is typically used in games or applications that require a specific type of spawnable entity. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" kindref="compound">TPiece</ref> class is expected to implement the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface, ensuring that it adheres to the necessary contract for spawnable objects. This method does not take any parameters and provides a straightforward way to obtain a new <ref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" kindref="compound">TPiece</ref> instance. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="90" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref></type>
+        <definition>static ISpawnable game.logic.tilespawner.TileSpawnerService.SpawnZPiece</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnZPiece</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.SpawnZPiece</qualifiedname>
+        <briefdescription>
+<para>Creates and returns a new instance of the <ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A new instance of <ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref> that implements the <ref refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kindref="compound">ISpawnable</ref> interface.</para>
+</simplesect>
+</para>
+<para>This method is responsible for instantiating a <ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref> object, which is a specific type of spawnable entity in the application. The <ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref> is typically used in contexts where a specific shape or functionality is required, such as in games or simulations. By encapsulating the creation logic in this method, it allows for easier modifications in the future, such as changing the way <ref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" kindref="compound">ZPiece</ref> instances are created or initialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="101" column="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.tilespawner.TileSpawnerService.Shuffle</definition>
+        <argsstring>()</argsstring>
+        <name>Shuffle</name>
+        <qualifiedname>game.logic.tilespawner.TileSpawnerService.Shuffle</qualifiedname>
+        <briefdescription>
+<para>Shuffles the elements of the collection randomly. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method implements the Fisher-Yates shuffle algorithm to randomly reorder the elements in the private collection of pieces. It iterates through the collection, selecting a random index for each element and swapping it with the current element. This ensures that each possible permutation of the collection is equally likely, resulting in a fair shuffle. The method modifies the original collection in place, meaning that the order of elements in _pieces will be changed after this method is called. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="131" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="131" bodyend="139"/>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3" compoundref="TileSpawnerService_8cs" startline="14">game.logic.tilespawner.TileSpawnerService._pieces</references>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ab0ceb759a361d5b457a2ac54719e8b2f" compoundref="TileSpawnerService_8cs" startline="119">game.logic.tilespawner.TileSpawnerService.rng</references>
+        <referencedby refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" compoundref="TileSpawnerService_8cs" startline="113" endline="117">game.logic.tilespawner.TileSpawnerService.Spawn</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1aad0b3b7b64ebe2bfcc09fe7b2a37f238" compoundref="TileSpawnerService_8cs" startline="18" endline="21">game.logic.tilespawner.TileSpawnerService.TileSpawnerService</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>game.logic.tilespawner.TileSpawnerService</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="3">
+        <label>List&lt; CreateTileShapeDelegate &gt;</label>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+      <node id="1">
+        <label>game.logic.tilespawner.TileSpawnerService</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_pieces</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-rng</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" line="10" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/TileSpawnerService.cs" bodystart="11" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a101ad31d8a922a78bbe3067f76293ec3" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>_pieces</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a2fcfd8729028ad973b1fa1a4969350e4" prot="public" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>CreateTileShapeDelegate</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ab0ceb759a361d5b457a2ac54719e8b2f" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>rng</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ac73dbfd9e3daec4259be8d0c3c99dce2" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>Shuffle</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" prot="public" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>Spawn</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad3d49c5f6e82677c7caf1955c04622ea" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnIPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3ee8feedc6ecec0d750271030ad60061" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnJPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a83c10cedcbf1e5e3837201c8c659d9c7" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnLPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ae20ee563fe6b826eeead492d4fe3a901" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnOPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a9e9d7dec1807c84430c5a0c170715357" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnSPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a5de9eea1c630c695b5e496bed4c3b82b" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnTPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1ad802e5c477c1549ff5d8d9a676a711e6" prot="private" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>SpawnZPiece</name></member>
+      <member refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1aad0b3b7b64ebe2bfcc09fe7b2a37f238" prot="public" virt="non-virtual"><scope>game::logic::tilespawner::TileSpawnerService</scope><name>TileSpawnerService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

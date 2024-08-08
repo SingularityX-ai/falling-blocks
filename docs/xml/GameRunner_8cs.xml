@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="GameRunner_8cs" kind="file" language="C#">
+    <compoundname>GameRunner.cs</compoundname>
+    <innerclass refid="classGameRunner" prot="public">GameRunner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic" kindref="compound">game.logic</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1EventQueue" kindref="compound">game.logic.EventQueue</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tile" kindref="compound">game.logic.tile</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tilespawner" kindref="compound">game.logic.tilespawner</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1service" kindref="compound">game.service</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespacegamerunner" kindref="compound">gamerunner</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classGameRunner" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGameRunner" kindref="compound">GameRunner</ref><sp/>:<sp/><ref refid="interfacegamerunner_1_1IUpdatable" kindref="compound">IUpdatable</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1service_1_1ServiceLocator" kindref="compound">ServiceLocator</ref><sp/><ref refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" kindref="member">_serviceLocator</ref>;</highlight></codeline>
+<codeline lineno="14" refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" kindref="member">_gravitySum</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="15" refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" kindref="member">frames</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17" refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TileSpawnerService.CreateTileShapeDelegate<sp/><ref refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" kindref="member">CreateTileShape</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classGameRunner_1a4c22840aa95ea81167ec398ca75afd08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classGameRunner_1a4c22840aa95ea81167ec398ca75afd08" kindref="member">GameRunner</ref>(<ref refid="classgame_1_1service_1_1ServiceLocator" kindref="compound">ServiceLocator</ref><sp/>serviceLocator)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" kindref="member">_serviceLocator</ref><sp/>=<sp/>serviceLocator;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>gravity<sp/>=<sp/><ref refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" kindref="member">_serviceLocator</ref>.GetService&lt;<ref refid="classgame_1_1logic_1_1GravityService" kindref="compound">GravityService</ref>&gt;();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" kindref="member">_gravitySum</ref><sp/>+=<sp/>gravity.CurrentGravity;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" kindref="member">frames</ref>++;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" kindref="member">_gravitySum</ref><sp/>&gt;<sp/>100.0f)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>spawner<sp/>=<sp/><ref refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" kindref="member">_serviceLocator</ref>.GetService&lt;<ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" kindref="compound">TileSpawnerService</ref>&gt;();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" kindref="member">frames</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" kindref="member">_gravitySum</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" kindref="member">CreateTileShape</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" kindref="member">CreateTileShape</ref><sp/>=<sp/>spawner.<ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" kindref="member">Spawn</ref>();<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>eventQueue<sp/>=<sp/><ref refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" kindref="member">_serviceLocator</ref>.GetService&lt;<ref refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue" kindref="compound">EventQueue</ref>&gt;();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eventQueue.<ref refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" kindref="member">Enqueue</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" kindref="compound">SpawnTileEvent</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/><ref refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" kindref="member">CreateTileShape</ref>));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" kindref="member">CreateTileShape</ref><sp/>=<sp/>spawner.<ref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" kindref="member">Spawn</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs"/>
+  </compounddef>
+</doxygen>

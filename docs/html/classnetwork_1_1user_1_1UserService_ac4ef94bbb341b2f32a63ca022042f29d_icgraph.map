@@ -1,0 +1,4 @@
+<map id="network.user.UserService.GetUserName" name="network.user.UserService.GetUserName">
+<area shape="rect" id="node1" title="Retrieves the username from a remote API endpoint." alt="" coords="208,5,400,47"/>
+<area shape="rect" id="node2" href="$classLoginButton.html#a4ee90c2092d433580a6adaa869b4a710" title="Handles the click event by retrieving the user&#39;s name and enqueuing a user login event." alt="" coords="5,13,160,39"/>
+</map>

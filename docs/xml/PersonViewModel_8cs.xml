@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="PersonViewModel_8cs" kind="file" language="C#">
+    <compoundname>PersonViewModel.cs</compoundname>
+    <innerclass refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel" prot="public">documentation_evaluation::person::PersonViewModel</innerclass>
+    <innernamespace refid="namespacedocumentation__evaluation">documentation_evaluation</innernamespace>
+    <innernamespace refid="namespacedocumentation__evaluation_1_1person">documentation_evaluation::person</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacedocumentation__evaluation_1_1person" kindref="compound">documentation_evaluation.person</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel" kindref="compound">PersonViewModel</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1Person" kindref="compound">Person</ref><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8" kindref="member">_person</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1ae884c60f8eacf51e0bc0b817cde64628" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1ae884c60f8eacf51e0bc0b817cde64628" kindref="member">PersonViewModel</ref>(<ref refid="classdocumentation__evaluation_1_1person_1_1Person" kindref="compound">Person</ref><sp/>person)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8" kindref="member">_person</ref><sp/>=<sp/>person;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a838422101033a721f7c23c21c10e23ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a838422101033a721f7c23c21c10e23ef" kindref="member">Name</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8" kindref="member">_person</ref>.<ref refid="classdocumentation__evaluation_1_1person_1_1Person_1a89f2bd12eebe7ae75d3b5c451c8b3346" kindref="member">Name</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>_person.Name<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a8e720e9b7b5efb26ea688bdc78b79a75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a8e720e9b7b5efb26ea688bdc78b79a75" kindref="member">Age</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8" kindref="member">_person</ref>.<ref refid="classdocumentation__evaluation_1_1person_1_1Person_1a23cad560ae4677bf0ecc79273036764c" kindref="member">Age</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>{<sp/>_person.Age<sp/>=<sp/>value;<sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonViewModel.cs"/>
+  </compounddef>
+</doxygen>

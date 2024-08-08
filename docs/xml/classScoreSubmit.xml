@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classScoreSubmit" kind="class" language="C#" prot="public">
+    <compoundname>ScoreSubmit</compoundname>
+    <basecompoundref refid="classMonoBehaviour" prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classScoreSubmit_1a9d0dfa0e26d6c90d482cae0add0a5f5b" prot="private" static="no" mutable="no">
+        <type>TMP_InputField</type>
+        <definition>TMP_InputField ScoreSubmit._inputField</definition>
+        <argsstring></argsstring>
+        <name>_inputField</name>
+        <qualifiedname>ScoreSubmit._inputField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" line="13" column="29" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classScoreSubmit_1ae8cd5fdf8c774668bd4d4cf0a005e2fc" compoundref="ScoreSubmit_8cs" startline="52" endline="57">Win</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classScoreSubmit_1af0a6e59adba1ff8a2df8c95a55fe0697" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScoreSubmit.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>ScoreSubmit.Start</qualifiedname>
+        <briefdescription>
+<para>Initializes the application or component. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is typically called when the application starts or when the component is instantiated. It is used to set up any necessary resources, initialize variables, or perform any startup tasks required for the application to function correctly. The method currently does not contain any implementation details, but it serves as a placeholder for future initialization logic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" line="24" column="10" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classScoreSubmit_1ade4d0cc95fd6c77e0675b22697624ec0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScoreSubmit.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>ScoreSubmit.Update</qualifiedname>
+        <briefdescription>
+<para>Updates the state of the object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is intended to be called regularly to refresh or update the internal state of the object. It may be used for tasks such as refreshing data, processing events, or performing periodic checks. The implementation of this method should define what specific updates are necessary for the object&apos;s functionality. As it currently stands, this method does not perform any operations, but it can be extended in the future. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" line="38" column="10" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classScoreSubmit_1ae8cd5fdf8c774668bd4d4cf0a005e2fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScoreSubmit.Win</definition>
+        <argsstring>()</argsstring>
+        <name>Win</name>
+        <qualifiedname>ScoreSubmit.Win</qualifiedname>
+        <briefdescription>
+<para>Submits the player&apos;s score to the score service. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the score from the input field, parses it as an integer, and then submits it to the ScoreService. It assumes that the input field contains a valid integer representation of the score. The method does not return any value, as it is designed to perform an action (submitting the score) rather than compute a result. Ensure that the input field is properly populated before calling this method to avoid potential parsing errors. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" line="52" column="17" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" bodystart="52" bodyend="57"/>
+        <references refid="classScoreSubmit_1a9d0dfa0e26d6c90d482cae0add0a5f5b" compoundref="ScoreSubmit_8cs" startline="13">_inputField</references>
+        <references refid="classnetwork_1_1score_1_1ScoreService_1a16e810a69e88ed2a6a64344fba676c07" compoundref="ScoreService_8cs" startline="19" endline="32">network.score.ScoreService.SubmitScore</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>ScoreSubmit</label>
+        <link refid="classScoreSubmit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>ScoreSubmit</label>
+        <link refid="classScoreSubmit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_inputField</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>TMP_InputField</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" line="11" column="7" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/ScoreSubmit.cs" bodystart="12" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classScoreSubmit_1a9d0dfa0e26d6c90d482cae0add0a5f5b" prot="private" virt="non-virtual"><scope>ScoreSubmit</scope><name>_inputField</name></member>
+      <member refid="classScoreSubmit_1af0a6e59adba1ff8a2df8c95a55fe0697" prot="private" virt="non-virtual"><scope>ScoreSubmit</scope><name>Start</name></member>
+      <member refid="classScoreSubmit_1ade4d0cc95fd6c77e0675b22697624ec0" prot="private" virt="non-virtual"><scope>ScoreSubmit</scope><name>Update</name></member>
+      <member refid="classScoreSubmit_1ae8cd5fdf8c774668bd4d4cf0a005e2fc" prot="public" virt="non-virtual"><scope>ScoreSubmit</scope><name>Win</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

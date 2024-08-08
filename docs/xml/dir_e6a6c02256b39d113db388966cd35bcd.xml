@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_e6a6c02256b39d113db388966cd35bcd" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation</compoundname>
+    <innerdir refid="dir_33aa5c8e18a2b42f874cf6b4d1460a91">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/obj</innerdir>
+    <innerdir refid="dir_e80ebb941cc3fb2c032a4e86b86f48ca">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person</innerdir>
+    <innerdir refid="dir_cbde0c281d699fafdd2fe653f3ce8231">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Properties</innerdir>
+    <innerfile refid="Program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/"/>
+  </compounddef>
+</doxygen>

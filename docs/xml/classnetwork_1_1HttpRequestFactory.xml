@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classnetwork_1_1HttpRequestFactory" kind="class" language="C#" prot="public">
+    <compoundname>network::HttpRequestFactory</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1HttpRequestFactory_1a48959f4cca00a18a7bc61265851fb8f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacenetwork_1_1IHttpRequest" kindref="compound">IHttpRequest</ref></type>
+        <definition>IHttpRequest network.HttpRequestFactory.CreateHttpRequest</definition>
+        <argsstring>(HttpMethod requestType)</argsstring>
+        <name>CreateHttpRequest</name>
+        <qualifiedname>network.HttpRequestFactory.CreateHttpRequest</qualifiedname>
+        <param>
+          <type>HttpMethod</type>
+          <declname>requestType</declname>
+        </param>
+        <briefdescription>
+<para>Creates an HTTP request based on the specified request type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>requestType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HTTP method to be used for the request, such as GET or POST.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instance of <ref refid="interfacenetwork_1_1IHttpRequest" kindref="compound">IHttpRequest</ref> corresponding to the specified request type.</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ArgumentException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Thrown when the provided <emphasis>requestType</emphasis>  is not supported.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method is responsible for generating different types of HTTP requests based on the provided <emphasis>requestType</emphasis> . If the request type is HttpMethod.Get, it creates an instance of <ref refid="classnetwork_1_1HttpGetRequest" kindref="compound">HttpGetRequest</ref>. If the request type is HttpMethod.Post, it creates an instance of <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref>. If the request type does not match any supported methods, an ArgumentException is thrown indicating that the request type is invalid. This allows for flexible handling of various HTTP methods in a clean and organized manner. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequestFactory.cs" line="23" column="29" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequestFactory.cs" bodystart="23" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>network.HttpRequestFactory</label>
+        <link refid="classnetwork_1_1HttpRequestFactory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequestFactory.cs" line="6" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequestFactory.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1HttpRequestFactory_1a48959f4cca00a18a7bc61265851fb8f4" prot="public" virt="non-virtual"><scope>network::HttpRequestFactory</scope><name>CreateHttpRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
