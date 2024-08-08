@@ -40,6 +40,13 @@ namespace documentation_evaluation.person
             _viewModel.Name = Console.ReadLine();
         }
 
+
+        public void UpdateName()
+        {
+            Console.Write("Enter a new name: ");
+            _viewModel.Name = Console.ReadLine();
+        }
+
         /// <summary>
         /// Updates the age of the view model based on user input.
         /// </summary>
