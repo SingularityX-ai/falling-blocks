@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdebugtools_1_1VardumpCommand" xml:lang="en-US">
+<title>debugtools.VardumpCommand Class Reference</title>
+<indexterm><primary>debugtools.VardumpCommand</primary></indexterm>
+Collaboration diagram for debugtools.VardumpCommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdebugtools_1_1VardumpCommand__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d">VardumpCommand</link> (<link linkend="_classdebugtools_1_1DebugReceiver">DebugReceiver</link> receiver)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a">Execute</link> ()</para>
+
+<para>Executes an action by invoking the receiver&apos;s method with a specific command. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdebugtools_1_1DebugReceiver">DebugReceiver</link> <link linkend="_classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212">_receiver</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d"/><section>
+    <title>VardumpCommand()</title>
+<indexterm><primary>VardumpCommand</primary><secondary>debugtools.VardumpCommand</secondary></indexterm>
+<indexterm><primary>debugtools.VardumpCommand</primary><secondary>VardumpCommand</secondary></indexterm>
+<para><computeroutput>debugtools.VardumpCommand.VardumpCommand (<link linkend="_classdebugtools_1_1DebugReceiver">DebugReceiver</link> receiver)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a"/><section>
+    <title>Execute()</title>
+<indexterm><primary>Execute</primary><secondary>debugtools.VardumpCommand</secondary></indexterm>
+<indexterm><primary>debugtools.VardumpCommand</primary><secondary>Execute</secondary></indexterm>
+<para><computeroutput>void debugtools.VardumpCommand.Execute ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Executes an action by invoking the receiver&apos;s method with a specific command. </para>
+</para>
+
+<para>This method calls the <emphasis>_receiver</emphasis>  to perform an action with the command &quot;vardump&quot;. The purpose of this action is to trigger a specific behavior defined in the receiver&apos;s implementation. It does not return any value and is intended to be used when the action needs to be executed without any parameters. </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdebugtools_1_1VardumpCommand_a2773ee589b07964f169e82d28649b19a_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212"/><section>
+    <title>_receiver</title>
+<indexterm><primary>_receiver</primary><secondary>debugtools.VardumpCommand</secondary></indexterm>
+<indexterm><primary>debugtools.VardumpCommand</primary><secondary>_receiver</secondary></indexterm>
+<para><computeroutput><link linkend="_classdebugtools_1_1DebugReceiver">DebugReceiver</link> debugtools.VardumpCommand._receiver<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/<link linkend="_Vardump_8cs">Vardump.cs</link></section>
+</section>

@@ -1,0 +1,10 @@
+<map id="game.logic.tilespawner.ISpawnable" name="game.logic.tilespawner.ISpawnable">
+<area shape="rect" id="node1" title=" " alt="" coords="714,5,966,83"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1tilespawner_1_1IPiece.html" title=" " alt="" coords="5,131,221,208"/>
+<area shape="rect" id="node3" href="$classgame_1_1logic_1_1tilespawner_1_1JPiece.html" title=" " alt="" coords="245,131,461,208"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1tilespawner_1_1LPiece.html" title=" " alt="" coords="485,131,704,208"/>
+<area shape="rect" id="node5" href="$classgame_1_1logic_1_1tilespawner_1_1OPiece.html" title=" " alt="" coords="729,131,951,208"/>
+<area shape="rect" id="node6" href="$classgame_1_1logic_1_1tilespawner_1_1SPiece.html" title=" " alt="" coords="975,131,1195,208"/>
+<area shape="rect" id="node7" href="$classgame_1_1logic_1_1tilespawner_1_1TPiece.html" title=" " alt="" coords="1219,131,1439,208"/>
+<area shape="rect" id="node8" href="$classgame_1_1logic_1_1tilespawner_1_1ZPiece.html" title=" " alt="" coords="1464,131,1685,208"/>
+</map>

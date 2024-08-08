@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1tilespawner_1_1LPiece" xml:lang="en-US">
+<title>game.logic.tilespawner.LPiece Class Reference</title>
+<indexterm><primary>game.logic.tilespawner.LPiece</primary></indexterm>
+Inheritance diagram for game.logic.tilespawner.LPiece:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1LPiece__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tilespawner.LPiece:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tilespawner_1_1LPiece__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link> <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece_1ad68769edda3a59010089bae94debc4ce">Spawn</link> ()</para>
+
+<para>Spawns a new tile and returns it. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tilespawner_1_1LPiece_1ad68769edda3a59010089bae94debc4ce"/><section>
+    <title>Spawn()</title>
+<indexterm><primary>Spawn</primary><secondary>game.logic.tilespawner.LPiece</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.LPiece</primary><secondary>Spawn</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link> game.logic.tilespawner.LPiece.Spawn ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Spawns a new tile and returns it. </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>An instance of ITileable representing the newly spawned tile.</para>
+</formalpara>
+</para>
+
+<para>This method creates a new tile with a specific color defined by the RGB values (1f, 0.5f, 0f), which corresponds to an orange color. It also logs a message to the debug console indicating that the spawn process has been initiated. The returned tile can be used in the game environment as an interactive or visual element. </para>
+<para>
+Implements <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474">game.logic.tilespawner.ISpawnable</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/<link linkend="_LPiece_8cs">LPiece.cs</link></section>
+</section>

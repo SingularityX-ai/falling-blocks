@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="Tile_8cs" kind="file" language="C#">
+    <compoundname>Tile.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1tile_1_1Tile" prot="public">game::logic::tile::Tile</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1tile">game::logic::tile</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tile" kindref="compound">game.logic.tile</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="classgame_1_1logic_1_1tile_1_1Tile" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1tile_1_1Tile" kindref="compound">Tile</ref>:<sp/><ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1tile_1_1Tile_1a09909df0c17302fdb91c52945a5b8361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1Tile_1a09909df0c17302fdb91c52945a5b8361" kindref="member">Tile</ref>(<ref refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2" kindref="member">Color</ref><sp/>color)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2" kindref="member">Color</ref><sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2" kindref="member">Color</ref><sp/><ref refid="classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2" kindref="member">Color</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/Tile.cs"/>
+  </compounddef>
+</doxygen>

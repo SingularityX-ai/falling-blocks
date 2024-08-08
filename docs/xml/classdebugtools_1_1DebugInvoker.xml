@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classdebugtools_1_1DebugInvoker" kind="class" language="C#" prot="public">
+    <compoundname>debugtools::DebugInvoker</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacedebugtools_1_1ICommand" kindref="compound">ICommand</ref></type>
+        <definition>ICommand debugtools.DebugInvoker._command</definition>
+        <argsstring></argsstring>
+        <name>_command</name>
+        <qualifiedname>debugtools.DebugInvoker._command</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" line="5" column="26" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60" compoundref="DebugInvoker_8cs" startline="31" endline="34">debugtools.DebugInvoker.ExecuteCommand</referencedby>
+        <referencedby refid="classdebugtools_1_1DebugInvoker_1a65aec816d26fec7939eabef77b31b038" compoundref="DebugInvoker_8cs" startline="17" endline="20">debugtools.DebugInvoker.SetCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdebugtools_1_1DebugInvoker_1a65aec816d26fec7939eabef77b31b038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void debugtools.DebugInvoker.SetCommand</definition>
+        <argsstring>(ICommand command)</argsstring>
+        <name>SetCommand</name>
+        <qualifiedname>debugtools.DebugInvoker.SetCommand</qualifiedname>
+        <param>
+          <type><ref refid="interfacedebugtools_1_1ICommand" kindref="compound">ICommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Sets the command to be executed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The command to be set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method assigns the provided <emphasis>command</emphasis>  to the private field <computeroutput>_command</computeroutput>. It allows for the dynamic configuration of commands that can be executed later. This is particularly useful in scenarios where the command to be executed may change at runtime, enabling flexibility in command execution without needing to modify the underlying logic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" line="17" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" bodystart="17" bodyend="20"/>
+        <references refid="classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7" compoundref="DebugInvoker_8cs" startline="5">debugtools.DebugInvoker._command</references>
+      </memberdef>
+      <memberdef kind="function" id="classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void debugtools.DebugInvoker.ExecuteCommand</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteCommand</name>
+        <qualifiedname>debugtools.DebugInvoker.ExecuteCommand</qualifiedname>
+        <briefdescription>
+<para>Executes the command associated with this instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method calls the _command.Execute method to perform the action defined by the command. It is typically used in scenarios where a command pattern is implemented, allowing for the encapsulation of actions as objects. The execution of the command may involve various operations depending on the specific implementation of the command. This method does not return any value and is intended to trigger side effects or changes in state as defined by the command&apos;s logic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" line="31" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" bodystart="31" bodyend="34"/>
+        <references refid="classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7" compoundref="DebugInvoker_8cs" startline="5">debugtools.DebugInvoker._command</references>
+        <references refid="interfacedebugtools_1_1ICommand_1a7e4dcebf64c3d8b8e892162811e95f96">debugtools.ICommand.Execute</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>debugtools.DebugInvoker</label>
+        <link refid="classdebugtools_1_1DebugInvoker"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-_command</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>debugtools.ICommand</label>
+        <link refid="interfacedebugtools_1_1ICommand"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" line="3" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/DebugInvoker.cs" bodystart="4" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7" prot="private" virt="non-virtual"><scope>debugtools::DebugInvoker</scope><name>_command</name></member>
+      <member refid="classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60" prot="public" virt="non-virtual"><scope>debugtools::DebugInvoker</scope><name>ExecuteCommand</name></member>
+      <member refid="classdebugtools_1_1DebugInvoker_1a65aec816d26fec7939eabef77b31b038" prot="public" virt="non-virtual"><scope>debugtools::DebugInvoker</scope><name>SetCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+<map id="GameRunner.Update" name="GameRunner.Update">
+<area shape="rect" id="node1" title="Updates the state of the object by processing gravity and spawning tiles when a threshold is reached." alt="" coords="5,46,163,73"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1EventQueue_1_1EventQueue.html#a47b03d45a78dd2897b1edffa85e3c1f0" title="Adds an event to the appropriate queue based on its identifier." alt="" coords="211,5,429,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html#a3a4da02acca59c7b4b180dd40867fca5" title="Spawns a new tile shape by shuffling the available pieces and returning the first piece." alt="" coords="219,71,421,112"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html#ac73dbfd9e3daec4259be8d0c3c99dce2" title="Shuffles the elements of the collection randomly." alt="" coords="477,71,679,112"/>
+</map>

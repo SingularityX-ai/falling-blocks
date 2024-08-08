@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_8d21d60caa54cdc1f72015abc870d02b" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets</compoundname>
+    <innerdir refid="dir_11de87c5330ae6b4beacb844ce1da0db">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools</innerdir>
+    <innerdir refid="dir_6c6b96dd88403d3a294dd8a6526cb508">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game</innerdir>
+    <innerdir refid="dir_452a23fe505bc52cdab608fbc8292f68">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner</innerdir>
+    <innerdir refid="dir_889c24022d065fc95b965bae93a79a40">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/Initialisation</innerdir>
+    <innerdir refid="dir_036f5d14d0f46a94486245521f99bdea">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network</innerdir>
+    <innerfile refid="LoginButton_8cs">LoginButton.cs</innerfile>
+    <innerfile refid="ScoreSubmit_8cs">ScoreSubmit.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegame_1_1logic_1_1tilespawner" xml:lang="en-US">
+<title>game.logic.tilespawner Namespace Reference</title>
+<indexterm><primary>game.logic.tilespawner</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece">IPiece</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable">ISpawnable</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece">JPiece</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece">LPiece</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece">OPiece</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece">SPiece</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService">TileSpawnerService</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece">TPiece</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece">ZPiece</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

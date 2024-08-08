@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_6c6b96dd88403d3a294dd8a6526cb508" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game Directory Reference</primary></indexterm>
+Directory dependency graph for game:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_6c6b96dd88403d3a294dd8a6526cb508_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_fbb7d9cfd9822824f6c1c3b088890308">logic</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_e2d67771100562b8de3a498ba1ae160e">service</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

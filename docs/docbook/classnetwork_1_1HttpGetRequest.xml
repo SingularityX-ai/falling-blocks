@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classnetwork_1_1HttpGetRequest" xml:lang="en-US">
+<title>network.HttpGetRequest Class Reference</title>
+<indexterm><primary>network.HttpGetRequest</primary></indexterm>
+Inheritance diagram for network.HttpGetRequest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1HttpGetRequest__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for network.HttpGetRequest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1HttpGetRequest__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>async Task&lt; string &gt; <link linkend="_classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61">ExecuteAsync</link> (string url)</para>
+
+<para>Asynchronously sends a POST request to the specified URL with JSON content and returns the response body as a string. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static readonly HttpClient <link linkend="_classnetwork_1_1HttpGetRequest_1a81c0cede2b0b8e3271b2b3646293d24b">Client</link> = new HttpClient()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61"/><section>
+    <title>ExecuteAsync()</title>
+<indexterm><primary>ExecuteAsync</primary><secondary>network.HttpGetRequest</secondary></indexterm>
+<indexterm><primary>network.HttpGetRequest</primary><secondary>ExecuteAsync</secondary></indexterm>
+<para><computeroutput>async Task&lt; string &gt; network.HttpGetRequest.ExecuteAsync (string url)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Asynchronously sends a POST request to the specified URL with JSON content and returns the response body as a string. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>url</entry><entry>
+<para>The URL to which the POST request is sent.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A task that represents the asynchronous operation, containing the response body as a string.</para>
+</formalpara>
+</para>
+
+<para>This method creates a new instance of StringContent with the provided data encoded in UTF-8 and sets the media type to &quot;application/json&quot;. It then sends an asynchronous POST request using the _client instance. If the response indicates a failure (i.e., a non-success status code), an exception is thrown by calling EnsureSuccessStatusCode. Upon successful completion, the method reads the response content as a string and returns it. This allows for easy handling of HTTP responses in applications that require interaction with web services. </para>
+<para>
+Implements <link linkend="_interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c">network.IHttpRequest</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classnetwork_1_1HttpGetRequest_1a81c0cede2b0b8e3271b2b3646293d24b"/><section>
+    <title>Client</title>
+<indexterm><primary>Client</primary><secondary>network.HttpGetRequest</secondary></indexterm>
+<indexterm><primary>network.HttpGetRequest</primary><secondary>Client</secondary></indexterm>
+<para><computeroutput>readonly HttpClient network.HttpGetRequest.Client = new HttpClient()<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/<link linkend="_HttpRequest_8cs">HttpRequest.cs</link></section>
+</section>

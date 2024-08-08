@@ -1,0 +1,4 @@
+<map id="debugtools.DebugReceiver.Action" name="debugtools.DebugReceiver.Action">
+<area shape="rect" id="node1" title="Performs an action based on the provided command string." alt="" coords="280,5,480,47"/>
+<area shape="rect" id="node2" href="$classdebugtools_1_1VardumpCommand.html#a2773ee589b07964f169e82d28649b19a" title="Executes an action by invoking the receiver&#39;s method with a specific command." alt="" coords="5,5,232,47"/>
+</map>

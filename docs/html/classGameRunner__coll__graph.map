@@ -1,0 +1,12 @@
+<map id="GameRunner" name="GameRunner">
+<area shape="rect" id="node1" title=" " alt="" coords="315,461,447,553"/>
+<area shape="rect" id="node2" href="$interfacegamerunner_1_1IUpdatable.html" title=" " alt="" coords="5,241,100,318"/>
+<area shape="rect" id="node3" href="$classgame_1_1service_1_1ServiceLocator.html" title=" " alt="" coords="125,226,335,333"/>
+<area shape="rect" id="node4" title=" " alt="" coords="137,5,323,97"/>
+<area shape="rect" id="node5" title=" " alt="" coords="359,241,410,318"/>
+<area shape="rect" id="node6" title=" " alt="" coords="484,241,523,318"/>
+<area shape="rect" id="node7" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html" title=" " alt="" coords="547,160,761,399"/>
+<area shape="rect" id="node8" href="$interfacegame_1_1service_1_1IService.html" title=" " alt="" coords="434,13,509,90"/>
+<area shape="rect" id="node9" title=" " alt="" coords="533,13,775,90"/>
+<area shape="rect" id="node10" title=" " alt="" coords="799,13,869,90"/>
+</map>

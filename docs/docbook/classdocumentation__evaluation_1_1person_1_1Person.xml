@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdocumentation__evaluation_1_1person_1_1Person" xml:lang="en-US">
+<title>documentation_evaluation.person.Person Class Reference</title>
+<indexterm><primary>documentation_evaluation.person.Person</primary></indexterm>
+Collaboration diagram for documentation_evaluation.person.Person:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdocumentation__evaluation_1_1person_1_1Person__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_classdocumentation__evaluation_1_1person_1_1Person_1a89f2bd12eebe7ae75d3b5c451c8b3346">Name</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdocumentation__evaluation_1_1person_1_1Person_1a23cad560ae4677bf0ecc79273036764c">Age</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1Person_1a23cad560ae4677bf0ecc79273036764c"/><section>
+    <title>Age</title>
+<indexterm><primary>Age</primary><secondary>documentation_evaluation.person.Person</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.Person</primary><secondary>Age</secondary></indexterm>
+<para><computeroutput>int documentation_evaluation.person.Person.Age<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1Person_1a89f2bd12eebe7ae75d3b5c451c8b3346"/><section>
+    <title>Name</title>
+<indexterm><primary>Name</primary><secondary>documentation_evaluation.person.Person</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.Person</primary><secondary>Name</secondary></indexterm>
+<para><computeroutput>string documentation_evaluation.person.Person.Name<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/<link linkend="_Person_8cs">Person.cs</link></section>
+</section>

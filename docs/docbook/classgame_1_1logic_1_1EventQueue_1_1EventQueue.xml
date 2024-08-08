@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue" xml:lang="en-US">
+<title>game.logic.EventQueue.EventQueue Class Reference</title>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary></indexterm>
+Inheritance diagram for game.logic.EventQueue.EventQueue:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.EventQueue.EventQueue:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a636539d7a2c57d5b1da72c2db794b037">EventQueue</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0">Enqueue</link> (<link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> e)</para>
+
+<para>Adds an event to the appropriate queue based on its identifier. </para>
+</listitem>
+            <listitem><para>bool <link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1ae590ba3300d4084069ec98258a22f746">HasEvent</link> (<link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> id)</para>
+
+<para>Checks if there is at least one event associated with the specified EventId. </para>
+</listitem>
+            <listitem><para><link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> <link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec">Dequeue</link> (<link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> id)</para>
+
+<para>Dequeues an event from the specified event queue identified by the given EventId. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Dictionary&lt; <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link>, Queue&lt; <link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> &gt; &gt; <link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209">_queues</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a636539d7a2c57d5b1da72c2db794b037"/><section>
+    <title>EventQueue()</title>
+<indexterm><primary>EventQueue</primary><secondary>game.logic.EventQueue.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary><secondary>EventQueue</secondary></indexterm>
+<para><computeroutput>game.logic.EventQueue.EventQueue.EventQueue ( )<computeroutput>[inline]</computeroutput></computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue_a636539d7a2c57d5b1da72c2db794b037_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec"/><section>
+    <title>Dequeue()</title>
+<indexterm><primary>Dequeue</primary><secondary>game.logic.EventQueue.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary><secondary>Dequeue</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> game.logic.EventQueue.EventQueue.Dequeue (<link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> id)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Dequeues an event from the specified event queue identified by the given EventId. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>The identifier of the event queue from which to dequeue the event.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>An instance of <link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> representing the dequeued event, or null if no event is available for the specified id.</para>
+</formalpara>
+</para>
+
+<para>This method checks if there is an event available in the queue associated with the provided <emphasis>id</emphasis> . If an event exists, it is removed from the queue and returned. If no event is present for the specified id, the method returns null, indicating that there are no events to dequeue. This is useful for managing event-driven architectures where events are processed in a first-in-first-out (FIFO) manner. </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue_a66acb00d8ce084f3d0c88d588d8cb6ec_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0"/><section>
+    <title>Enqueue()</title>
+<indexterm><primary>Enqueue</primary><secondary>game.logic.EventQueue.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary><secondary>Enqueue</secondary></indexterm>
+<para><computeroutput>void game.logic.EventQueue.EventQueue.Enqueue (<link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link> e)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Adds an event to the appropriate queue based on its identifier. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>e</entry><entry>
+<para>The event to be enqueued.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method checks if a queue for the given event&apos;s identifier already exists in the internal dictionary. If it does not exist, a new queue is created for that identifier. The event is then added to the corresponding queue. This allows for organizing events by their identifiers, enabling efficient processing of events in a structured manner. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue_a47b03d45a78dd2897b1edffa85e3c1f0_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1ae590ba3300d4084069ec98258a22f746"/><section>
+    <title>HasEvent()</title>
+<indexterm><primary>HasEvent</primary><secondary>game.logic.EventQueue.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary><secondary>HasEvent</secondary></indexterm>
+<para><computeroutput>bool game.logic.EventQueue.EventQueue.HasEvent (<link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> id)</computeroutput></para><para>
+
+<para>Checks if there is at least one event associated with the specified EventId. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>The EventId to check for associated events.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>True if there is at least one event associated with the specified <emphasis>id</emphasis> ; otherwise, false.</para>
+</formalpara>
+</para>
+
+<para>This method verifies the presence of an event in the internal data structure, represented by the dictionary <emphasis>_queues</emphasis> . It first checks if the dictionary contains the specified <emphasis>id</emphasis>  as a key. If the key exists, it then checks if the corresponding value (a collection of events) has a count greater than zero. This is useful for determining whether any events are queued for processing or handling for a specific identifier. </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1EventQueue_ae590ba3300d4084069ec98258a22f746_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209"/><section>
+    <title>_queues</title>
+<indexterm><primary>_queues</primary><secondary>game.logic.EventQueue.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.EventQueue</primary><secondary>_queues</secondary></indexterm>
+<para><computeroutput>Dictionary&lt;<link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link>, Queue&lt;<link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link>&gt; &gt; game.logic.EventQueue.EventQueue._queues<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/<link linkend="_EventQueue_8cs">EventQueue.cs</link></section>
+</section>

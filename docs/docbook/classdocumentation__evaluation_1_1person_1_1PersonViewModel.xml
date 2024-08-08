@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdocumentation__evaluation_1_1person_1_1PersonViewModel" xml:lang="en-US">
+<title>documentation_evaluation.person.PersonViewModel Class Reference</title>
+<indexterm><primary>documentation_evaluation.person.PersonViewModel</primary></indexterm>
+Collaboration diagram for documentation_evaluation.person.PersonViewModel:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdocumentation__evaluation_1_1person_1_1PersonViewModel__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1ae884c60f8eacf51e0bc0b817cde64628">PersonViewModel</link> (<link linkend="_classdocumentation__evaluation_1_1person_1_1Person">Person</link> person)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a838422101033a721f7c23c21c10e23ef">Name</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>int <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a8e720e9b7b5efb26ea688bdc78b79a75">Age</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classdocumentation__evaluation_1_1person_1_1Person">Person</link> <link linkend="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8">_person</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1ae884c60f8eacf51e0bc0b817cde64628"/><section>
+    <title>PersonViewModel()</title>
+<indexterm><primary>PersonViewModel</primary><secondary>documentation_evaluation.person.PersonViewModel</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonViewModel</primary><secondary>PersonViewModel</secondary></indexterm>
+<para><computeroutput>documentation_evaluation.person.PersonViewModel.PersonViewModel (<link linkend="_classdocumentation__evaluation_1_1person_1_1Person">Person</link> person)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a0f9ed6c8f62fb2cc7c137183360d38a8"/><section>
+    <title>_person</title>
+<indexterm><primary>_person</primary><secondary>documentation_evaluation.person.PersonViewModel</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonViewModel</primary><secondary>_person</secondary></indexterm>
+<para><computeroutput><link linkend="_classdocumentation__evaluation_1_1person_1_1Person">Person</link> documentation_evaluation.person.PersonViewModel._person<computeroutput>[private]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a8e720e9b7b5efb26ea688bdc78b79a75"/><section>
+    <title>Age</title>
+<indexterm><primary>Age</primary><secondary>documentation_evaluation.person.PersonViewModel</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonViewModel</primary><secondary>Age</secondary></indexterm>
+<para><computeroutput>int documentation_evaluation.person.PersonViewModel.Age<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classdocumentation__evaluation_1_1person_1_1PersonViewModel_1a838422101033a721f7c23c21c10e23ef"/><section>
+    <title>Name</title>
+<indexterm><primary>Name</primary><secondary>documentation_evaluation.person.PersonViewModel</secondary></indexterm>
+<indexterm><primary>documentation_evaluation.person.PersonViewModel</primary><secondary>Name</secondary></indexterm>
+<para><computeroutput>string documentation_evaluation.person.PersonViewModel.Name<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/<link linkend="_PersonViewModel_8cs">PersonViewModel.cs</link></section>
+</section>

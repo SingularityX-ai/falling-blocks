@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1playfield_1_1PlayFieldView" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::playfield::PlayFieldView</compoundname>
+    <basecompoundref refid="classMonoBehaviour" prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a1ce81415d94de093aa26832d1fc69404" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform game.logic.playfield.PlayFieldView.TileAnchor</definition>
+        <argsstring></argsstring>
+        <name>TileAnchor</name>
+        <qualifiedname>game.logic.playfield.PlayFieldView.TileAnchor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="7" column="26" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref></type>
+        <definition>PlayFieldViewModel game.logic.playfield.PlayFieldView._playFieldVM</definition>
+        <argsstring></argsstring>
+        <name>_playFieldVM</name>
+        <qualifiedname>game.logic.playfield.PlayFieldView._playFieldVM</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="9" column="36" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a266356e5b438b2cbcfde95413e6b336e" compoundref="PlayFieldView_8cs" startline="34" endline="37">game.logic.playfield.PlayFieldView.Link</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a795823d329cdf0b54c0057a47e9c6fbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.playfield.PlayFieldView.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>game.logic.playfield.PlayFieldView.Start</qualifiedname>
+        <briefdescription>
+<para>Initializes the component or system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is typically called when the component is first created or activated. It is used to set up any necessary state, resources, or configurations required for the component to function correctly. This method does not return any value and does not take any parameters. It serves as a starting point for the execution of the component&apos;s functionality. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="21" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1abb8a3812366df1d64363f7f869736b68" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.playfield.PlayFieldView.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>game.logic.playfield.PlayFieldView.Update</qualifiedname>
+        <briefdescription>
+<para>Updates the state of the object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is intended to be called regularly to refresh or update the internal state of the object. It may include operations such as refreshing data, recalculating values, or any other necessary updates that need to occur over time. The specific implementation details would depend on the context in which this method is used. As it currently stands, this method does not perform any operations, but it serves as a placeholder for future functionality. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="49" column="14" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a266356e5b438b2cbcfde95413e6b336e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.playfield.PlayFieldView.Link</definition>
+        <argsstring>(PlayFieldViewModel playFieldVM)</argsstring>
+        <name>Link</name>
+        <qualifiedname>game.logic.playfield.PlayFieldView.Link</qualifiedname>
+        <param>
+          <type><ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref></type>
+          <declname>playFieldVM</declname>
+        </param>
+        <briefdescription>
+<para>Links the provided <ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref> to the current instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>playFieldVM</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel" kindref="compound">PlayFieldViewModel</ref> instance to be linked.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method assigns the given <emphasis>playFieldVM</emphasis>  to the private field <computeroutput>_playFieldVM</computeroutput>. It is typically used to establish a connection between the view model and the view, allowing for data binding and interaction. This method does not return a value and is primarily used for setting up the state of the object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="34" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="34" bodyend="37"/>
+        <references refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" compoundref="PlayFieldView_8cs" startline="9">game.logic.playfield.PlayFieldView._playFieldVM</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="1">
+        <label>game.logic.playfield.PlayFieldView</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>IDictionary&lt; object, game.service.IService &gt;</label>
+      </node>
+      <node id="5">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="3">
+        <label>Transform</label>
+      </node>
+      <node id="1">
+        <label>game.logic.playfield.PlayFieldView</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+TileAnchor</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-_playFieldVM</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>game.logic.playfield.PlayField</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayField"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-FieldHeight</edgelabel>
+          <edgelabel>-FieldWidth</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+Field</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>game.logic.playfield.PlayFieldViewModel</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-_playField</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-_serviceLocator</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>game.logic.tile.ITileable</label>
+        <link refid="interfacegame_1_1logic_1_1tile_1_1ITileable"/>
+      </node>
+      <node id="9">
+        <label>game.service.ServiceLocator</label>
+        <link refid="classgame_1_1service_1_1ServiceLocator"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-services</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>int</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" line="5" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayFieldView.cs" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1af38d1c77298b93d1cbd4112b46a11227" prot="private" virt="non-virtual"><scope>game::logic::playfield::PlayFieldView</scope><name>_playFieldVM</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a266356e5b438b2cbcfde95413e6b336e" prot="public" virt="non-virtual"><scope>game::logic::playfield::PlayFieldView</scope><name>Link</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a795823d329cdf0b54c0057a47e9c6fbc" prot="private" virt="non-virtual"><scope>game::logic::playfield::PlayFieldView</scope><name>Start</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1a1ce81415d94de093aa26832d1fc69404" prot="public" virt="non-virtual"><scope>game::logic::playfield::PlayFieldView</scope><name>TileAnchor</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayFieldView_1abb8a3812366df1d64363f7f869736b68" prot="private" virt="non-virtual"><scope>game::logic::playfield::PlayFieldView</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

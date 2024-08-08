@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_3bae640fe08e07f822f4abbf4e309b2d" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile</compoundname>
+    <innerfile refid="ITileable_8cs">ITileable.cs</innerfile>
+    <innerfile refid="Tile_8cs">Tile.cs</innerfile>
+    <innerfile refid="TileView_8cs">TileView.cs</innerfile>
+    <innerfile refid="TileViewModel_8cs">TileViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/"/>
+  </compounddef>
+</doxygen>

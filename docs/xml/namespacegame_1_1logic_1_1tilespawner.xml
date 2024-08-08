@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="namespacegame_1_1logic_1_1tilespawner" kind="namespace" language="C#">
+    <compoundname>game::logic::tilespawner</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" prot="public">game::logic::tilespawner::IPiece</innerclass>
+    <innerclass refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" prot="public">game::logic::tilespawner::ISpawnable</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" prot="public">game::logic::tilespawner::JPiece</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" prot="public">game::logic::tilespawner::LPiece</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" prot="public">game::logic::tilespawner::OPiece</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" prot="public">game::logic::tilespawner::SPiece</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" prot="public">game::logic::tilespawner::TileSpawnerService</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" prot="public">game::logic::tilespawner::TPiece</innerclass>
+    <innerclass refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" prot="public">game::logic::tilespawner::ZPiece</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/IPiece.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1EventQueue_1_1EventQueue" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::EventQueue::EventQueue</compoundname>
+    <basecompoundref refid="interfacegame_1_1service_1_1IService" prot="public" virt="non-virtual">game.service.IService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref>, Queue&lt; <ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;EventId, Queue&lt;IEvent&gt; &gt; game.logic.EventQueue.EventQueue._queues</definition>
+        <argsstring></argsstring>
+        <name>_queues</name>
+        <qualifiedname>game.logic.EventQueue.EventQueue._queues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="8" column="28" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec" compoundref="EventQueue_8cs" startline="57" endline="64">game.logic.EventQueue.EventQueue.Dequeue</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" compoundref="EventQueue_8cs" startline="24" endline="31">game.logic.EventQueue.EventQueue.Enqueue</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a636539d7a2c57d5b1da72c2db794b037" compoundref="EventQueue_8cs" startline="10" endline="13">game.logic.EventQueue.EventQueue.EventQueue</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a636539d7a2c57d5b1da72c2db794b037" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.logic.EventQueue.EventQueue.EventQueue</definition>
+        <argsstring>()</argsstring>
+        <name>EventQueue</name>
+        <qualifiedname>game.logic.EventQueue.EventQueue.EventQueue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="10" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" bodystart="10" bodyend="13"/>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209" compoundref="EventQueue_8cs" startline="8">game.logic.EventQueue.EventQueue._queues</references>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1aeb148ae69534e28bf105e9394fba3b93" compoundref="PlayFieldViewModel_8cs" startline="81" endline="91">game.logic.playfield.PlayFieldViewModel.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.EventQueue.EventQueue.Enqueue</definition>
+        <argsstring>(IEvent e)</argsstring>
+        <name>Enqueue</name>
+        <qualifiedname>game.logic.EventQueue.EventQueue.Enqueue</qualifiedname>
+        <param>
+          <type><ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Adds an event to the appropriate queue based on its identifier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event to be enqueued.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method checks if a queue for the given event&apos;s identifier already exists in the internal dictionary. If it does not exist, a new queue is created for that identifier. The event is then added to the corresponding queue. This allows for organizing events by their identifiers, enabling efficient processing of events in a structured manner. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="24" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" bodystart="24" bodyend="31"/>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209" compoundref="EventQueue_8cs" startline="8">game.logic.EventQueue.EventQueue._queues</references>
+        <references refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent_1a307c56730363fc273d2069f83257c5ae" compoundref="IEvent_8cs" startline="5" endline="5">game.logic.EventQueue.IEvent.Id</references>
+        <referencedby refid="classLoginButton_1a4ee90c2092d433580a6adaa869b4a710" compoundref="LoginButton_8cs" startline="63" endline="68">LoginButton.OnClick</referencedby>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">GameRunner.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1ae590ba3300d4084069ec98258a22f746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool game.logic.EventQueue.EventQueue.HasEvent</definition>
+        <argsstring>(EventId id)</argsstring>
+        <name>HasEvent</name>
+        <qualifiedname>game.logic.EventQueue.EventQueue.HasEvent</qualifiedname>
+        <param>
+          <type><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Checks if there is at least one event associated with the specified EventId. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The EventId to check for associated events.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if there is at least one event associated with the specified <emphasis>id</emphasis> ; otherwise, false.</para>
+</simplesect>
+</para>
+<para>This method verifies the presence of an event in the internal data structure, represented by the dictionary <emphasis>_queues</emphasis> . It first checks if the dictionary contains the specified <emphasis>id</emphasis>  as a key. If the key exists, it then checks if the corresponding value (a collection of events) has a count greater than zero. This is useful for determining whether any events are queued for processing or handling for a specific identifier. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="44" column="21"/>
+        <referencedby refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec" compoundref="EventQueue_8cs" startline="57" endline="64">game.logic.EventQueue.EventQueue.Dequeue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref></type>
+        <definition>IEvent game.logic.EventQueue.EventQueue.Dequeue</definition>
+        <argsstring>(EventId id)</argsstring>
+        <name>Dequeue</name>
+        <qualifiedname>game.logic.EventQueue.EventQueue.Dequeue</qualifiedname>
+        <param>
+          <type><ref refid="namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3" kindref="member">EventId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Dequeues an event from the specified event queue identified by the given EventId. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of the event queue from which to dequeue the event.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An instance of <ref refid="interfacegame_1_1logic_1_1EventQueue_1_1IEvent" kindref="compound">IEvent</ref> representing the dequeued event, or null if no event is available for the specified id.</para>
+</simplesect>
+</para>
+<para>This method checks if there is an event available in the queue associated with the provided <emphasis>id</emphasis> . If an event exists, it is removed from the queue and returned. If no event is present for the specified id, the method returns null, indicating that there are no events to dequeue. This is useful for managing event-driven architectures where events are processed in a first-in-first-out (FIFO) manner. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="57" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" bodystart="57" bodyend="64"/>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209" compoundref="EventQueue_8cs" startline="8">game.logic.EventQueue.EventQueue._queues</references>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1ae590ba3300d4084069ec98258a22f746">game.logic.EventQueue.EventQueue.HasEvent</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>game.logic.EventQueue.EventQueue</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Dictionary&lt; EventId, Queue&lt; game.logic.EventQueue.IEvent &gt; &gt;</label>
+      </node>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>game.logic.EventQueue.EventQueue</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_queues</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" line="6" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/EventQueue.cs" bodystart="7" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a0a7cf106b5c9833c37e9bfd48ccc7209" prot="private" virt="non-virtual"><scope>game::logic::EventQueue::EventQueue</scope><name>_queues</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a66acb00d8ce084f3d0c88d588d8cb6ec" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::EventQueue</scope><name>Dequeue</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::EventQueue</scope><name>Enqueue</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a636539d7a2c57d5b1da72c2db794b037" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::EventQueue</scope><name>EventQueue</name></member>
+      <member refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1ae590ba3300d4084069ec98258a22f746" prot="public" virt="non-virtual"><scope>game::logic::EventQueue::EventQueue</scope><name>HasEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

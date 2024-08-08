@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classLoginButton" kind="class" language="C#" prot="public">
+    <compoundname>LoginButton</compoundname>
+    <basecompoundref refid="classMonoBehaviour" prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue" kindref="compound">EventQueue</ref></type>
+        <definition>EventQueue LoginButton._eventQueue</definition>
+        <argsstring></argsstring>
+        <name>_eventQueue</name>
+        <qualifiedname>LoginButton._eventQueue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="10" column="24" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classLoginButton_1a1c96929dc9468a79eed79e00017b22e8" compoundref="LoginButton_8cs" startline="49" endline="52">Link</referencedby>
+        <referencedby refid="classLoginButton_1a4ee90c2092d433580a6adaa869b4a710" compoundref="LoginButton_8cs" startline="63" endline="68">OnClick</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classLoginButton_1adafe530db12f9279b0d8a62bf2a96094" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoginButton.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>LoginButton.Start</qualifiedname>
+        <briefdescription>
+<para>Initializes the application or component. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is typically called at the beginning of the application lifecycle. It is used to set up any necessary resources, configurations, or initial states required for the application to function correctly. This method may include tasks such as loading settings, initializing variables, or starting services. It is important to ensure that all required components are properly initialized before proceeding with the application&apos;s main logic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="21" column="10" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classLoginButton_1a9a73fd8bd5020357d0da9470fe49427e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoginButton.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>LoginButton.Update</qualifiedname>
+        <briefdescription>
+<para>Updates the state of the object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is intended to be called regularly to refresh or update the internal state of the object. It may include operations such as processing input, updating properties, or performing calculations. The specific implementation details are dependent on the context in which this method is used. As it currently stands, this method does not perform any operations, but it can be extended to include the necessary logic. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="35" column="10" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLoginButton_1a1c96929dc9468a79eed79e00017b22e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoginButton.Link</definition>
+        <argsstring>(EventQueue eventQueue)</argsstring>
+        <name>Link</name>
+        <qualifiedname>LoginButton.Link</qualifiedname>
+        <param>
+          <type><ref refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue" kindref="compound">EventQueue</ref></type>
+          <declname>eventQueue</declname>
+        </param>
+        <briefdescription>
+<para>Links the specified event queue to the current instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventQueue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The event queue to be linked.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method assigns the provided <emphasis>eventQueue</emphasis>  to the private field <computeroutput>_eventQueue</computeroutput> of the current instance. It allows the current object to interact with the specified event queue, enabling event handling and processing. This method does not return any value and is primarily used for establishing a connection between the current instance and the event queue. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="49" column="17" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="49" bodyend="52"/>
+        <references refid="classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91" compoundref="LoginButton_8cs" startline="10">_eventQueue</references>
+        <referencedby refid="classGameInitialiser_1a3c17de8ad71d3bf686d47a856767f7cd" compoundref="GameInitialiser_8cs" startline="36" endline="85">GameInitialiser.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classLoginButton_1a4ee90c2092d433580a6adaa869b4a710" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoginButton.OnClick</definition>
+        <argsstring>()</argsstring>
+        <name>OnClick</name>
+        <qualifiedname>LoginButton.OnClick</qualifiedname>
+        <briefdescription>
+<para>Handles the click event by retrieving the user&apos;s name and enqueuing a user login event. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is triggered when a click event occurs. It creates an instance of the UserService class to access user-related functionalities. The method retrieves the current user&apos;s name using the GetUserName method from the UserService instance. After obtaining the user&apos;s name, it enqueues a new UserLoginEvent into the event queue, which can be processed later. This allows for asynchronous handling of user login actions, ensuring that the application remains responsive. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="63" column="17" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="63" bodyend="68"/>
+        <references refid="classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91" compoundref="LoginButton_8cs" startline="10">_eventQueue</references>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" compoundref="EventQueue_8cs" startline="24" endline="31">game.logic.EventQueue.EventQueue.Enqueue</references>
+        <references refid="classnetwork_1_1user_1_1UserService_1ac4ef94bbb341b2f32a63ca022042f29d" compoundref="UserService_8cs" startline="19" endline="28">network.user.UserService.GetUserName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>LoginButton</label>
+        <link refid="classLoginButton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Dictionary&lt; EventId, Queue&lt; game.logic.EventQueue.IEvent &gt; &gt;</label>
+      </node>
+      <node id="4">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>LoginButton</label>
+        <link refid="classLoginButton"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_eventQueue</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+        <link refid="classMonoBehaviour"/>
+      </node>
+      <node id="3">
+        <label>game.logic.EventQueue.EventQueue</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_queues</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" line="8" column="7" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/LoginButton.cs" bodystart="9" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classLoginButton_1a3b663e2009ac5d95f1be7b815c801e91" prot="private" virt="non-virtual"><scope>LoginButton</scope><name>_eventQueue</name></member>
+      <member refid="classLoginButton_1a1c96929dc9468a79eed79e00017b22e8" prot="public" virt="non-virtual"><scope>LoginButton</scope><name>Link</name></member>
+      <member refid="classLoginButton_1a4ee90c2092d433580a6adaa869b4a710" prot="public" virt="non-virtual"><scope>LoginButton</scope><name>OnClick</name></member>
+      <member refid="classLoginButton_1adafe530db12f9279b0d8a62bf2a96094" prot="private" virt="non-virtual"><scope>LoginButton</scope><name>Start</name></member>
+      <member refid="classLoginButton_1a9a73fd8bd5020357d0da9470fe49427e" prot="private" virt="non-virtual"><scope>LoginButton</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

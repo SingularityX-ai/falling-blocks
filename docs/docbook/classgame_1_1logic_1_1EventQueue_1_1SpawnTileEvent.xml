@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent" xml:lang="en-US">
+<title>game.logic.EventQueue.SpawnTileEvent Class Reference</title>
+<indexterm><primary>game.logic.EventQueue.SpawnTileEvent</primary></indexterm>
+Inheritance diagram for game.logic.EventQueue.SpawnTileEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.EventQueue.SpawnTileEvent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122">SpawnTileEvent</link> (object source, TileSpawnerService.CreateTileShapeDelegate _createTileShapeDelegate)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>TileSpawnerService.CreateTileShapeDelegate <link linkend="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f">CreateTileShapeDelegate</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> <link linkend="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4">Id</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>object <link linkend="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13">Source</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a831b323d469d50a0f85241f4784f4122"/><section>
+    <title>SpawnTileEvent()</title>
+<indexterm><primary>SpawnTileEvent</primary><secondary>game.logic.EventQueue.SpawnTileEvent</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.SpawnTileEvent</primary><secondary>SpawnTileEvent</secondary></indexterm>
+<para><computeroutput>game.logic.EventQueue.SpawnTileEvent.SpawnTileEvent (object source, TileSpawnerService.CreateTileShapeDelegate _createTileShapeDelegate)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a67d5120b120af800abfe385d1777796f"/><section>
+    <title>CreateTileShapeDelegate</title>
+<indexterm><primary>CreateTileShapeDelegate</primary><secondary>game.logic.EventQueue.SpawnTileEvent</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.SpawnTileEvent</primary><secondary>CreateTileShapeDelegate</secondary></indexterm>
+<para><computeroutput>TileSpawnerService.CreateTileShapeDelegate game.logic.EventQueue.SpawnTileEvent.CreateTileShapeDelegate<computeroutput>[get]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1aac9c4d2d5ce47ad89a969230ffd4f2c4"/><section>
+    <title>Id</title>
+<indexterm><primary>Id</primary><secondary>game.logic.EventQueue.SpawnTileEvent</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.SpawnTileEvent</primary><secondary>Id</secondary></indexterm>
+<para><computeroutput><link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> game.logic.EventQueue.SpawnTileEvent.Id<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent_1a307c56730363fc273d2069f83257c5ae">game.logic.EventQueue.IEvent</link>.</para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent_1a60adbef29987d84667a869263dd1dd13"/><section>
+    <title>Source</title>
+<indexterm><primary>Source</primary><secondary>game.logic.EventQueue.SpawnTileEvent</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue.SpawnTileEvent</primary><secondary>Source</secondary></indexterm>
+<para><computeroutput>object game.logic.EventQueue.SpawnTileEvent.Source<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent_1a49f2a7e9ecddd0d532af39973adac177">game.logic.EventQueue.IEvent</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue/<link linkend="_SpawnTileEvent_8cs">SpawnTileEvent.cs</link></section>
+</section>

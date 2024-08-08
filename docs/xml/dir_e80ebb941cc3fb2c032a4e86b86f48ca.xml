@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_e80ebb941cc3fb2c032a4e86b86f48ca" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person</compoundname>
+    <innerfile refid="Person_8cs">Person.cs</innerfile>
+    <innerfile refid="PersonView_8cs">PersonView.cs</innerfile>
+    <innerfile refid="PersonViewModel_8cs">PersonViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacenetwork_1_1IHttpRequest" xml:lang="en-US">
+<title>network.IHttpRequest Interface Reference</title>
+<indexterm><primary>network.IHttpRequest</primary></indexterm>
+Inheritance diagram for network.IHttpRequest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacenetwork_1_1IHttpRequest__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for network.IHttpRequest:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacenetwork_1_1IHttpRequest__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>Task&lt; string &gt; <link linkend="_interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c">ExecuteAsync</link> (string url)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c"/><section>
+    <title>ExecuteAsync()</title>
+<indexterm><primary>ExecuteAsync</primary><secondary>network.IHttpRequest</secondary></indexterm>
+<indexterm><primary>network.IHttpRequest</primary><secondary>ExecuteAsync</secondary></indexterm>
+<para><computeroutput>Task&lt; string &gt; network.IHttpRequest.ExecuteAsync (string url)</computeroutput></para><para>
+Implemented in <link linkend="_classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61">network.HttpGetRequest</link>, and <link linkend="_classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c">network.HttpPostRequest</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/<link linkend="_IHttpRequest_8cs">IHttpRequest.cs</link></section>
+</section>

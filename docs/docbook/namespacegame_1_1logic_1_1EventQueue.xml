@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegame_1_1logic_1_1EventQueue" xml:lang="en-US">
+<title>game.logic.EventQueue Namespace Reference</title>
+<indexterm><primary>game.logic.EventQueue</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1EventQueue_1_1EventQueue">EventQueue</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacegame_1_1logic_1_1EventQueue_1_1IEvent">IEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1EventQueue_1_1SpawnTileEvent">SpawnTileEvent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgame_1_1logic_1_1EventQueue_1_1UserLoginEvent">UserLoginEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">EventId</link> { <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3a88183b946cc5f0e8c96b2e66e1c74a7e">Unknown</link> = 0
+, <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3a0310a3f1a61e562b0a2c81f58200678d">SpawnTile</link> = 1
+, <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3af8aa43728abb46f0cf92bbb09fa77ffc">UserLogin</link> = 3
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3"/><section>
+    <title>EventId</title>
+<indexterm><primary>EventId</primary><secondary>game.logic.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue</primary><secondary>EventId</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3">game.logic.EventQueue.EventId</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Unknown</primary><secondary>game.logic.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue</primary><secondary>Unknown</secondary></indexterm>
+<anchor xml:id="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3a88183b946cc5f0e8c96b2e66e1c74a7e"/>Unknown</entry><entry></entry></row><row><entry><indexterm><primary>SpawnTile</primary><secondary>game.logic.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue</primary><secondary>SpawnTile</secondary></indexterm>
+<anchor xml:id="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3a0310a3f1a61e562b0a2c81f58200678d"/>SpawnTile</entry><entry></entry></row><row><entry><indexterm><primary>UserLogin</primary><secondary>game.logic.EventQueue</secondary></indexterm>
+<indexterm><primary>game.logic.EventQueue</primary><secondary>UserLogin</secondary></indexterm>
+<anchor xml:id="_namespacegame_1_1logic_1_1EventQueue_1acc0b051856818ab232f90fd18ad189c3af8aa43728abb46f0cf92bbb09fa77ffc"/>UserLogin</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

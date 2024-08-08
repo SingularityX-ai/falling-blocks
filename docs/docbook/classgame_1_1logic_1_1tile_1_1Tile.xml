@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1tile_1_1Tile" xml:lang="en-US">
+<title>game.logic.tile.Tile Class Reference</title>
+<indexterm><primary>game.logic.tile.Tile</primary></indexterm>
+Inheritance diagram for game.logic.tile.Tile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tile_1_1Tile__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tile.Tile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tile_1_1Tile__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1tile_1_1Tile_1a09909df0c17302fdb91c52945a5b8361">Tile</link> (<link linkend="_classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2">Color</link> color)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>Color <link linkend="_classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2">Color</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1Tile_1a09909df0c17302fdb91c52945a5b8361"/><section>
+    <title>Tile()</title>
+<indexterm><primary>Tile</primary><secondary>game.logic.tile.Tile</secondary></indexterm>
+<indexterm><primary>game.logic.tile.Tile</primary><secondary>Tile</secondary></indexterm>
+<para><computeroutput>game.logic.tile.Tile.Tile (<link linkend="_classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2">Color</link> color)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2"/><section>
+    <title>Color</title>
+<indexterm><primary>Color</primary><secondary>game.logic.tile.Tile</secondary></indexterm>
+<indexterm><primary>game.logic.tile.Tile</primary><secondary>Color</secondary></indexterm>
+<para><computeroutput>Color game.logic.tile.Tile.Color<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable_1abfbd729b3508cdcc531aafdb112ce118">game.logic.tile.ITileable</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/<link linkend="_Tile_8cs">Tile.cs</link></section>
+</section>

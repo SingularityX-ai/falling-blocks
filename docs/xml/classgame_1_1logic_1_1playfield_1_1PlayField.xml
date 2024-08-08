@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1playfield_1_1PlayField" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::playfield::PlayField</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int game.logic.playfield.PlayField.FieldWidth</definition>
+        <argsstring></argsstring>
+        <name>FieldWidth</name>
+        <qualifiedname>game.logic.playfield.PlayField.FieldWidth</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="7" column="27" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int game.logic.playfield.PlayField.FieldHeight</definition>
+        <argsstring></argsstring>
+        <name>FieldHeight</name>
+        <qualifiedname>game.logic.playfield.PlayField.FieldHeight</qualifiedname>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="8" column="27" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classgame_1_1logic_1_1playfield_1_1PlayField_1ae806af36b3f93de347b54033fcf0a6b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int game.logic.playfield.PlayField.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <qualifiedname>game.logic.playfield.PlayField.Width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="10" column="20" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1abb9011aefc864999f47904f216af5188" compoundref="PlayFieldViewModel_8cs" startline="14" endline="26">game.logic.playfield.PlayFieldViewModel.PlayFieldViewModel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classgame_1_1logic_1_1playfield_1_1PlayField_1a76cfea383e81025ef34206737f769cd7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int game.logic.playfield.PlayField.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <qualifiedname>game.logic.playfield.PlayField.Height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="11" column="20" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1abb9011aefc864999f47904f216af5188" compoundref="PlayFieldViewModel_8cs" startline="14" endline="26">game.logic.playfield.PlayFieldViewModel.PlayFieldViewModel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1playfield_1_1PlayField_1a45057abb14bb3c96a2d9192c3f5da4cd" prot="public" static="no" mutable="no">
+        <type><ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref>[,]</type>
+        <definition>ITileable [,] game.logic.playfield.PlayField.Field</definition>
+        <argsstring></argsstring>
+        <name>Field</name>
+        <qualifiedname>game.logic.playfield.PlayField.Field</qualifiedname>
+        <initializer>= new <ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref>[<ref refid="classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d" kindref="member">FieldWidth</ref>, <ref refid="classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6" kindref="member">FieldHeight</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="13" column="26" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1ac1c7a5c6b8858791a1bb5187198eca86" compoundref="PlayFieldViewModel_8cs" startline="50" endline="53">game.logic.playfield.PlayFieldViewModel.GetTile</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1a846bdf145edb58386e62d434628431d4" compoundref="PlayFieldViewModel_8cs" startline="67" endline="70">game.logic.playfield.PlayFieldViewModel.PlaceTile</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel_1abb9011aefc864999f47904f216af5188" compoundref="PlayFieldViewModel_8cs" startline="14" endline="26">game.logic.playfield.PlayFieldViewModel.PlayFieldViewModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>game.logic.playfield.PlayField</label>
+        <link refid="classgame_1_1logic_1_1playfield_1_1PlayField"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-FieldHeight</edgelabel>
+          <edgelabel>-FieldWidth</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+Field</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.tile.ITileable</label>
+        <link refid="interfacegame_1_1logic_1_1tile_1_1ITileable"/>
+      </node>
+      <node id="2">
+        <label>int</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" line="5" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield/PlayField.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayField_1a45057abb14bb3c96a2d9192c3f5da4cd" prot="public" virt="non-virtual"><scope>game::logic::playfield::PlayField</scope><name>Field</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayField_1ac76415c16debb234572513dd6cd73db6" prot="private" virt="non-virtual"><scope>game::logic::playfield::PlayField</scope><name>FieldHeight</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayField_1ad45d0852f5b8010de707791be96f5d9d" prot="private" virt="non-virtual"><scope>game::logic::playfield::PlayField</scope><name>FieldWidth</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayField_1a76cfea383e81025ef34206737f769cd7" prot="public" virt="non-virtual"><scope>game::logic::playfield::PlayField</scope><name>Height</name></member>
+      <member refid="classgame_1_1logic_1_1playfield_1_1PlayField_1ae806af36b3f93de347b54033fcf0a6b8" prot="public" virt="non-virtual"><scope>game::logic::playfield::PlayField</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

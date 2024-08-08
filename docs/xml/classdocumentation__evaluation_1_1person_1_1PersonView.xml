@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classdocumentation__evaluation_1_1person_1_1PersonView" kind="class" language="C#" prot="public">
+    <compoundname>documentation_evaluation::person::PersonView</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdocumentation__evaluation_1_1person_1_1PersonView_1a2f8c2ab8b7d79eeaec100a782ed3c7ec" prot="private" static="no" mutable="no">
+        <type><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel" kindref="compound">PersonViewModel</ref></type>
+        <definition>PersonViewModel documentation_evaluation.person.PersonView._viewModel</definition>
+        <argsstring></argsstring>
+        <name>_viewModel</name>
+        <qualifiedname>documentation_evaluation.person.PersonView._viewModel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="7" column="33" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classdocumentation__evaluation_1_1person_1_1PersonView_1ad1a27cd6bac46bc751d519de8dfa5bbb" compoundref="PersonView_8cs" startline="9" endline="12">documentation_evaluation.person.PersonView.PersonView</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdocumentation__evaluation_1_1person_1_1PersonView_1ad1a27cd6bac46bc751d519de8dfa5bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>documentation_evaluation.person.PersonView.PersonView</definition>
+        <argsstring>(PersonViewModel viewModel)</argsstring>
+        <name>PersonView</name>
+        <qualifiedname>documentation_evaluation.person.PersonView.PersonView</qualifiedname>
+        <param>
+          <type><ref refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel" kindref="compound">PersonViewModel</ref></type>
+          <declname>viewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="9" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="9" bodyend="12"/>
+        <references refid="classdocumentation__evaluation_1_1person_1_1PersonView_1a2f8c2ab8b7d79eeaec100a782ed3c7ec" compoundref="PersonView_8cs" startline="7">documentation_evaluation.person.PersonView._viewModel</references>
+      </memberdef>
+      <memberdef kind="function" id="classdocumentation__evaluation_1_1person_1_1PersonView_1a97df5690154ae85c6069220f2e70abb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void documentation_evaluation.person.PersonView.Display</definition>
+        <argsstring>()</argsstring>
+        <name>Display</name>
+        <qualifiedname>documentation_evaluation.person.PersonView.Display</qualifiedname>
+        <briefdescription>
+<para>Displays the name and age of the view model. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the name and age properties from the associated view model and prints them to the console. It formats the output as &quot;Name: {Name}, Age: {Age}&quot;, providing a simple way to visualize the current state of the view model&apos;s data. This method does not return any value and is primarily used for debugging or informational purposes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="22" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classdocumentation__evaluation_1_1person_1_1PersonView_1a3a80a8b222ab9f7cb8b7835c8a1e6eb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void documentation_evaluation.person.PersonView.UpdateName</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateName</name>
+        <qualifiedname>documentation_evaluation.person.PersonView.UpdateName</qualifiedname>
+        <briefdescription>
+<para>Updates the name property of the view model based on user input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method prompts the user to enter a new name via the console. It reads the input from the console and assigns it to the Name property of the associated view model. This allows for dynamic updates to the name, reflecting any changes made by the user during runtime. The method does not return any value and directly modifies the state of the view model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="37" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classdocumentation__evaluation_1_1person_1_1PersonView_1aa0251605f48d1b12b22fdbf86301baae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void documentation_evaluation.person.PersonView.UpdateAge</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateAge</name>
+        <qualifiedname>documentation_evaluation.person.PersonView.UpdateAge</qualifiedname>
+        <briefdescription>
+<para>Updates the age of the view model based on user input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method prompts the user to enter a new age and updates the _viewModel.Age property with the provided value. It reads the input from the console, parses it as an integer, and assigns it to the Age property of the view model. It is important to ensure that the input is a valid integer, as invalid input will result in a runtime exception. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="54" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>documentation_evaluation.person.PersonView</label>
+        <link refid="classdocumentation__evaluation_1_1person_1_1PersonView"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-_viewModel</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>documentation_evaluation.person.Person</label>
+        <link refid="classdocumentation__evaluation_1_1person_1_1Person"/>
+      </node>
+      <node id="2">
+        <label>documentation_evaluation.person.PersonViewModel</label>
+        <link refid="classdocumentation__evaluation_1_1person_1_1PersonViewModel"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_person</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" line="5" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/PersonView.cs" bodystart="6" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classdocumentation__evaluation_1_1person_1_1PersonView_1a2f8c2ab8b7d79eeaec100a782ed3c7ec" prot="private" virt="non-virtual"><scope>documentation_evaluation::person::PersonView</scope><name>_viewModel</name></member>
+      <member refid="classdocumentation__evaluation_1_1person_1_1PersonView_1a97df5690154ae85c6069220f2e70abb4" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::PersonView</scope><name>Display</name></member>
+      <member refid="classdocumentation__evaluation_1_1person_1_1PersonView_1ad1a27cd6bac46bc751d519de8dfa5bbb" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::PersonView</scope><name>PersonView</name></member>
+      <member refid="classdocumentation__evaluation_1_1person_1_1PersonView_1aa0251605f48d1b12b22fdbf86301baae" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::PersonView</scope><name>UpdateAge</name></member>
+      <member refid="classdocumentation__evaluation_1_1person_1_1PersonView_1a3a80a8b222ab9f7cb8b7835c8a1e6eb1" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::PersonView</scope><name>UpdateName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

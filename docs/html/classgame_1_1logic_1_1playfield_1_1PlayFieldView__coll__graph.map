@@ -1,0 +1,12 @@
+<map id="game.logic.playfield.PlayFieldView" name="game.logic.playfield.PlayFieldView">
+<area shape="rect" id="node1" title=" " alt="" coords="103,572,290,693"/>
+<area shape="rect" id="node2" href="$classMonoBehaviour.html" title=" " alt="" coords="5,388,129,465"/>
+<area shape="rect" id="node3" title=" " alt="" coords="153,388,240,465"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel.html" title=" " alt="" coords="265,344,451,509"/>
+<area shape="rect" id="node5" href="$interfacegamerunner_1_1IUpdatable.html" title=" " alt="" coords="145,189,240,267"/>
+<area shape="rect" id="node6" href="$classgame_1_1logic_1_1playfield_1_1PlayField.html" title=" " alt="" coords="265,175,451,281"/>
+<area shape="rect" id="node7" title=" " alt="" coords="213,13,252,90"/>
+<area shape="rect" id="node8" href="$interfacegame_1_1logic_1_1tile_1_1ITileable.html" title=" " alt="" coords="277,13,455,90"/>
+<area shape="rect" id="node9" href="$classgame_1_1service_1_1ServiceLocator.html" title=" " alt="" coords="475,175,686,281"/>
+<area shape="rect" id="node10" title=" " alt="" coords="488,5,673,97"/>
+</map>

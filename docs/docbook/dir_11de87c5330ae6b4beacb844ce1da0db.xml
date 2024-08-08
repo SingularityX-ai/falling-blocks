@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_11de87c5330ae6b4beacb844ce1da0db" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools Directory Reference</primary></indexterm>
+Directory dependency graph for debugtools:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_11de87c5330ae6b4beacb844ce1da0db_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_DebugInvoker_8cs">DebugInvoker.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_DebugReceiver_8cs">DebugReceiver.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ICommand_8cs">ICommand.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Vardump_8cs">Vardump.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

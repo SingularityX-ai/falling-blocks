@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacegame_1_1logic_1_1IGravityService" xml:lang="en-US">
+<title>game.logic.IGravityService Interface Reference</title>
+<indexterm><primary>game.logic.IGravityService</primary></indexterm>
+Inheritance diagram for game.logic.IGravityService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1IGravityService__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.IGravityService:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1IGravityService__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba">CurrentGravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba"/><section>
+    <title>CurrentGravity</title>
+<indexterm><primary>CurrentGravity</primary><secondary>game.logic.IGravityService</secondary></indexterm>
+<indexterm><primary>game.logic.IGravityService</primary><secondary>CurrentGravity</secondary></indexterm>
+<para><computeroutput>float game.logic.IGravityService.CurrentGravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47">game.logic.GravityService</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/<link linkend="_IGravityService_8cs">IGravityService.cs</link></section>
+</section>

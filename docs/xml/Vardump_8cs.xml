@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="Vardump_8cs" kind="file" language="C#">
+    <compoundname>Vardump.cs</compoundname>
+    <innerclass refid="classdebugtools_1_1VardumpCommand" prot="public">debugtools::VardumpCommand</innerclass>
+    <innernamespace refid="namespacedebugtools">debugtools</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacedebugtools" kindref="compound">debugtools</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="classdebugtools_1_1VardumpCommand" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdebugtools_1_1VardumpCommand" kindref="compound">VardumpCommand</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classdebugtools_1_1DebugReceiver" kindref="compound">DebugReceiver</ref><sp/><ref refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" kindref="member">_receiver</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d" kindref="member">VardumpCommand</ref>(<ref refid="classdebugtools_1_1DebugReceiver" kindref="compound">DebugReceiver</ref><sp/>receiver)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" kindref="member">_receiver</ref><sp/>=<sp/>receiver;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a" kindref="member">Execute</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" kindref="member">_receiver</ref>.<ref refid="classdebugtools_1_1DebugReceiver_1ad644f8a097ae4a74950667f9fa8be94e" kindref="member">Action</ref>(</highlight><highlight class="stringliteral">&quot;vardump&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs"/>
+  </compounddef>
+</doxygen>

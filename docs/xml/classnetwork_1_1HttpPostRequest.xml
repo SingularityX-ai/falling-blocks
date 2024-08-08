@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classnetwork_1_1HttpPostRequest" kind="class" language="C#" prot="public">
+    <compoundname>network::HttpPostRequest</compoundname>
+    <basecompoundref refid="interfacenetwork_1_1IHttpRequest" prot="public" virt="non-virtual">network.IHttpRequest</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnetwork_1_1HttpPostRequest_1a711d3280749b037bc4708570f4fe7fa7" prot="private" static="no" mutable="no">
+        <type>HttpClient</type>
+        <definition>HttpClient network.HttpPostRequest._client</definition>
+        <argsstring></argsstring>
+        <name>_client</name>
+        <qualifiedname>network.HttpPostRequest._client</qualifiedname>
+        <initializer>= new HttpClient()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="34" column="28" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c" compoundref="HttpRequest_8cs" startline="37" endline="44">network.HttpPostRequest.ExecuteAsync</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classnetwork_1_1HttpPostRequest_1a86d3142b8c22c49cc4677e6ac398ef62" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string network.HttpPostRequest._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <qualifiedname>network.HttpPostRequest._data</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="35" column="24" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c" compoundref="HttpRequest_8cs" startline="37" endline="44">network.HttpPostRequest.ExecuteAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt; string &gt; network.HttpPostRequest.ExecuteAsync</definition>
+        <argsstring>(string url)</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>network.HttpPostRequest.ExecuteAsync</qualifiedname>
+        <reimplements refid="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c">ExecuteAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="37" column="27" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="37" bodyend="44"/>
+        <references refid="classnetwork_1_1HttpPostRequest_1a711d3280749b037bc4708570f4fe7fa7" compoundref="HttpRequest_8cs" startline="34">network.HttpPostRequest._client</references>
+        <references refid="classnetwork_1_1HttpPostRequest_1a86d3142b8c22c49cc4677e6ac398ef62" compoundref="HttpRequest_8cs" startline="35">network.HttpPostRequest._data</references>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1HttpPostRequest_1a8d1b4da866f3d55ad318c0defeb0ab44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref></type>
+        <definition>HttpPostRequest network.HttpPostRequest.SetData</definition>
+        <argsstring>(string data)</argsstring>
+        <name>SetData</name>
+        <qualifiedname>network.HttpPostRequest.SetData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Sets the data for the HTTP POST request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The data to be set for the request.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current instance of <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref> with the updated data.</para>
+</simplesect>
+</para>
+<para>This method assigns the provided <emphasis>data</emphasis>  to the private field <computeroutput>_data</computeroutput> of the <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref> class. It returns the same instance of the class, allowing for method chaining. This is useful when configuring multiple properties of the request in a fluent style. The method does not perform any validation on the input data, so it is assumed that the caller will provide valid data for the request. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="58" column="32" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1HttpPostRequest_1a665218ab0e894496692a682311e3aeb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref></type>
+        <definition>HttpPostRequest network.HttpPostRequest.SetClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>SetClient</name>
+        <qualifiedname>network.HttpPostRequest.SetClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+<para>Sets the HttpClient instance for the current request. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HttpClient instance to be set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The current instance of <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref> for method chaining.</para>
+</simplesect>
+</para>
+<para>This method assigns the provided HttpClient instance to the private field <computeroutput>_client</computeroutput> of the <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref> class. It allows for configuring the request with a specific HttpClient, which can be useful for setting up custom headers, handling timeouts, or managing connection settings. By returning the current instance of <ref refid="classnetwork_1_1HttpPostRequest" kindref="compound">HttpPostRequest</ref>, this method supports a fluent interface, enabling multiple method calls to be chained together in a single statement. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="75" column="32" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="75" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+      <node id="1">
+        <label>network.HttpPostRequest</label>
+        <link refid="classnetwork_1_1HttpPostRequest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>HttpClient</label>
+      </node>
+      <node id="2">
+        <label>IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+      <node id="1">
+        <label>network.HttpPostRequest</label>
+        <link refid="classnetwork_1_1HttpPostRequest"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_client</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" line="32" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/HttpRequest.cs" bodystart="33" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1HttpPostRequest_1a711d3280749b037bc4708570f4fe7fa7" prot="private" virt="non-virtual"><scope>network::HttpPostRequest</scope><name>_client</name></member>
+      <member refid="classnetwork_1_1HttpPostRequest_1a86d3142b8c22c49cc4677e6ac398ef62" prot="private" virt="non-virtual"><scope>network::HttpPostRequest</scope><name>_data</name></member>
+      <member refid="classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c" prot="public" virt="non-virtual"><scope>network::HttpPostRequest</scope><name>ExecuteAsync</name></member>
+      <member refid="classnetwork_1_1HttpPostRequest_1a665218ab0e894496692a682311e3aeb5" prot="public" virt="non-virtual"><scope>network::HttpPostRequest</scope><name>SetClient</name></member>
+      <member refid="classnetwork_1_1HttpPostRequest_1a8d1b4da866f3d55ad318c0defeb0ab44" prot="public" virt="non-virtual"><scope>network::HttpPostRequest</scope><name>SetData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

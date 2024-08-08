@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classdebugtools_1_1VardumpCommand" kind="class" language="C#" prot="public">
+    <compoundname>debugtools::VardumpCommand</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" prot="private" static="no" mutable="no">
+        <type><ref refid="classdebugtools_1_1DebugReceiver" kindref="compound">DebugReceiver</ref></type>
+        <definition>DebugReceiver debugtools.VardumpCommand._receiver</definition>
+        <argsstring></argsstring>
+        <name>_receiver</name>
+        <qualifiedname>debugtools.VardumpCommand._receiver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" line="5" column="31" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a" compoundref="Vardump_8cs" startline="20" endline="23">debugtools.VardumpCommand.Execute</referencedby>
+        <referencedby refid="classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d" compoundref="Vardump_8cs" startline="7" endline="10">debugtools.VardumpCommand.VardumpCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>debugtools.VardumpCommand.VardumpCommand</definition>
+        <argsstring>(DebugReceiver receiver)</argsstring>
+        <name>VardumpCommand</name>
+        <qualifiedname>debugtools.VardumpCommand.VardumpCommand</qualifiedname>
+        <param>
+          <type><ref refid="classdebugtools_1_1DebugReceiver" kindref="compound">DebugReceiver</ref></type>
+          <declname>receiver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" line="7" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" bodystart="7" bodyend="10"/>
+        <references refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" compoundref="Vardump_8cs" startline="5">debugtools.VardumpCommand._receiver</references>
+      </memberdef>
+      <memberdef kind="function" id="classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void debugtools.VardumpCommand.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <qualifiedname>debugtools.VardumpCommand.Execute</qualifiedname>
+        <briefdescription>
+<para>Executes an action by invoking the receiver&apos;s method with a specific command. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method calls the <emphasis>_receiver</emphasis>  to perform an action with the command &quot;vardump&quot;. The purpose of this action is to trigger a specific behavior defined in the receiver&apos;s implementation. It does not return any value and is intended to be used when the action needs to be executed without any parameters. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" line="20" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" bodystart="20" bodyend="23"/>
+        <references refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" compoundref="Vardump_8cs" startline="5">debugtools.VardumpCommand._receiver</references>
+        <references refid="classdebugtools_1_1DebugReceiver_1ad644f8a097ae4a74950667f9fa8be94e" compoundref="DebugReceiver_8cs" startline="21" endline="26">debugtools.DebugReceiver.Action</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>List&lt; string &gt;</label>
+      </node>
+      <node id="1">
+        <label>debugtools.VardumpCommand</label>
+        <link refid="classdebugtools_1_1VardumpCommand"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-_receiver</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>debugtools.DebugReceiver</label>
+        <link refid="classdebugtools_1_1DebugReceiver"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-supportedCommands</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" line="3" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/Vardump.cs" bodystart="4" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classdebugtools_1_1VardumpCommand_1aa7736abdc6b6818dd786dcd7acdcd212" prot="private" virt="non-virtual"><scope>debugtools::VardumpCommand</scope><name>_receiver</name></member>
+      <member refid="classdebugtools_1_1VardumpCommand_1a2773ee589b07964f169e82d28649b19a" prot="public" virt="non-virtual"><scope>debugtools::VardumpCommand</scope><name>Execute</name></member>
+      <member refid="classdebugtools_1_1VardumpCommand_1a2a7d7151096754d47babeb3563db738d" prot="public" virt="non-virtual"><scope>debugtools::VardumpCommand</scope><name>VardumpCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

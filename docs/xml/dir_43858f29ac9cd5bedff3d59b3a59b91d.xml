@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_43858f29ac9cd5bedff3d59b3a59b91d" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks</compoundname>
+    <innerdir refid="dir_e6a6c02256b39d113db388966cd35bcd">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation</innerdir>
+    <innerdir refid="dir_5d411f01860182386594f8daaf3aaaf3">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/"/>
+  </compounddef>
+</doxygen>

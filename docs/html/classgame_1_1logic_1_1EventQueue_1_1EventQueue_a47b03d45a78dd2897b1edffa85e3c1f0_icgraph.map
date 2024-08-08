@@ -1,0 +1,5 @@
+<map id="game.logic.EventQueue.EventQueue.Enqueue" name="game.logic.EventQueue.EventQueue.Enqueue">
+<area shape="rect" id="node1" title="Adds an event to the appropriate queue based on its identifier." alt="" coords="211,23,429,65"/>
+<area shape="rect" id="node2" href="$classLoginButton.html#a4ee90c2092d433580a6adaa869b4a710" title="Handles the click event by retrieving the user&#39;s name and enqueuing a user login event." alt="" coords="7,5,161,32"/>
+<area shape="rect" id="node3" href="$classGameRunner.html#a60b42ae79f0fc030d0ef8a31d10ae960" title="Updates the state of the object by processing gravity and spawning tiles when a threshold is reached." alt="" coords="5,56,163,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="game.logic.EventQueue.EventQueue.Dequeue" name="game.logic.EventQueue.EventQueue.Dequeue">
+<area shape="rect" id="node1" title="Dequeues an event from the specified event queue identified by the given EventId." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1EventQueue_1_1EventQueue.html#ae590ba3300d4084069ec98258a22f746" title="Checks if there is at least one event associated with the specified EventId." alt="" coords="272,5,491,47"/>
+</map>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classGameRunner" xml:lang="en-US">
+<title>GameRunner Class Reference</title>
+<indexterm><primary>GameRunner</primary></indexterm>
+Inheritance diagram for GameRunner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGameRunner__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for GameRunner:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGameRunner__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classGameRunner_1a4c22840aa95ea81167ec398ca75afd08">GameRunner</link> (<link linkend="_classgame_1_1service_1_1ServiceLocator">ServiceLocator</link> serviceLocator)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960">Update</link> ()</para>
+
+<para>Updates the state of the object by processing gravity and spawning tiles when a threshold is reached. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>TileSpawnerService.CreateTileShapeDelegate <link linkend="_classGameRunner_1aac4eee56a0afe1062d1650784bfa371c">CreateTileShape</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1service_1_1ServiceLocator">ServiceLocator</link> <link linkend="_classGameRunner_1a4181780db057935be5cb9dee4069ccac">_serviceLocator</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82">_gravitySum</link> = 0.0f</para>
+</listitem>
+            <listitem><para>int <link linkend="_classGameRunner_1ad5b4e457a359193691d958bc73cf3680">frames</link> = 0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classGameRunner_1a4c22840aa95ea81167ec398ca75afd08"/><section>
+    <title>GameRunner()</title>
+<indexterm><primary>GameRunner</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>GameRunner</secondary></indexterm>
+<para><computeroutput>GameRunner.GameRunner (<link linkend="_classgame_1_1service_1_1ServiceLocator">ServiceLocator</link> serviceLocator)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void GameRunner.Update ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Updates the state of the object by processing gravity and spawning tiles when a threshold is reached. </para>
+</para>
+
+<para>This method retrieves the current gravity from the GravityService and accumulates it in the <computeroutput>_gravitySum</computeroutput> field. It increments the frame count and checks if the accumulated gravity exceeds 100.0f. If it does, it resets the frame count and gravity sum, and spawns a new tile shape using the TileSpawnerService. It also enqueues a SpawnTileEvent to notify other parts of the system about the new tile creation. The method ensures that a new tile shape is created each time the threshold is crossed. </para>
+<para>
+Implements <link linkend="_interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">gamerunner.IUpdatable</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classGameRunner_a60b42ae79f0fc030d0ef8a31d10ae960_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82"/><section>
+    <title>_gravitySum</title>
+<indexterm><primary>_gravitySum</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>_gravitySum</secondary></indexterm>
+<para><computeroutput>float GameRunner._gravitySum = 0.0f<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classGameRunner_1a4181780db057935be5cb9dee4069ccac"/><section>
+    <title>_serviceLocator</title>
+<indexterm><primary>_serviceLocator</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>_serviceLocator</secondary></indexterm>
+<para><computeroutput><link linkend="_classgame_1_1service_1_1ServiceLocator">ServiceLocator</link> GameRunner._serviceLocator<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classGameRunner_1aac4eee56a0afe1062d1650784bfa371c"/><section>
+    <title>CreateTileShape</title>
+<indexterm><primary>CreateTileShape</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>CreateTileShape</secondary></indexterm>
+<para><computeroutput>TileSpawnerService.CreateTileShapeDelegate GameRunner.CreateTileShape</computeroutput></para></section>
+<anchor xml:id="_classGameRunner_1ad5b4e457a359193691d958bc73cf3680"/><section>
+    <title>frames</title>
+<indexterm><primary>frames</primary><secondary>GameRunner</secondary></indexterm>
+<indexterm><primary>GameRunner</primary><secondary>frames</secondary></indexterm>
+<para><computeroutput>int GameRunner.frames = 0<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/<link linkend="_GameRunner_8cs">GameRunner.cs</link></section>
+</section>

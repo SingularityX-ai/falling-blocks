@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1LevelBasedGravityStrategy" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::LevelBasedGravityStrategy</compoundname>
+    <basecompoundref refid="interfacegame_1_1logic_1_1IGravityStrategy" prot="public" virt="non-virtual">game.logic.IGravityStrategy</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" prot="private" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float game.logic.LevelBasedGravityStrategy._gravityBase</definition>
+        <argsstring></argsstring>
+        <name>_gravityBase</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy._gravityBase</qualifiedname>
+        <initializer>= 9.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="10" column="32" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int game.logic.LevelBasedGravityStrategy._level</definition>
+        <argsstring></argsstring>
+        <name>_level</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy._level</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="11" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342" compoundref="LevelBasedGravityStrategy_8cs" startline="40" endline="43">game.logic.LevelBasedGravityStrategy.LevelUp</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7" compoundref="LevelBasedGravityStrategy_8cs" startline="53" endline="56">game.logic.LevelBasedGravityStrategy.ResetLevel</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b" compoundref="LevelBasedGravityStrategy_8cs" startline="26" endline="29">game.logic.LevelBasedGravityStrategy.SetLevel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float game.logic.LevelBasedGravityStrategy.GravityIncreasePerLevel</definition>
+        <argsstring></argsstring>
+        <name>GravityIncreasePerLevel</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.GravityIncreasePerLevel</qualifiedname>
+        <initializer>= 0.75f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="12" column="29" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.LevelBasedGravityStrategy.CurrentGravity</definition>
+        <argsstring></argsstring>
+        <name>CurrentGravity</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.CurrentGravity</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c">CurrentGravity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="14" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.LevelBasedGravityStrategy.Gravity</definition>
+        <argsstring></argsstring>
+        <name>Gravity</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.Gravity</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b">Gravity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="15" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.LevelBasedGravityStrategy.SetLevel</definition>
+        <argsstring>(int level)</argsstring>
+        <name>SetLevel</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.SetLevel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Sets the level to the specified value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The level to be set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method updates the private field <computeroutput>_level</computeroutput> with the value provided as the parameter <emphasis>level</emphasis> . It allows for changing the state of the object by modifying its level attribute. This method does not perform any validation on the input value, so it is assumed that the caller will provide a valid level. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="26" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="26" bodyend="29"/>
+        <references refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" compoundref="LevelBasedGravityStrategy_8cs" startline="11">game.logic.LevelBasedGravityStrategy._level</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.LevelBasedGravityStrategy.LevelUp</definition>
+        <argsstring>()</argsstring>
+        <name>LevelUp</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.LevelUp</qualifiedname>
+        <briefdescription>
+<para>Increases the level of the character or entity by one. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is responsible for leveling up the character or entity within the game or application. When called, it increments the internal level counter (_level) by one, allowing the character or entity to progress to the next level. This is typically used in role-playing games (RPGs) or similar applications where characters gain experience and level up over time. Note that this method does not perform any checks on the maximum level or any other conditions that might be required for leveling up. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="40" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="40" bodyend="43"/>
+        <references refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" compoundref="LevelBasedGravityStrategy_8cs" startline="11">game.logic.LevelBasedGravityStrategy._level</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.LevelBasedGravityStrategy.ResetLevel</definition>
+        <argsstring>()</argsstring>
+        <name>ResetLevel</name>
+        <qualifiedname>game.logic.LevelBasedGravityStrategy.ResetLevel</qualifiedname>
+        <briefdescription>
+<para>Resets the game level to the initial state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method sets the private field <computeroutput>_level</computeroutput> to 1, effectively restarting the game level. It is typically called when a player chooses to restart the game or after completing a level. This operation does not return any value and modifies the internal state of the game. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="53" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="53" bodyend="56"/>
+        <references refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" compoundref="LevelBasedGravityStrategy_8cs" startline="11">game.logic.LevelBasedGravityStrategy._level</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+      <node id="1">
+        <label>game.logic.LevelBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1LevelBasedGravityStrategy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+      <node id="3">
+        <label>float</label>
+      </node>
+      <node id="1">
+        <label>game.logic.LevelBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1LevelBasedGravityStrategy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-GravityIncreasePerLevel</edgelabel>
+          <edgelabel>-_gravityBase</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-_level</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>int</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" line="8" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/LevelBasedGravityStrategy.cs" bodystart="9" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1acc6d16785ad102461ecce3520a861a05" prot="private" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>_gravityBase</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ab5ffcb3667de9f6a75667fe555ec5f70" prot="private" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>_level</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95" prot="public" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>CurrentGravity</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0" prot="public" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>Gravity</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1ac7e1eba8beb7586012b3f8499bf8b667" prot="private" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>GravityIncreasePerLevel</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a9973a76a84474a7e13a8775f94e20342" prot="public" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>LevelUp</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a6624c0cba3f5bd6ca5031e519f8e77b7" prot="public" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>ResetLevel</name></member>
+      <member refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a786fc7b42e0e25d04e9b7dcb76f09e1b" prot="public" virt="non-virtual"><scope>game::logic::LevelBasedGravityStrategy</scope><name>SetLevel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

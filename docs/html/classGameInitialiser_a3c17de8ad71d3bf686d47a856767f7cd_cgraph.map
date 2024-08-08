@@ -1,0 +1,5 @@
+<map id="GameInitialiser.Start" name="GameInitialiser.Start">
+<area shape="rect" id="node1" title="Initializes the game environment by setting up HTTP requests, the play field, and various services." alt="" coords="5,42,161,69"/>
+<area shape="rect" id="node2" href="$classgamerunner_1_1Dispatcher.html#a9d1e1cfe69e5576b60156957e38c9177" title="Adds an updatable object to the collection of updatables." alt="" coords="209,5,411,47"/>
+<area shape="rect" id="node3" href="$classLoginButton.html#a1c96929dc9468a79eed79e00017b22e8" title="Links the specified event queue to the current instance." alt="" coords="245,71,375,98"/>
+</map>
