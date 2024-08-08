@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_11de87c5330ae6b4beacb844ce1da0db" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools</compoundname>
+    <innerfile refid="DebugInvoker_8cs">DebugInvoker.cs</innerfile>
+    <innerfile refid="DebugReceiver_8cs">DebugReceiver.cs</innerfile>
+    <innerfile refid="ICommand_8cs">ICommand.cs</innerfile>
+    <innerfile refid="Vardump_8cs">Vardump.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/"/>
+  </compounddef>
+</doxygen>

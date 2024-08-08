@@ -1,0 +1,4 @@
+<map id="game.logic.tilespawner.TileSpawnerService.Spawn" name="game.logic.tilespawner.TileSpawnerService.Spawn">
+<area shape="rect" id="node1" title="Spawns a new tile shape by shuffling the available pieces and returning the first piece." alt="" coords="211,5,412,47"/>
+<area shape="rect" id="node2" href="$classGameRunner.html#a60b42ae79f0fc030d0ef8a31d10ae960" title="Updates the state of the object by processing gravity and spawning tiles when a threshold is reached." alt="" coords="5,13,163,39"/>
+</map>

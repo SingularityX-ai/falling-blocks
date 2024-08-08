@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacegame_1_1logic_1_1IGravityStrategy" xml:lang="en-US">
+<title>game.logic.IGravityStrategy Interface Reference</title>
+<indexterm><primary>game.logic.IGravityStrategy</primary></indexterm>
+Inheritance diagram for game.logic.IGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1IGravityStrategy__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.IGravityStrategy:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1IGravityStrategy__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c">CurrentGravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>float <link linkend="_interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b">Gravity</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c"/><section>
+    <title>CurrentGravity</title>
+<indexterm><primary>CurrentGravity</primary><secondary>game.logic.IGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.IGravityStrategy</primary><secondary>CurrentGravity</secondary></indexterm>
+<para><computeroutput>float game.logic.IGravityStrategy.CurrentGravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95">game.logic.LevelBasedGravityStrategy</link>, and <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66">game.logic.TimeBasedGravityStrategy</link>.</para>
+</section>
+<anchor xml:id="_interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b"/><section>
+    <title>Gravity</title>
+<indexterm><primary>Gravity</primary><secondary>game.logic.IGravityStrategy</secondary></indexterm>
+<indexterm><primary>game.logic.IGravityStrategy</primary><secondary>Gravity</secondary></indexterm>
+<para><computeroutput>float game.logic.IGravityStrategy.Gravity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0">game.logic.LevelBasedGravityStrategy</link>, and <link linkend="_classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5">game.logic.TimeBasedGravityStrategy</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/<link linkend="_IGravityStrategy_8cs">IGravityStrategy.cs</link></section>
+</section>

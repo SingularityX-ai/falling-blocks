@@ -1,0 +1,4 @@
+<map id="game.logic.TimeBasedGravityStrategy.Update" name="game.logic.TimeBasedGravityStrategy.Update">
+<area shape="rect" id="node1" title="Updates the gravity scale based on the elapsed time since the last frame." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1TimeBasedGravityStrategy.html#a968ce1f20e6ce66cdd596a666f399c02" title="Sets the gravity scale to the specified value." alt="" coords="272,5,491,47"/>
+</map>

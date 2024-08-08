@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegame_1_1logic_1_1IGravityService" kind="interface" language="C#" prot="public">
+    <compoundname>game::logic::IGravityService</compoundname>
+    <basecompoundref refid="interfacegame_1_1service_1_1IService" prot="public" virt="non-virtual">game.service.IService</basecompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1GravityService" prot="public" virt="non-virtual">game.logic.GravityService</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.IGravityService.CurrentGravity</definition>
+        <argsstring></argsstring>
+        <name>CurrentGravity</name>
+        <qualifiedname>game.logic.IGravityService.CurrentGravity</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47">CurrentGravity</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityService.cs" line="7" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityService.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>game.logic.IGravityService</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.GravityService</label>
+        <link refid="classgame_1_1logic_1_1GravityService"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="1">
+        <label>game.logic.IGravityService</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityService.cs" line="5" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityService.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba" prot="public" virt="non-virtual"><scope>game::logic::IGravityService</scope><name>CurrentGravity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

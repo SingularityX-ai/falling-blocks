@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="TileView_8cs" kind="file" language="C#">
+    <compoundname>TileView.cs</compoundname>
+    <innerclass refid="classgame_1_1logic_1_1tile_1_1TileView" prot="public">game::logic::tile::TileView</innerclass>
+    <innernamespace refid="namespacegame">game</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic">game::logic</innernamespace>
+    <innernamespace refid="namespacegame_1_1logic_1_1tile">game::logic::tile</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegame_1_1logic_1_1tile" kindref="compound">game.logic.tile</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="classgame_1_1logic_1_1tile_1_1TileView" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgame_1_1logic_1_1tile_1_1TileView" kindref="compound">TileView</ref><sp/>:<sp/><ref refid="classMonoBehaviour" kindref="compound">MonoBehaviour</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>SpriteRenderer<sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f" kindref="member">TileSprite</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9" refid="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" kindref="member">_tileVM</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1" kindref="member">Link</ref>(<ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel" kindref="compound">TileViewModel</ref><sp/>tileVM)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff" kindref="member">_tileVM</ref><sp/>=<sp/>tileVM;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.transform.position<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(tileVM.<ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a2e8b1a87845fd6edd5fbb0267b1782d5" kindref="member">X</ref>,<sp/>tileVM.<ref refid="classgame_1_1logic_1_1tile_1_1TileViewModel_1a8da1b8f04ebecdc4056daa9690dd3564" kindref="member">Y</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>the<sp/>view<sp/>based<sp/>on<sp/>the<sp/>_tileVM<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/TileView.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+<map id="game.logic.tilespawner.TileSpawnerService.Spawn" name="game.logic.tilespawner.TileSpawnerService.Spawn">
+<area shape="rect" id="node1" title="Spawns a new tile shape by shuffling the available pieces and returning the first piece." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html#ac73dbfd9e3daec4259be8d0c3c99dce2" title="Shuffles the elements of the collection randomly." alt="" coords="255,5,456,47"/>
+</map>

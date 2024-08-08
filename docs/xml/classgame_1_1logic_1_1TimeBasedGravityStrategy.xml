@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1TimeBasedGravityStrategy" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::TimeBasedGravityStrategy</compoundname>
+    <basecompoundref refid="interfacegamerunner_1_1IUpdatable" prot="public" virt="non-virtual">gamerunner.IUpdatable</basecompoundref>
+    <basecompoundref refid="interfacegame_1_1logic_1_1IGravityStrategy" prot="public" virt="non-virtual">game.logic.IGravityStrategy</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1ae360e482b8ab0707766d47a1e4b6a3e0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float game.logic.TimeBasedGravityStrategy._gravityBase</definition>
+        <argsstring></argsstring>
+        <name>_gravityBase</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy._gravityBase</qualifiedname>
+        <initializer>= 9.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="10" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float game.logic.TimeBasedGravityStrategy._gravityScale</definition>
+        <argsstring></argsstring>
+        <name>_gravityScale</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy._gravityScale</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="11" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02" compoundref="TimeBasedGravityStrategy_8cs" startline="43" endline="46">game.logic.TimeBasedGravityStrategy.setGravityScale</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871" compoundref="TimeBasedGravityStrategy_8cs" startline="27" endline="30">game.logic.TimeBasedGravityStrategy.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1ab4ee328ac716c8983102d530d71e1fb6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float game.logic.TimeBasedGravityStrategy._gravityIncreasePerSecond</definition>
+        <argsstring></argsstring>
+        <name>_gravityIncreasePerSecond</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy._gravityIncreasePerSecond</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="12" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871" compoundref="TimeBasedGravityStrategy_8cs" startline="27" endline="30">game.logic.TimeBasedGravityStrategy.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.TimeBasedGravityStrategy.CurrentGravity</definition>
+        <argsstring></argsstring>
+        <name>CurrentGravity</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy.CurrentGravity</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c">CurrentGravity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="14" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.TimeBasedGravityStrategy.Gravity</definition>
+        <argsstring></argsstring>
+        <name>Gravity</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy.Gravity</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b">Gravity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="15" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.TimeBasedGravityStrategy.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy.Update</qualifiedname>
+        <reimplements refid="interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">Update</reimplements>
+        <briefdescription>
+<para>Updates the gravity scale based on the elapsed time since the last frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method adjusts the gravity scale by incrementing it with a value that is calculated from the predefined gravity increase per second multiplied by the time elapsed since the last frame (Time.deltaTime). This allows for a smooth and gradual change in gravity over time, making it suitable for dynamic environments where gravity needs to be adjusted continuously. The method calls the <computeroutput>setGravityScale</computeroutput> function to apply the new gravity scale. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="27" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="27" bodyend="30"/>
+        <references refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1ab4ee328ac716c8983102d530d71e1fb6" compoundref="TimeBasedGravityStrategy_8cs" startline="12">game.logic.TimeBasedGravityStrategy._gravityIncreasePerSecond</references>
+        <references refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae" compoundref="TimeBasedGravityStrategy_8cs" startline="11">game.logic.TimeBasedGravityStrategy._gravityScale</references>
+        <references refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02" compoundref="TimeBasedGravityStrategy_8cs" startline="43" endline="46">game.logic.TimeBasedGravityStrategy.setGravityScale</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.TimeBasedGravityStrategy.setGravityScale</definition>
+        <argsstring>(float gravityScale)</argsstring>
+        <name>setGravityScale</name>
+        <qualifiedname>game.logic.TimeBasedGravityStrategy.setGravityScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>gravityScale</declname>
+        </param>
+        <briefdescription>
+<para>Sets the gravity scale to the specified value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gravityScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new gravity scale value to be set.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method updates the private field <computeroutput>_gravityScale</computeroutput> with the provided value. The gravity scale is typically used in physics simulations to adjust the strength of gravity affecting objects within the simulation. By modifying this value, you can simulate different gravitational environments, such as increasing or decreasing the weight of objects. This method does not return a value and directly modifies the internal state of the object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="43" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="43" bodyend="46"/>
+        <references refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae" compoundref="TimeBasedGravityStrategy_8cs" startline="11">game.logic.TimeBasedGravityStrategy._gravityScale</references>
+        <referencedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871" compoundref="TimeBasedGravityStrategy_8cs" startline="27" endline="30">game.logic.TimeBasedGravityStrategy.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="1">
+        <label>game.logic.TimeBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1TimeBasedGravityStrategy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="4">
+        <label>float</label>
+      </node>
+      <node id="1">
+        <label>game.logic.TimeBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1TimeBasedGravityStrategy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-_gravityBase</edgelabel>
+          <edgelabel>-_gravityIncreasePerSecond</edgelabel>
+          <edgelabel>-_gravityScale</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" line="8" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/TimeBasedGravityStrategy.cs" bodystart="9" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1ae360e482b8ab0707766d47a1e4b6a3e0" prot="private" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>_gravityBase</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1ab4ee328ac716c8983102d530d71e1fb6" prot="private" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>_gravityIncreasePerSecond</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a7b47f84a94567f20024fcb72bb0c97ae" prot="private" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>_gravityScale</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66" prot="public" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>CurrentGravity</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5" prot="public" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>Gravity</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a968ce1f20e6ce66cdd596a666f399c02" prot="public" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>setGravityScale</name></member>
+      <member refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a61bb9aa54922ac17c233f0fa26196871" prot="public" virt="non-virtual"><scope>game::logic::TimeBasedGravityStrategy</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

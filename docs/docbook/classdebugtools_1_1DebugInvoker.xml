@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classdebugtools_1_1DebugInvoker" xml:lang="en-US">
+<title>debugtools.DebugInvoker Class Reference</title>
+<indexterm><primary>debugtools.DebugInvoker</primary></indexterm>
+Collaboration diagram for debugtools.DebugInvoker:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdebugtools_1_1DebugInvoker__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classdebugtools_1_1DebugInvoker_1a65aec816d26fec7939eabef77b31b038">SetCommand</link> (<link linkend="_interfacedebugtools_1_1ICommand">ICommand</link> command)</para>
+
+<para>Sets the command to be executed. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60">ExecuteCommand</link> ()</para>
+
+<para>Executes the command associated with this instance. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacedebugtools_1_1ICommand">ICommand</link> <link linkend="_classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7">_command</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60"/><section>
+    <title>ExecuteCommand()</title>
+<indexterm><primary>ExecuteCommand</primary><secondary>debugtools.DebugInvoker</secondary></indexterm>
+<indexterm><primary>debugtools.DebugInvoker</primary><secondary>ExecuteCommand</secondary></indexterm>
+<para><computeroutput>void debugtools.DebugInvoker.ExecuteCommand ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Executes the command associated with this instance. </para>
+</para>
+
+<para>This method calls the _command.Execute method to perform the action defined by the command. It is typically used in scenarios where a command pattern is implemented, allowing for the encapsulation of actions as objects. The execution of the command may involve various operations depending on the specific implementation of the command. This method does not return any value and is intended to trigger side effects or changes in state as defined by the command&apos;s logic. </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classdebugtools_1_1DebugInvoker_a38798e5d21ce491254c5239347e57b60_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classdebugtools_1_1DebugInvoker_1a65aec816d26fec7939eabef77b31b038"/><section>
+    <title>SetCommand()</title>
+<indexterm><primary>SetCommand</primary><secondary>debugtools.DebugInvoker</secondary></indexterm>
+<indexterm><primary>debugtools.DebugInvoker</primary><secondary>SetCommand</secondary></indexterm>
+<para><computeroutput>void debugtools.DebugInvoker.SetCommand (<link linkend="_interfacedebugtools_1_1ICommand">ICommand</link> command)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Sets the command to be executed. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>command</entry><entry>
+<para>The command to be set.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method assigns the provided <emphasis>command</emphasis>  to the private field <computeroutput>_command</computeroutput>. It allows for the dynamic configuration of commands that can be executed later. This is particularly useful in scenarios where the command to be executed may change at runtime, enabling flexibility in command execution without needing to modify the underlying logic. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classdebugtools_1_1DebugInvoker_1af4833acddba511f8574547a5a3860ab7"/><section>
+    <title>_command</title>
+<indexterm><primary>_command</primary><secondary>debugtools.DebugInvoker</secondary></indexterm>
+<indexterm><primary>debugtools.DebugInvoker</primary><secondary>_command</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacedebugtools_1_1ICommand">ICommand</link> debugtools.DebugInvoker._command<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/<link linkend="_DebugInvoker_8cs">DebugInvoker.cs</link></section>
+</section>

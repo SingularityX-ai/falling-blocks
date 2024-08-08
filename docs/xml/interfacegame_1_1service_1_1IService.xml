@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegame_1_1service_1_1IService" kind="interface" language="C#" prot="public">
+    <compoundname>game::service::IService</compoundname>
+    <derivedcompoundref refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue" prot="public" virt="non-virtual">game.logic.EventQueue.EventQueue</derivedcompoundref>
+    <derivedcompoundref refid="interfacegame_1_1logic_1_1IGravityService" prot="public" virt="non-virtual">game.logic.IGravityService</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService" prot="public" virt="non-virtual">game.logic.tilespawner.TileSpawnerService</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>game.service.IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="2">
+        <label>game.logic.EventQueue.EventQueue</label>
+        <link refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>game.logic.GravityService</label>
+        <link refid="classgame_1_1logic_1_1GravityService"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.IGravityService</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityService"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.tilespawner.TileSpawnerService</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>game.service.IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/IService.cs" line="3" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/service/IService.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

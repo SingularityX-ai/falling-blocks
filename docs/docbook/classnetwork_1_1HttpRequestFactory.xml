@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classnetwork_1_1HttpRequestFactory" xml:lang="en-US">
+<title>network.HttpRequestFactory Class Reference</title>
+<indexterm><primary>network.HttpRequestFactory</primary></indexterm>
+Collaboration diagram for network.HttpRequestFactory:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classnetwork_1_1HttpRequestFactory__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacenetwork_1_1IHttpRequest">IHttpRequest</link> <link linkend="_classnetwork_1_1HttpRequestFactory_1a48959f4cca00a18a7bc61265851fb8f4">CreateHttpRequest</link> (HttpMethod requestType)</para>
+
+<para>Creates an HTTP request based on the specified request type. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classnetwork_1_1HttpRequestFactory_1a48959f4cca00a18a7bc61265851fb8f4"/><section>
+    <title>CreateHttpRequest()</title>
+<indexterm><primary>CreateHttpRequest</primary><secondary>network.HttpRequestFactory</secondary></indexterm>
+<indexterm><primary>network.HttpRequestFactory</primary><secondary>CreateHttpRequest</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacenetwork_1_1IHttpRequest">IHttpRequest</link> network.HttpRequestFactory.CreateHttpRequest (HttpMethod requestType)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Creates an HTTP request based on the specified request type. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>requestType</entry><entry>
+<para>The HTTP method to be used for the request, such as GET or POST.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>An instance of <link linkend="_interfacenetwork_1_1IHttpRequest">IHttpRequest</link> corresponding to the specified request type.</para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>ArgumentException</entry><entry>
+<para>Thrown when the provided <emphasis>requestType</emphasis>  is not supported.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method is responsible for generating different types of HTTP requests based on the provided <emphasis>requestType</emphasis> . If the request type is HttpMethod.Get, it creates an instance of <link linkend="_classnetwork_1_1HttpGetRequest">HttpGetRequest</link>. If the request type is HttpMethod.Post, it creates an instance of <link linkend="_classnetwork_1_1HttpPostRequest">HttpPostRequest</link>. If the request type does not match any supported methods, an ArgumentException is thrown indicating that the request type is invalid. This allows for flexible handling of various HTTP methods in a clean and organized manner. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/<link linkend="_HttpRequestFactory_8cs">HttpRequestFactory.cs</link></section>
+</section>

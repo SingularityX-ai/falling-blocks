@@ -1,0 +1,5 @@
+<map id="network.IHttpRequest" name="network.IHttpRequest">
+<area shape="rect" id="node1" title=" " alt="" coords="119,5,283,83"/>
+<area shape="rect" id="node2" href="$classnetwork_1_1HttpGetRequest.html" title=" " alt="" coords="5,153,188,230"/>
+<area shape="rect" id="node3" href="$classnetwork_1_1HttpPostRequest.html" title=" " alt="" coords="212,131,400,252"/>
+</map>

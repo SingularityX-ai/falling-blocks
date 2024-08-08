@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="dir_fbb7d9cfd9822824f6c1c3b088890308" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic</compoundname>
+    <innerdir refid="dir_14c15a176da523ab9156642fa335aac3">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue</innerdir>
+    <innerdir refid="dir_40e79d3bfe8ec0a32243c6cac7b06aa7">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/playfield</innerdir>
+    <innerdir refid="dir_3bae640fe08e07f822f4abbf4e309b2d">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile</innerdir>
+    <innerdir refid="dir_721b043b1284adeff4fd34e5e088f9d6">/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner</innerdir>
+    <innerfile refid="Gravity_8cs">Gravity.cs</innerfile>
+    <innerfile refid="IDroppable_8cs">IDroppable.cs</innerfile>
+    <innerfile refid="IGravityService_8cs">IGravityService.cs</innerfile>
+    <innerfile refid="IGravityStrategy_8cs">IGravityStrategy.cs</innerfile>
+    <innerfile refid="LevelBasedGravityStrategy_8cs">LevelBasedGravityStrategy.cs</innerfile>
+    <innerfile refid="TimeBasedGravityStrategy_8cs">TimeBasedGravityStrategy.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/"/>
+  </compounddef>
+</doxygen>

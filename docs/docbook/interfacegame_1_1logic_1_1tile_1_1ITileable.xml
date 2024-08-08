@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacegame_1_1logic_1_1tile_1_1ITileable" xml:lang="en-US">
+<title>game.logic.tile.ITileable Interface Reference</title>
+<indexterm><primary>game.logic.tile.ITileable</primary></indexterm>
+Inheritance diagram for game.logic.tile.ITileable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1tile_1_1ITileable__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tile.ITileable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1tile_1_1ITileable__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>Color <link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable_1abfbd729b3508cdcc531aafdb112ce118">Color</link><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interfacegame_1_1logic_1_1tile_1_1ITileable_1abfbd729b3508cdcc531aafdb112ce118"/><section>
+    <title>Color</title>
+<indexterm><primary>Color</primary><secondary>game.logic.tile.ITileable</secondary></indexterm>
+<indexterm><primary>game.logic.tile.ITileable</primary><secondary>Color</secondary></indexterm>
+<para><computeroutput>Color game.logic.tile.ITileable.Color<computeroutput>[get]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1tile_1_1Tile_1a0b6ce969c5946c104ff628e82bf878a2">game.logic.tile.Tile</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/<link linkend="_ITileable_8cs">ITileable.cs</link></section>
+</section>

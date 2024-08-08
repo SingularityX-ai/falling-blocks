@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" kind="interface" language="C#" prot="public">
+    <compoundname>game::logic::tilespawner::ISpawnable</compoundname>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1IPiece" prot="public" virt="non-virtual">game.logic.tilespawner.IPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1JPiece" prot="public" virt="non-virtual">game.logic.tilespawner.JPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1LPiece" prot="public" virt="non-virtual">game.logic.tilespawner.LPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1OPiece" prot="public" virt="non-virtual">game.logic.tilespawner.OPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1SPiece" prot="public" virt="non-virtual">game.logic.tilespawner.SPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1TPiece" prot="public" virt="non-virtual">game.logic.tilespawner.TPiece</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece" prot="public" virt="non-virtual">game.logic.tilespawner.ZPiece</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interfacegame_1_1logic_1_1tile_1_1ITileable" kindref="compound">ITileable</ref></type>
+        <definition>ITileable game.logic.tilespawner.ISpawnable.Spawn</definition>
+        <argsstring>()</argsstring>
+        <name>Spawn</name>
+        <qualifiedname>game.logic.tilespawner.ISpawnable.Spawn</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1IPiece_1a9ceccb1e9e3040d8d47e4b4b7a73614c">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1JPiece_1a6106d5a15045f7eef6c961f186e3a7d5">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1LPiece_1ad68769edda3a59010089bae94debc4ce">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1OPiece_1a64614a37ee7e6988d44a45e48e9a3a91">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1SPiece_1a5aa1b739520b5cea1a1087791541fa7a">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1TPiece_1a14c7181186ebbd96cc715c8de9e36850">Spawn</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece_1a015b1c18ad8e76de6173d40869ce086f">Spawn</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/ISpawnable.cs" line="7" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>game.logic.tilespawner.ISpawnable</label>
+        <link refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable"/>
+      </node>
+      <node id="2">
+        <label>game.logic.tilespawner.IPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1IPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.tilespawner.JPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1JPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>game.logic.tilespawner.LPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1LPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.tilespawner.OPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1OPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>game.logic.tilespawner.SPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1SPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>game.logic.tilespawner.TPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1TPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>game.logic.tilespawner.ZPiece</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1ZPiece"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>game.logic.tilespawner.ISpawnable</label>
+        <link refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/ISpawnable.cs" line="5" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/ISpawnable.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474" prot="public" virt="non-virtual"><scope>game::logic::tilespawner::ISpawnable</scope><name>Spawn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

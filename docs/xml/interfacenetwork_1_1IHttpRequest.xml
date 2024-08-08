@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacenetwork_1_1IHttpRequest" kind="interface" language="C#" prot="public">
+    <compoundname>network::IHttpRequest</compoundname>
+    <derivedcompoundref refid="classnetwork_1_1HttpGetRequest" prot="public" virt="non-virtual">network.HttpGetRequest</derivedcompoundref>
+    <derivedcompoundref refid="classnetwork_1_1HttpPostRequest" prot="public" virt="non-virtual">network.HttpPostRequest</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; string &gt;</type>
+        <definition>Task&lt; string &gt; network.IHttpRequest.ExecuteAsync</definition>
+        <argsstring>(string url)</argsstring>
+        <name>ExecuteAsync</name>
+        <qualifiedname>network.IHttpRequest.ExecuteAsync</qualifiedname>
+        <reimplementedby refid="classnetwork_1_1HttpGetRequest_1a4e14a61db0c357cdecf229096e07cb61">ExecuteAsync</reimplementedby>
+        <reimplementedby refid="classnetwork_1_1HttpPostRequest_1ac8da46ad2a1f01023fb80c81c1a4f35c">ExecuteAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/IHttpRequest.cs" line="7" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>network.IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+      <node id="2">
+        <label>network.HttpGetRequest</label>
+        <link refid="classnetwork_1_1HttpGetRequest"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>network.HttpPostRequest</label>
+        <link refid="classnetwork_1_1HttpPostRequest"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>network.IHttpRequest</label>
+        <link refid="interfacenetwork_1_1IHttpRequest"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/IHttpRequest.cs" line="5" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/IHttpRequest.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c" prot="public" virt="non-virtual"><scope>network::IHttpRequest</scope><name>ExecuteAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

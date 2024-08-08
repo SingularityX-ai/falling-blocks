@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_14c15a176da523ab9156642fa335aac3" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/EventQueue Directory Reference</primary></indexterm>
+Directory dependency graph for EventQueue:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_14c15a176da523ab9156642fa335aac3_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_EventId_8cs">EventId.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_EventQueue_8cs">EventQueue.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_IEvent_8cs">IEvent.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SpawnTileEvent_8cs">SpawnTileEvent.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_UserLoginEvent_8cs">UserLoginEvent.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

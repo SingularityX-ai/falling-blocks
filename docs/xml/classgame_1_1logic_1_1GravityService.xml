@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classgame_1_1logic_1_1GravityService" kind="class" language="C#" prot="public">
+    <compoundname>game::logic::GravityService</compoundname>
+    <basecompoundref refid="interfacegamerunner_1_1IUpdatable" prot="public" virt="non-virtual">gamerunner.IUpdatable</basecompoundref>
+    <basecompoundref refid="interfacegame_1_1logic_1_1IGravityService" prot="public" virt="non-virtual">game.logic.IGravityService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacegame_1_1logic_1_1IGravityStrategy" kindref="compound">IGravityStrategy</ref></type>
+        <definition>IGravityStrategy game.logic.GravityService._gravityStrategy</definition>
+        <argsstring></argsstring>
+        <name>_gravityStrategy</name>
+        <qualifiedname>game.logic.GravityService._gravityStrategy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" line="8" column="34" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classgame_1_1logic_1_1GravityService_1aaaf0bd46468281bd895f3b679a1550c3" compoundref="Gravity_8cs" startline="12" endline="15">game.logic.GravityService.GravityService</referencedby>
+        <referencedby refid="classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066" compoundref="Gravity_8cs" startline="25" endline="31">game.logic.GravityService.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.GravityService.CurrentGravity</definition>
+        <argsstring></argsstring>
+        <name>CurrentGravity</name>
+        <qualifiedname>game.logic.GravityService.CurrentGravity</qualifiedname>
+        <reimplements refid="interfacegame_1_1logic_1_1IGravityService_1ab84f19cc336ce42a46030108d6995cba">CurrentGravity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" line="10" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgame_1_1logic_1_1GravityService_1aaaf0bd46468281bd895f3b679a1550c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>game.logic.GravityService.GravityService</definition>
+        <argsstring>(IGravityStrategy gravityStrategy)</argsstring>
+        <name>GravityService</name>
+        <qualifiedname>game.logic.GravityService.GravityService</qualifiedname>
+        <param>
+          <type><ref refid="interfacegame_1_1logic_1_1IGravityStrategy" kindref="compound">IGravityStrategy</ref></type>
+          <declname>gravityStrategy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" line="12" column="16" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" bodystart="12" bodyend="15"/>
+        <references refid="classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35" compoundref="Gravity_8cs" startline="8">game.logic.GravityService._gravityStrategy</references>
+      </memberdef>
+      <memberdef kind="function" id="classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void game.logic.GravityService.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>game.logic.GravityService.Update</qualifiedname>
+        <reimplements refid="interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">Update</reimplements>
+        <briefdescription>
+<para>Updates the current gravity strategy if it implements the IUpdatable interface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method checks if the current gravity strategy (_gravityStrategy) can be cast to the IUpdatable interface. If it can, the Update method of the updatable strategy is called. This allows for dynamic updates to the gravity strategy&apos;s state or behavior. This is particularly useful in scenarios where the gravity strategy may change over time and needs to be updated accordingly. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" line="25" column="21" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" bodystart="25" bodyend="31"/>
+        <references refid="classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35" compoundref="Gravity_8cs" startline="8">game.logic.GravityService._gravityStrategy</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IGravityService</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityService"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="1">
+        <label>game.logic.GravityService</label>
+        <link refid="classgame_1_1logic_1_1GravityService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IGravityService</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityService"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="1">
+        <label>game.logic.GravityService</label>
+        <link refid="classgame_1_1logic_1_1GravityService"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_gravityStrategy</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>game.logic.IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" line="6" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/Gravity.cs" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classgame_1_1logic_1_1GravityService_1acc83b561b47a098e0e7e015249bd0e35" prot="private" virt="non-virtual"><scope>game::logic::GravityService</scope><name>_gravityStrategy</name></member>
+      <member refid="classgame_1_1logic_1_1GravityService_1a01f32eb5cd2deb6bad5e85e53f568d47" prot="public" virt="non-virtual"><scope>game::logic::GravityService</scope><name>CurrentGravity</name></member>
+      <member refid="classgame_1_1logic_1_1GravityService_1aaaf0bd46468281bd895f3b679a1550c3" prot="public" virt="non-virtual"><scope>game::logic::GravityService</scope><name>GravityService</name></member>
+      <member refid="classgame_1_1logic_1_1GravityService_1aa9a9feaf856079de4cdbe05b4b017066" prot="public" virt="non-virtual"><scope>game::logic::GravityService</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

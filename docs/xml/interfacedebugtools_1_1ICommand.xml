@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacedebugtools_1_1ICommand" kind="interface" language="C#" prot="public">
+    <compoundname>debugtools::ICommand</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacedebugtools_1_1ICommand_1a7e4dcebf64c3d8b8e892162811e95f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void debugtools.ICommand.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <qualifiedname>debugtools.ICommand.Execute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/ICommand.cs" line="5" column="14"/>
+        <referencedby refid="classdebugtools_1_1DebugInvoker_1a38798e5d21ce491254c5239347e57b60" compoundref="DebugInvoker_8cs" startline="31" endline="34">debugtools.DebugInvoker.ExecuteCommand</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>debugtools.ICommand</label>
+        <link refid="interfacedebugtools_1_1ICommand"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/ICommand.cs" line="3" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/ICommand.cs" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="interfacedebugtools_1_1ICommand_1a7e4dcebf64c3d8b8e892162811e95f96" prot="public" virt="non-virtual"><scope>debugtools::ICommand</scope><name>Execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

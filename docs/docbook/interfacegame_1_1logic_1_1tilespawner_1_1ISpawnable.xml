@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable" xml:lang="en-US">
+<title>game.logic.tilespawner.ISpawnable Interface Reference</title>
+<indexterm><primary>game.logic.tilespawner.ISpawnable</primary></indexterm>
+Inheritance diagram for game.logic.tilespawner.ISpawnable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tilespawner.ISpawnable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link> <link linkend="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474">Spawn</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacegame_1_1logic_1_1tilespawner_1_1ISpawnable_1aae0962f7588cca30249e5d57fab3d474"/><section>
+    <title>Spawn()</title>
+<indexterm><primary>Spawn</primary><secondary>game.logic.tilespawner.ISpawnable</secondary></indexterm>
+<indexterm><primary>game.logic.tilespawner.ISpawnable</primary><secondary>Spawn</secondary></indexterm>
+<para><computeroutput><link linkend="_interfacegame_1_1logic_1_1tile_1_1ITileable">ITileable</link> game.logic.tilespawner.ISpawnable.Spawn ( )</computeroutput></para><para>
+Implemented in <link linkend="_classgame_1_1logic_1_1tilespawner_1_1IPiece_1a9ceccb1e9e3040d8d47e4b4b7a73614c">game.logic.tilespawner.IPiece</link>, <link linkend="_classgame_1_1logic_1_1tilespawner_1_1JPiece_1a6106d5a15045f7eef6c961f186e3a7d5">game.logic.tilespawner.JPiece</link>, <link linkend="_classgame_1_1logic_1_1tilespawner_1_1LPiece_1ad68769edda3a59010089bae94debc4ce">game.logic.tilespawner.LPiece</link>, <link linkend="_classgame_1_1logic_1_1tilespawner_1_1OPiece_1a64614a37ee7e6988d44a45e48e9a3a91">game.logic.tilespawner.OPiece</link>, <link linkend="_classgame_1_1logic_1_1tilespawner_1_1SPiece_1a5aa1b739520b5cea1a1087791541fa7a">game.logic.tilespawner.SPiece</link>, <link linkend="_classgame_1_1logic_1_1tilespawner_1_1TPiece_1a14c7181186ebbd96cc715c8de9e36850">game.logic.tilespawner.TPiece</link>, and <link linkend="_classgame_1_1logic_1_1tilespawner_1_1ZPiece_1a015b1c18ad8e76de6173d40869ce086f">game.logic.tilespawner.ZPiece</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tilespawner/<link linkend="_ISpawnable_8cs">ISpawnable.cs</link></section>
+</section>

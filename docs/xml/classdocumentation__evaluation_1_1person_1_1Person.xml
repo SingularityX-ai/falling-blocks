@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classdocumentation__evaluation_1_1person_1_1Person" kind="class" language="C#" prot="public">
+    <compoundname>documentation_evaluation::person::Person</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classdocumentation__evaluation_1_1person_1_1Person_1a89f2bd12eebe7ae75d3b5c451c8b3346" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string documentation_evaluation.person.Person.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>documentation_evaluation.person.Person.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" line="5" column="23" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="classdocumentation__evaluation_1_1person_1_1Person_1a23cad560ae4677bf0ecc79273036764c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int documentation_evaluation.person.Person.Age</definition>
+        <argsstring></argsstring>
+        <name>Age</name>
+        <qualifiedname>documentation_evaluation.person.Person.Age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" line="6" column="20" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>documentation_evaluation.person.Person</label>
+        <link refid="classdocumentation__evaluation_1_1person_1_1Person"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" line="3" column="11" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person/Person.cs" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="classdocumentation__evaluation_1_1person_1_1Person_1a23cad560ae4677bf0ecc79273036764c" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::Person</scope><name>Age</name></member>
+      <member refid="classdocumentation__evaluation_1_1person_1_1Person_1a89f2bd12eebe7ae75d3b5c451c8b3346" prot="public" virt="non-virtual"><scope>documentation_evaluation::person::Person</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

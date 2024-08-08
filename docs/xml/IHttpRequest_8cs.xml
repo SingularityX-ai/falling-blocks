@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="IHttpRequest_8cs" kind="file" language="C#">
+    <compoundname>IHttpRequest.cs</compoundname>
+    <innerclass refid="interfacenetwork_1_1IHttpRequest" prot="public">network::IHttpRequest</innerclass>
+    <innernamespace refid="namespacenetwork">network</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacenetwork" kindref="compound">network</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="interfacenetwork_1_1IHttpRequest" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacenetwork_1_1IHttpRequest" kindref="compound">IHttpRequest</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Task&lt;string&gt;<sp/><ref refid="interfacenetwork_1_1IHttpRequest_1a875fbe084c52c3e7e4adef07a7e9554c" kindref="member">ExecuteAsync</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>url);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/network/IHttpRequest.cs"/>
+  </compounddef>
+</doxygen>

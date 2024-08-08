@@ -1,0 +1,10 @@
+<map id="game.logic.tile.TileViewModel" name="game.logic.tile.TileViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,587,184,708"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel.html" title=" " alt="" coords="204,359,391,524"/>
+<area shape="rect" id="node3" href="$interfacegamerunner_1_1IUpdatable.html" title=" " alt="" coords="511,189,606,267"/>
+<area shape="rect" id="node4" href="$classgame_1_1logic_1_1playfield_1_1PlayField.html" title=" " alt="" coords="65,175,252,281"/>
+<area shape="rect" id="node5" title=" " alt="" coords="15,13,54,90"/>
+<area shape="rect" id="node6" href="$interfacegame_1_1logic_1_1tile_1_1ITileable.html" title=" " alt="" coords="91,13,269,90"/>
+<area shape="rect" id="node7" href="$classgame_1_1service_1_1ServiceLocator.html" title=" " alt="" coords="276,175,487,281"/>
+<area shape="rect" id="node8" title=" " alt="" coords="294,5,479,97"/>
+</map>

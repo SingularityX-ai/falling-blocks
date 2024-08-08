@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="interfacegame_1_1logic_1_1IGravityStrategy" kind="interface" language="C#" prot="public">
+    <compoundname>game::logic::IGravityStrategy</compoundname>
+    <derivedcompoundref refid="classgame_1_1logic_1_1LevelBasedGravityStrategy" prot="public" virt="non-virtual">game.logic.LevelBasedGravityStrategy</derivedcompoundref>
+    <derivedcompoundref refid="classgame_1_1logic_1_1TimeBasedGravityStrategy" prot="public" virt="non-virtual">game.logic.TimeBasedGravityStrategy</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.IGravityStrategy.CurrentGravity</definition>
+        <argsstring></argsstring>
+        <name>CurrentGravity</name>
+        <qualifiedname>game.logic.IGravityStrategy.CurrentGravity</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a733a154d965eb12e99c141b53138ed95">CurrentGravity</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1a9e1a10321d1c1596c50b19400fc2fe66">CurrentGravity</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" line="9" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float game.logic.IGravityStrategy.Gravity</definition>
+        <argsstring></argsstring>
+        <name>Gravity</name>
+        <qualifiedname>game.logic.IGravityStrategy.Gravity</qualifiedname>
+        <reimplementedby refid="classgame_1_1logic_1_1LevelBasedGravityStrategy_1a99d30f8169e0002f4aa38aef4000b2f0">Gravity</reimplementedby>
+        <reimplementedby refid="classgame_1_1logic_1_1TimeBasedGravityStrategy_1aecde7c795ae190b45ececb104e3744a5">Gravity</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" line="11" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>game.logic.IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+      <node id="2">
+        <label>game.logic.LevelBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1LevelBasedGravityStrategy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.logic.TimeBasedGravityStrategy</label>
+        <link refid="classgame_1_1logic_1_1TimeBasedGravityStrategy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>game.logic.IGravityStrategy</label>
+        <link refid="interfacegame_1_1logic_1_1IGravityStrategy"/>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" line="5" column="22" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/IGravityStrategy.cs" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interfacegame_1_1logic_1_1IGravityStrategy_1a8a240732864021c62036968b17b9a90c" prot="public" virt="non-virtual"><scope>game::logic::IGravityStrategy</scope><name>CurrentGravity</name></member>
+      <member refid="interfacegame_1_1logic_1_1IGravityStrategy_1a0ecc8f43e706defbb23aac46034daf6b" prot="public" virt="non-virtual"><scope>game::logic::IGravityStrategy</scope><name>Gravity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgame_1_1logic_1_1tile_1_1TileView" xml:lang="en-US">
+<title>game.logic.tile.TileView Class Reference</title>
+<indexterm><primary>game.logic.tile.TileView</primary></indexterm>
+Inheritance diagram for game.logic.tile.TileView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tile_1_1TileView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for game.logic.tile.TileView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgame_1_1logic_1_1tile_1_1TileView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1">Link</link> (<link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> tileVM)</para>
+
+<para>Links the specified <link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> to the current object and updates its position. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>SpriteRenderer <link linkend="_classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f">TileSprite</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929">Start</link> ()</para>
+
+<para>Initializes the component or system. </para>
+</listitem>
+            <listitem><para>void <link linkend="_classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88">Update</link> ()</para>
+
+<para>Updates the view based on the current state of the tile view model. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> <link linkend="_classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff">_tileVM</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1TileView_1a56427450cc5ae099a916c77c5fb45bf1"/><section>
+    <title>Link()</title>
+<indexterm><primary>Link</primary><secondary>game.logic.tile.TileView</secondary></indexterm>
+<indexterm><primary>game.logic.tile.TileView</primary><secondary>Link</secondary></indexterm>
+<para><computeroutput>void game.logic.tile.TileView.Link (<link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> tileVM)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+
+<para>Links the specified <link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> to the current object and updates its position. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>tileVM</entry><entry>
+<para>The <link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> instance containing the position data.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+
+<para>This method assigns the provided <emphasis>tileVM</emphasis>  to a private field and updates the position of the current object based on the X and Y coordinates from the <emphasis>tileVM</emphasis> . The Z coordinate is set to 0. This is typically used in a graphical context where the position of a tile needs to be updated in a 2D space. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1TileView_1a47c832b5f3ff901b2caa8a7385679929"/><section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>game.logic.tile.TileView</secondary></indexterm>
+<indexterm><primary>game.logic.tile.TileView</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void game.logic.tile.TileView.Start ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Initializes the component or system. </para>
+</para>
+
+<para>This method is typically called when the component is started or activated. It may contain logic to set up necessary resources, initialize variables, or perform any required setup actions before the component begins its main operations. This method does not return any value and does not take any parameters. </para>
+</section>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1TileView_1af5417d90edc71ea04c58bf41db893f88"/><section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>game.logic.tile.TileView</secondary></indexterm>
+<indexterm><primary>game.logic.tile.TileView</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void game.logic.tile.TileView.Update ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>Updates the view based on the current state of the tile view model. </para>
+</para>
+
+<para>This method is responsible for refreshing or updating the user interface to reflect any changes made to the underlying tile view model (_tileVM). It is typically called whenever there is a need to synchronize the view with the model, ensuring that the displayed information is accurate and up-to-date. The implementation details of how the view is updated will depend on the specific requirements of the application and the structure of the view model. </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1TileView_1aa553a6978f8129c4d99cd411e131fcff"/><section>
+    <title>_tileVM</title>
+<indexterm><primary>_tileVM</primary><secondary>game.logic.tile.TileView</secondary></indexterm>
+<indexterm><primary>game.logic.tile.TileView</primary><secondary>_tileVM</secondary></indexterm>
+<para><computeroutput><link linkend="_classgame_1_1logic_1_1tile_1_1TileViewModel">TileViewModel</link> game.logic.tile.TileView._tileVM<computeroutput>[private]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classgame_1_1logic_1_1tile_1_1TileView_1a3a04e79cf022245cc0b7d964ca72f18f"/><section>
+    <title>TileSprite</title>
+<indexterm><primary>TileSprite</primary><secondary>game.logic.tile.TileView</secondary></indexterm>
+<indexterm><primary>game.logic.tile.TileView</primary><secondary>TileSprite</secondary></indexterm>
+<para><computeroutput>SpriteRenderer game.logic.tile.TileView.TileSprite</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/game/logic/tile/<link linkend="_TileView_8cs">TileView.cs</link></section>
+</section>

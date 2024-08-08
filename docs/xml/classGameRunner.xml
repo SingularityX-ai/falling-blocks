@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classGameRunner" kind="class" language="C#" prot="public">
+    <compoundname>GameRunner</compoundname>
+    <basecompoundref refid="interfacegamerunner_1_1IUpdatable" prot="public" virt="non-virtual">gamerunner.IUpdatable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGameRunner_1a4181780db057935be5cb9dee4069ccac" prot="private" static="no" mutable="no">
+        <type><ref refid="classgame_1_1service_1_1ServiceLocator" kindref="compound">ServiceLocator</ref></type>
+        <definition>ServiceLocator GameRunner._serviceLocator</definition>
+        <argsstring></argsstring>
+        <name>_serviceLocator</name>
+        <qualifiedname>GameRunner._serviceLocator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="13" column="28" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classGameRunner_1a4c22840aa95ea81167ec398ca75afd08" compoundref="GameRunner_8cs" startline="19" endline="22">GameRunner</referencedby>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameRunner._gravitySum</definition>
+        <argsstring></argsstring>
+        <name>_gravitySum</name>
+        <qualifiedname>GameRunner._gravitySum</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="14" column="19" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameRunner.frames</definition>
+        <argsstring></argsstring>
+        <name>frames</name>
+        <qualifiedname>GameRunner.frames</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="15" column="17" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" prot="public" static="no" mutable="no">
+        <type>TileSpawnerService.CreateTileShapeDelegate</type>
+        <definition>TileSpawnerService.CreateTileShapeDelegate GameRunner.CreateTileShape</definition>
+        <argsstring></argsstring>
+        <name>CreateTileShape</name>
+        <qualifiedname>GameRunner.CreateTileShape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="17" column="54" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" compoundref="GameRunner_8cs" startline="33" endline="53">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGameRunner_1a4c22840aa95ea81167ec398ca75afd08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GameRunner.GameRunner</definition>
+        <argsstring>(ServiceLocator serviceLocator)</argsstring>
+        <name>GameRunner</name>
+        <qualifiedname>GameRunner.GameRunner</qualifiedname>
+        <param>
+          <type><ref refid="classgame_1_1service_1_1ServiceLocator" kindref="compound">ServiceLocator</ref></type>
+          <declname>serviceLocator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="19" column="12" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="19" bodyend="22"/>
+        <references refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" compoundref="GameRunner_8cs" startline="13">_serviceLocator</references>
+      </memberdef>
+      <memberdef kind="function" id="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameRunner.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>GameRunner.Update</qualifiedname>
+        <reimplements refid="interfacegamerunner_1_1IUpdatable_1a684cabd1d0eca2204271adcacf5b1505">Update</reimplements>
+        <briefdescription>
+<para>Updates the state of the object by processing gravity and spawning tiles when a threshold is reached. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves the current gravity from the GravityService and accumulates it in the <computeroutput>_gravitySum</computeroutput> field. It increments the frame count and checks if the accumulated gravity exceeds 100.0f. If it does, it resets the frame count and gravity sum, and spawns a new tile shape using the TileSpawnerService. It also enqueues a SpawnTileEvent to notify other parts of the system about the new tile creation. The method ensures that a new tile shape is created each time the threshold is crossed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="33" column="17" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="33" bodyend="53"/>
+        <references refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" compoundref="GameRunner_8cs" startline="14">_gravitySum</references>
+        <references refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" compoundref="GameRunner_8cs" startline="13">_serviceLocator</references>
+        <references refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" compoundref="GameRunner_8cs" startline="17">CreateTileShape</references>
+        <references refid="classgame_1_1logic_1_1EventQueue_1_1EventQueue_1a47b03d45a78dd2897b1edffa85e3c1f0" compoundref="EventQueue_8cs" startline="24" endline="31">game.logic.EventQueue.EventQueue.Enqueue</references>
+        <references refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" compoundref="GameRunner_8cs" startline="15">frames</references>
+        <references refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService_1a3a4da02acca59c7b4b180dd40867fca5" compoundref="TileSpawnerService_8cs" startline="113" endline="117">game.logic.tilespawner.TileSpawnerService.Spawn</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameRunner</label>
+        <link refid="classGameRunner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameRunner</label>
+        <link refid="classGameRunner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_serviceLocator</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-_gravitySum</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-frames</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+CreateTileShape</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IDictionary&lt; object, game.service.IService &gt;</label>
+      </node>
+      <node id="8">
+        <label>IService</label>
+        <link refid="interfacegame_1_1service_1_1IService"/>
+      </node>
+      <node id="2">
+        <label>IUpdatable</label>
+        <link refid="interfacegamerunner_1_1IUpdatable"/>
+      </node>
+      <node id="9">
+        <label>List&lt; CreateTileShapeDelegate &gt;</label>
+      </node>
+      <node id="10">
+        <label>System</label>
+      </node>
+      <node id="5">
+        <label>float</label>
+      </node>
+      <node id="7">
+        <label>game.logic.tilespawner.TileSpawnerService</label>
+        <link refid="classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-_pieces</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-rng</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>game.service.ServiceLocator</label>
+        <link refid="classgame_1_1service_1_1ServiceLocator"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-services</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>int</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" line="11" column="7" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/gamerunner/GameRunner.cs" bodystart="12" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classGameRunner_1ad49f8160a0f0b0dd8278d02fd912cc82" prot="private" virt="non-virtual"><scope>GameRunner</scope><name>_gravitySum</name></member>
+      <member refid="classGameRunner_1a4181780db057935be5cb9dee4069ccac" prot="private" virt="non-virtual"><scope>GameRunner</scope><name>_serviceLocator</name></member>
+      <member refid="classGameRunner_1aac4eee56a0afe1062d1650784bfa371c" prot="public" virt="non-virtual"><scope>GameRunner</scope><name>CreateTileShape</name></member>
+      <member refid="classGameRunner_1ad5b4e457a359193691d958bc73cf3680" prot="private" virt="non-virtual"><scope>GameRunner</scope><name>frames</name></member>
+      <member refid="classGameRunner_1a4c22840aa95ea81167ec398ca75afd08" prot="public" virt="non-virtual"><scope>GameRunner</scope><name>GameRunner</name></member>
+      <member refid="classGameRunner_1a60b42ae79f0fc030d0ef8a31d10ae960" prot="public" virt="non-virtual"><scope>GameRunner</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

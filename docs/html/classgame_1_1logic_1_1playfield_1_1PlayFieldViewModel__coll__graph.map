@@ -1,0 +1,9 @@
+<map id="game.logic.playfield.PlayFieldViewModel" name="game.logic.playfield.PlayFieldViewModel">
+<area shape="rect" id="node1" title=" " alt="" coords="125,344,311,509"/>
+<area shape="rect" id="node2" href="$interfacegamerunner_1_1IUpdatable.html" title=" " alt="" coords="5,189,100,267"/>
+<area shape="rect" id="node3" href="$classgame_1_1logic_1_1playfield_1_1PlayField.html" title=" " alt="" coords="125,175,311,281"/>
+<area shape="rect" id="node4" title=" " alt="" coords="73,13,112,90"/>
+<area shape="rect" id="node5" href="$interfacegame_1_1logic_1_1tile_1_1ITileable.html" title=" " alt="" coords="137,13,315,90"/>
+<area shape="rect" id="node6" href="$classgame_1_1service_1_1ServiceLocator.html" title=" " alt="" coords="335,175,546,281"/>
+<area shape="rect" id="node7" title=" " alt="" coords="348,5,533,97"/>
+</map>

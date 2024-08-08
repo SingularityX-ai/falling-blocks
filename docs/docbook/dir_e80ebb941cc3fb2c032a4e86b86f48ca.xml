@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e80ebb941cc3fb2c032a4e86b86f48ca" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Person Directory Reference</primary></indexterm>
+Directory dependency graph for Person:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_e80ebb941cc3fb2c032a4e86b86f48ca_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Person_8cs">Person.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_PersonView_8cs">PersonView.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_PersonViewModel_8cs">PersonViewModel.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacedebugtools_1_1ICommand" xml:lang="en-US">
+<title>debugtools.ICommand Interface Reference</title>
+<indexterm><primary>debugtools.ICommand</primary></indexterm>
+Collaboration diagram for debugtools.ICommand:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacedebugtools_1_1ICommand__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interfacedebugtools_1_1ICommand_1a7e4dcebf64c3d8b8e892162811e95f96">Execute</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacedebugtools_1_1ICommand_1a7e4dcebf64c3d8b8e892162811e95f96"/><section>
+    <title>Execute()</title>
+<indexterm><primary>Execute</primary><secondary>debugtools.ICommand</secondary></indexterm>
+<indexterm><primary>debugtools.ICommand</primary><secondary>Execute</secondary></indexterm>
+<para><computeroutput>void debugtools.ICommand.Execute ( )</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacedebugtools_1_1ICommand_a7e4dcebf64c3d8b8e892162811e95f96_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/unity/four-block/Assets/debugtools/<link linkend="_ICommand_8cs">ICommand.cs</link></section>
+</section>

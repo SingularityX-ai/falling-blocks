@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="classdocumentation__evaluation_1_1Program" kind="class" language="C#" prot="package">
+    <compoundname>documentation_evaluation::Program</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdocumentation__evaluation_1_1Program_1a9a84bc4589bd24be4da00ee019f3206f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void documentation_evaluation.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <qualifiedname>documentation_evaluation.Program.Main</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>The entry point of the application that demonstrates the usage of the Person, PersonViewModel, and PersonView classes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of command-line arguments passed to the application. This parameter is not used in this implementation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para>This method serves as the main execution point for the program. It begins by printing &quot;Hello World&quot; to the console. Then, it creates an instance of the Person class with a name and age. A PersonViewModel is instantiated using the created person, which acts as a model for the view. Subsequently, a PersonView is created with the view model, allowing for interaction with the user. The view displays the person&apos;s information, allows for updates to the name and age, and displays the updated information again. Finally, it waits for a key press before terminating the application. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Program.cs" line="21" column="28" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Program.cs" bodystart="21" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>documentation_evaluation.Program</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Program.cs" line="6" column="13" bodyfile="/tmp/github_repos_arch_doc_gen/SingularityX-ai/falling-blocks/documentation-evaluation/Program.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classdocumentation__evaluation_1_1Program_1a9a84bc4589bd24be4da00ee019f3206f" prot="public" virt="non-virtual"><scope>documentation_evaluation::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

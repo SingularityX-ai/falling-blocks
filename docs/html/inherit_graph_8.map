@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfacegame_1_1logic_1_1IGravityStrategy.html" title=" " alt="" coords="227,46,432,73"/>
+<area shape="rect" id="node2" href="$classgame_1_1logic_1_1LevelBasedGravityStrategy.html" title=" " alt="" coords="487,5,708,47"/>
+<area shape="rect" id="node3" href="$classgame_1_1logic_1_1TimeBasedGravityStrategy.html" title=" " alt="" coords="488,71,707,112"/>
+<area shape="rect" id="node4" href="$interfacegame_1_1service_1_1IService.html" title=" " alt="" coords="5,254,172,281"/>
+<area shape="rect" id="node5" href="$classgame_1_1logic_1_1EventQueue_1_1EventQueue.html" title=" " alt="" coords="220,188,439,229"/>
+<area shape="rect" id="node6" href="$interfacegame_1_1logic_1_1IGravityService.html" title=" " alt="" coords="230,254,429,281"/>
+<area shape="rect" id="node8" href="$classgame_1_1logic_1_1tilespawner_1_1TileSpawnerService.html" title=" " alt="" coords="229,305,430,347"/>
+<area shape="rect" id="node7" href="$classgame_1_1logic_1_1GravityService.html" title=" " alt="" coords="500,254,695,281"/>
+<area shape="rect" id="node9" href="$interfacegamerunner_1_1IUpdatable.html" title=" " alt="" coords="242,137,417,163"/>
+<area shape="rect" id="node10" href="$classGameRunner.html" title=" " alt="" coords="544,137,651,163"/>
+<area shape="rect" id="node11" href="$classgame_1_1logic_1_1playfield_1_1PlayFieldViewModel.html" title=" " alt="" coords="504,188,691,229"/>
+</map>
